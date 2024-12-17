@@ -17,7 +17,7 @@
 	<div class="reiiBanner">
 		<div>
 			<h1 class="white">「♡」Reii Ng</h1>
-			<p>Character Designer / Illustrator / Animator / Script Writer</p>
+			<p>Character & Concept Artist | 2D Animator & Rigger | Writer</p>
 		</div>
 		<div>
 			<img

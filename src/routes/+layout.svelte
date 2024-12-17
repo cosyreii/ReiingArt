@@ -41,7 +41,7 @@
 <footer>
 	<h1 class="pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>
 	<p class="translucent">
-		any characters displayed in artwork belong to their respected IP owners.
+		any characters displayed in artwork belong to their respected IP owners
 	</p>
 
 	<nav class="socialNav">

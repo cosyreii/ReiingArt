@@ -187,12 +187,67 @@ main {
 }
 
 .introText {
-	width: 20rem;
+	width: 40rem;
+	height: 25rem;
 
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	text-align: left;
+
+	overflow-y: scroll;
+}
+
+.introText::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
+.intBottomText {
+	color: #f0d8d8a5;
+	font-size: 1rem;
+}
+
+.scroll {
+	height: 25rem;
+	width: 10rem;
+
+	overflow-y: scroll;
+	border-left: 2px solid #f0d8d8;
+	padding: 10px;
+	margin-left: 2rem;
+
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: left;
 	text-align: left;
+}
+
+/* Hide the default scrollbar */
+.scroll::-webkit-scrollbar {
+	width: 0px;
+	background: transparent;
+}
+
+.mButton {
+	margin-top: 0.5rem;
+	margin-left: 1rem;
+	margin-bottom: 0.5rem;
+
+	color: #f0d8d8;
+	font-family: 'Imprima';
+	font-size: 1.25rem;
+
+	text-align: left;
+	text-decoration: none;
+
+	background: transparent;
+	border: none;
+}
+
+.mButton:hover {
+	color: #faa0bb;
 }
 
 .white {

@@ -1,17 +1,15 @@
 <script lang="ts">
 	import './style.css';
-	import {siDiscord, siTwitch, siBluesky, siInstagram, siKofi} from 'simple-icons';
+	import { siDiscord, siTwitch, siBluesky, siInstagram, siKofi } from 'simple-icons';
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
-	FontFaceSet: "Titillium";
-		src: "https://fonts.googleapis.com/css?family=Titillium";
+	FontFaceSet: 'Titillium';
+	src: 'https://fonts.googleapis.com/css?family=Titillium';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
-<link
-      href="https://fonts.googleapis.com/css?family=Imprima"
-      rel="stylesheet"
-    />
+
+<link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" />
 
 <header>
 	<div class="reiiBanner">
@@ -27,12 +25,12 @@
 			/>
 		</div>
 	</div>
-	<nav class="pageNav">
-		<a href="/" class="hButton">home</a>
-		<a href="/gallery" class="hButton">gallery</a>
-		<a href="/terms" class="hButton">terms</a>
-		<a href="/prices" class="hButton">prices</a>
-		<a href="/contact" class="hButton">contact</a>
+	<nav class="pageNav" id="hButton">
+		<a href="/" class="hButton">Home</a>
+		<a href="/gallery" class="hButton">Gallery</a>
+		<a href="/terms" class="hButton">Terms</a>
+		<a href="/prices" class="hButton">Prices</a>
+		<a href="/contact" class="hButton">Contact</a>
 	</nav>
 </header>
 
@@ -44,7 +42,9 @@
 
 <footer>
 	<h1 class="pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>
-	<p class="translucent">any characters displayed in artwork belong to their respected IP owners.</p>
+	<p class="translucent">
+		any characters displayed in artwork belong to their respected IP owners.
+	</p>
 
 	<nav class="socialNav">
 		<a href="https://discord.gg/rQudKfzSZT" class="fButton"> {@html siDiscord.svg} </a>

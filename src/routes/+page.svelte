@@ -4,7 +4,7 @@
 			<img
 				src="https://i.imgur.com/KeaFUOV.png"
 				class="introImg"
-				alt="shuddap"
+				alt="cosyreii's chibi model"
 			/>
 			<p>funni placeholder bottom text</p>
 		</div>

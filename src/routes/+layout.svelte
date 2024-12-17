@@ -47,10 +47,10 @@
 	</p>
 
 	<nav class="socialNav">
-		<a href="https://discord.gg/rQudKfzSZT" class="fButton"> {@html siDiscord.svg} </a>
-		<a href="https://twitch.tv/cosyreii" class="fButton"> {@html siTwitch.svg} </a>
-		<a href="https://bsky.app/profile/reiing.art" class="fButton"> {@html siBluesky.svg} </a>
-		<a href="https://instagram.com/cosyreii" class="fButton"> {@html siInstagram.svg} </a>
-		<a href="https://ko-fi.com/cosyreii" class="fButton"> {@html siKofi.svg} </a>
+		<a href="https://discord.gg/rQudKfzSZT" class="fButton" target="_blank"> {@html siDiscord.svg} </a>
+		<a href="https://twitch.tv/cosyreii" class="fButton" target="_blank"> {@html siTwitch.svg} </a>
+		<a href="https://bsky.app/profile/reiing.art" class="fButton" target="_blank"> {@html siBluesky.svg} </a>
+		<a href="https://instagram.com/cosyreii" class="fButton" target="_blank"> {@html siInstagram.svg} </a>
+		<a href="https://ko-fi.com/cosyreii" class="fButton" target="_blank"> {@html siKofi.svg} </a>
 	</nav>
 </footer>

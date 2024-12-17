@@ -246,8 +246,67 @@ main {
 	border: none;
 }
 
-.mButton:hover {
+.mButton:hover,
+.mButton:focus {
 	color: #faa0bb;
+}
+
+.eduChart {
+	display: grid;
+	grid-template-rows: repeat(5, 1fr);
+	border: 2px solid #f0d8d8;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.educRow {
+	display: grid;
+	width: 38rem;
+	grid-template-columns: 2fr 7fr;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.header {
+	background-color: #f4b3c22d; /* Highlighted header */
+	font-weight: bold;
+	text-align: center;
+}
+
+.educColumn {
+	padding: 1rem;
+	text-align: left;
+}
+
+.educRow:last-child .educColumn {
+	border-bottom: none; /* Remove last row border */
+}
+
+.brekkieButton {
+	cursor: pointer;
+	background: transparent;
+	border: none;
+
+	text-align: center;
+}
+
+.brekkie img {
+	width: 8rem;
+	margin: 0%;
+}
+
+.brekkie p {
+	margin: 0%;
+	color: #f0d8d8;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.brekkie a {
+	text-decoration: none;
 }
 
 .white {

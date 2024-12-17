@@ -3,8 +3,6 @@
 	import { siDiscord, siTwitch, siBluesky, siInstagram, siKofi } from 'simple-icons';
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
-	FontFaceSet: 'Titillium';
-	src: 'https://fonts.googleapis.com/css?family=Titillium';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
@@ -19,7 +17,7 @@
 		</div>
 		<div>
 			<img
-				src="https://i.pinimg.com/736x/4f/4f/20/4f4f20df4564cecd9ff959b7e8e5138b.jpg"
+				src="https://i.imgur.com/OwW3hl5.png"
 				class="reiiPFP"
 				alt="profile"
 			/>

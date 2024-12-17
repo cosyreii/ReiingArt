@@ -6,7 +6,7 @@
 <main>
 	<div class="introduction">
 		<div>
-			<img src="https://i.imgur.com/KeaFUOV.png" class="introImg" alt="cosyreii's chibi model" />
+			<img src="https://i.imgur.com/XcYfQTY.png" class="introImg" alt="cosyreii's chibi model" />
 			<p class="intBottomText">funni placeholder bottom text</p>
 		</div>
 

@@ -13,6 +13,24 @@ p {
 	font-size: 1.25rem;
 }
 
+::-webkit-scrollbar {
+	width: 0.5rem; 
+	height: 0.5rem; 
+}
+
+::-webkit-scrollbar-track {
+	background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+	background: #f0d8d8a5; 
+	border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #f0d8d8;
+}
+
 .reiiBanner {
 	display: flex;
 	gap: 3.5rem;

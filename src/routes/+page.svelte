@@ -31,7 +31,9 @@
 					</div>
 					<div class="educRow">
 						<div class="educColumn">Nov 2018</div>
-						<div class="educColumn">Art journey starts! Specialising in character, concept, and design.</div>
+						<div class="educColumn">
+							Art journey starts! Specialising in character, concept, and design.
+						</div>
 					</div>
 					<div class="educRow">
 						<div class="educColumn">Aug 2023 - Current</div>

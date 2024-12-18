@@ -30,7 +30,3 @@
 	<h2 class="error-message text-pale text-[3rem]">{errorMessage}</h2>
 	<h3 class="text-translucent mt-14">refresh this page for a different message</h3>
 </div>
-
-<style>
-
-</style>

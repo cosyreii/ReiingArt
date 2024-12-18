@@ -10,7 +10,8 @@ export default {
 				white: '#f9f2f2',
 				pale: 'f0d8d8',
 				pink: '#faa0bb',
-				translucent: '#f0d8d8a5'
+				translucent: '#f0d8d8a5',
+				grey: "#292525",
 			}
 		}
 	},

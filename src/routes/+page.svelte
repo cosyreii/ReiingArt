@@ -5,6 +5,10 @@
 	let sectionDisplay = $state('intro');
 </script>
 
+<svelte:head>
+	<title>@cosyreii</title>
+</svelte:head>
+
 <main class="p-5 text-center">
 	<div class="m-4 flex flex-row items-center justify-center gap-4">
 		<div>

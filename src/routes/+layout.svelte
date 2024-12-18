@@ -31,68 +31,92 @@
 		<a
 			href="/"
 			class={clsx([
-				'hover:text-pink hover:border-pink h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:underline',
-				$page.route.id == '/' ? 'text-pink border-pink' : 'text-pale border-pale'
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				$page.route.id == '/' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Home</a
 		>
 		<a
-			href="/gallery"
+			href="/showcase"
 			class={clsx([
-				'hover:text-pink hover:border-pink h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:underline',
-				$page.route.id == '/gallery' ? 'text-pink border-pink' : 'text-pale border-pale'
-			])}>Gallery</a
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				$page.route.id == '/showcase' ? 'border-pink text-pink' : 'border-pale text-pale'
+			])}>Showcase</a
 		>
 		<a
 			href="/terms"
 			class={clsx([
-				'hover:text-pink hover:border-pink h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:underline',
-				$page.route.id == '/terms' ? 'text-pink border-pink' : 'text-pale border-pale'
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				$page.route.id == '/terms' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Terms</a
 		>
 		<a
-			href="/prices"
+			href="/pricing"
 			class={clsx([
-				'hover:text-pink hover:border-pink h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:underline',
-				$page.route.id == '/prices' ? 'text-pink border-pink' : 'text-pale border-pale'
-			])}>Prices</a
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				$page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
+			])}>Pricing</a
 		>
 		<a
 			href="/contact"
 			class={clsx([
-				'hover:text-pink hover:border-pink h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:underline',
-				$page.route.id == '/contact' ? 'text-pink border-pink' : 'text-pale border-pale'
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				$page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Contact</a
+		>
+		<a
+			href="/doesnt-exist"
+			class={'ml-4 cursor-pointer py-2 text-center hover:text-pink hover:underline'}>404</a
 		>
 	</nav>
 </header>
 
-<hr class="border-pale mx-auto mt-5 w-11/12" />
+<hr class="mx-auto mt-5 w-11/12 border-pale" />
 
 {@render children()}
 
-<hr class="border-pale mx-auto mt-5 w-11/12" />
+<hr class="mx-auto mt-5 w-11/12 border-pale" />
 
 <footer class="mt-4 flex flex-col items-center justify-center pb-10">
-	<h1 class="text-pink text-xl">Contact / 询问 ⊹ reiing.art@gmail.com</h1>
+	<h1 class="text-xl text-pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>
 	<p class="text-translucent">
 		any characters displayed in artwork belong to their respected IP owners
 	</p>
 
-	<nav class="flex flex-initial flex-row flex-wrap items-center justify-center gap-5 mt-2">
+	<nav class="mt-2 flex flex-initial flex-row flex-wrap items-center justify-center gap-5">
 		<a
 			href="https://discord.gg/rQudKfzSZT"
-			class="text-pale border-pale hover:text-pink hover:border-pink  flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid text-center [&_svg]:size-7 [&_svg]:fill-current"
+			class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
 			target="_blank"
 		>
 			{@html siDiscord.svg}
 		</a>
-		<a href="https://twitch.tv/cosyreii" class="text-pale border-pale hover:text-pink hover:border-pink  flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid text-center [&_svg]:size-7 [&_svg]:fill-current" target="_blank"> {@html siTwitch.svg} </a>
-		<a href="https://bsky.app/profile/reiing.art" class="text-pale border-pale hover:text-pink hover:border-pink  flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid text-center [&_svg]:size-7 [&_svg]:fill-current" target="_blank">
+		<a
+			href="https://twitch.tv/cosyreii"
+			class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+			target="_blank"
+		>
+			{@html siTwitch.svg}
+		</a>
+		<a
+			href="https://bsky.app/profile/reiing.art"
+			class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+			target="_blank"
+		>
 			{@html siBluesky.svg}
 		</a>
-		<a href="https://instagram.com/cosyreii" class="text-pale border-pale hover:text-pink hover:border-pink  flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid text-center [&_svg]:size-7 [&_svg]:fill-current" target="_blank">
+		<a
+			href="https://instagram.com/cosyreii"
+			class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+			target="_blank"
+		>
 			{@html siInstagram.svg}
 		</a>
-		<a href="https://ko-fi.com/cosyreii" class="text-pale border-pale hover:text-pink hover:border-pink  flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid text-center [&_svg]:size-7 [&_svg]:fill-current" target="_blank"> {@html siKofi.svg} </a>
+		<a
+			href="https://ko-fi.com/cosyreii"
+			class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+			target="_blank"
+		>
+			{@html siKofi.svg}
+		</a>
 	</nav>
 </footer>

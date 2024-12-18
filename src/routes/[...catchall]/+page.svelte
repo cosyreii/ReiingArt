@@ -23,11 +23,12 @@
 </script>
 
 <div class="error-container">
-	<div class="error">
+	<div class="flex flex-row justify-center items-center">
 		<img src="https://i.imgur.com/QqG2An6.gif" alt="loading" class="loading" />
-		<h1>404</h1>
+		<h1 class="text-pink ">404</h1>
 	</div>
-	<p class="error-message">{errorMessage}</p>
+	<h2 class="error-message text-pale text-[3rem]">{errorMessage}</h2>
+	<h3 class="text-translucent mt-14">refresh this page for a different message</h3>
 </div>
 
 <style>

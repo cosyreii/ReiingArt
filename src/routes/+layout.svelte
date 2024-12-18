@@ -63,6 +63,7 @@
 				$page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Contact</a
 		>
+		<div class="m-4 border border-solid border-pale h-6"></div>
 		<a
 			href="/doesnt-exist"
 			class={'ml-4 cursor-pointer py-2 text-center hover:text-pink hover:underline'}>404</a

@@ -24,7 +24,7 @@
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
 			>
-				<p class="text-pink mb-4 text-3xl">Hai! I'm Reii.</p>
+				<p class="mb-4 text-3xl text-pink">Hai! I'm Reii.</p>
 				<p>
 					I'm a diploma student in
 					<span class="text-pink">Design and Media</span> specialising in 2D
@@ -37,9 +37,9 @@
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
 			>
-				<p class="text-pink mb-4 text-3xl">Education & Experience</p>
+				<p class="mb-4 text-3xl text-pink">Education & Experience</p>
 				<div
-					class="border-pale grid border-collapse grid-cols-[1fr,2fr] grid-rows-5 items-center overflow-hidden rounded-lg border-2 border-solid pb-8"
+					class="grid border-collapse grid-cols-[1fr,2fr] grid-rows-5 items-center overflow-hidden rounded-lg border-2 border-solid border-pale pb-8"
 				>
 					<div class="bg-pink/40 p-4 text-left font-bold">Month, Year</div>
 					<div class="bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
@@ -63,28 +63,28 @@
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
 			>
-				<p class="text-pink mb-4 text-3xl">Featured Work</p>
+				<p class="mb-4 text-3xl text-pink">Featured Work</p>
 				<p>( ˶ • ᴖ •) Currently no featured artwork..</p>
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
 			>
-				<p class="text-pink mb-4 text-3xl">Projects</p>
+				<p class="mb-4 text-3xl text-pink">Projects</p>
 				<p>Games, websites, and whatnot will be posted here (๑&gt;ᴗ&lt;๑)</p>
 			</div>
 		{:else if sectionDisplay == 'merch'}
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
 			>
-				<p class="text-pink mb-4 text-3xl">Merch</p>
+				<p class="mb-4 text-3xl text-pink">Merch</p>
 				<p>What? Did you really think Reii plush was a thing? www</p>
 			</div>
 		{:else if sectionDisplay == 'affiliate'}
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
 			>
-				<p class="text-pink mb-4 text-3xl">Affiliation</p>
+				<p class="mb-4 text-3xl text-pink">Affiliation</p>
 				<div>
 					<a href="https://brekkie.stream" target="_blank">
 						<button class="cursor-pointer border-0 bg-transparent text-center">
@@ -101,7 +101,7 @@
 		{/if}
 
 		<div
-			class="border-pale noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l-2 border-solid p-3 text-left"
+			class="noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left"
 		>
 			<button
 				class={clsx([
@@ -131,7 +131,7 @@
 				}}>Featured Work</button
 			>
 
-			<hr class="border-pale m-5 mx-auto w-11/12" />
+			<hr class="m-5 mx-auto w-11/12 border-dashed border-translucent" />
 
 			<button
 				class={clsx([

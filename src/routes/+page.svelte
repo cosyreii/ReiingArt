@@ -31,7 +31,7 @@
 				<p>
 					I'm a freelance illustrator specialising in
 					<span class="text-pink">character design</span>. I stream all my latest hyperfixation on
-					Twitch with the consistency of melted jelly ( not consistent at all ). Aside from that I
+					Twitch with the consistency of melted jelly ( not consistent at all ). Aside from that, I
 					am fluent in English and Mandarin~
 				</p>
 				<p class="mt-4">Nice to meet you!</p>

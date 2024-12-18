@@ -33,7 +33,7 @@
 			<label for="contact-point" class="mb-2 block text-lg text-white">Primary Contact Point</label>
 			<select
 				id="contact-point"
-				class="block w-full rounded-lg border-2 border-white bg-translucent/15 p-2.5 text-white hover:border-pink"
+				class="block w-full rounded-lg border-2 border-white bg-translucent/15 p-3 text-white hover:border-pink"
 			>
 				<option class="bg-grey">Email</option>
 				<option class="bg-grey/85">Discord (Recommended)</option>
@@ -46,7 +46,7 @@
 			<input
 				type="text"
 				name="name"
-				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-2 text-white placeholder-white hover:border-pink"
+				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
 				placeholder="Name / Handle"
 				required
 			/>
@@ -55,14 +55,14 @@
 			<input
 				type="email"
 				name="email"
-				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-2 text-white placeholder-white hover:border-pink"
+				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
 				placeholder="Email Address"
 				required
 			/>
 		</div>
 		<textarea
 			placeholder="Your Message"
-			class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-2 text-white placeholder-white hover:border-pink"
+			class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
 			name="message"
 			rows="10"
 			required

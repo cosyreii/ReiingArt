@@ -8,6 +8,8 @@
 	>
 		<h1 class="text-3xl text-pink">Please include:</h1>
 		<div class="w-[25rem] text-left">
+			<p class="mt-2">⇀ Contact Point(s)</p>
+			<p class="text-sm text-translucent">Email, Discord, Bluesky, X / Twitter, Instagram</p>
 			<p class="mt-2">⇀ Type of commission + Amount ( if applicable )</p>
 			<p class="mt-2">⇀ Commercial usage ( Personal, Commercial )</p>
 			<p class="text-sm text-translucent">
@@ -20,7 +22,7 @@
 				and fees regarding NDA
 			</p>
 		</div>
-		<h1 class="text-xl mt-[5rem] text-pink">Thank you for considering me~</h1>
+		<h1 class="mt-[5rem] text-xl text-pink">Thank you for considering me~</h1>
 	</div>
 
 	<form
@@ -30,23 +32,10 @@
 		class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col"
 	>
 		<div class="mb-2 ml-2 mr-2 w-[38rem]">
-			<label for="contact-point" class="mb-2 block text-lg text-white">Primary Contact Point</label>
-			<select
-				id="contact-point"
-				class="block w-full rounded-lg border-2 border-white bg-translucent/15 p-3 text-white hover:border-pink"
-			>
-				<option class="bg-grey">Email</option>
-				<option class="bg-grey/85">Discord (Recommended)</option>
-				<option class="bg-grey">Bluesky</option>
-				<option class="bg-grey">X / Twitter</option>
-				<option class="bg-grey">Instagram</option>
-			</select>
-		</div>
-		<div>
 			<input
 				type="text"
 				name="name"
-				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
+				class="w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
 				placeholder="Name / Handle"
 				required
 			/>
@@ -57,6 +46,15 @@
 				name="email"
 				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
 				placeholder="Email Address"
+				required
+			/>
+		</div>
+		<div>
+			<input
+				type="text"
+				name="primary"
+				class="m-2 w-[38rem] rounded-lg border-2 border-white bg-translucent/15 p-3 text-white placeholder-white hover:border-pink"
+				placeholder="Primary Contact Point"
 				required
 			/>
 		</div>

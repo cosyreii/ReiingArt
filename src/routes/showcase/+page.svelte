@@ -1,4 +1,4 @@
 <svelte:head>
-	<title>Showcase</title>
+	<title>Reii | Showcase</title>
 </svelte:head>
 <p>i lazy to do this rn</p>

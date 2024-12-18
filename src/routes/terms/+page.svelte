@@ -1,4 +1,4 @@
 <svelte:head>
-	<title>Terms & Conditions</title>
+	<title>Reii | Terms & Conditions</title>
 </svelte:head>
 <p>text</p>

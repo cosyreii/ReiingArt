@@ -1,4 +1,4 @@
 <svelte:head>
-	<title>Contact Reii~</title>
+	<title>Reii | Let's Chat!</title>
 </svelte:head>
 <p>text</p>

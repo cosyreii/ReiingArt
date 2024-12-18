@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>@cosyreii</title>
+	<title>Reii Ng</title>
 </svelte:head>
 
 <main class="p-5 text-center">
@@ -17,7 +17,10 @@
 				class="size-80 rounded-xl object-cover"
 				alt="cosyreii's chibi model"
 			/>
-			<p class="text-translucent">funni placeholder bottom text</p>
+			<div class="mt-4 text-translucent">
+				<p>full-time student:</p>
+				<p>Diploma in Media and Design ( Animation )</p>
+			</div>
 		</div>
 
 		{#if sectionDisplay == 'intro'}
@@ -26,10 +29,10 @@
 			>
 				<p class="mb-4 text-3xl text-pink">Hai! I'm Reii.</p>
 				<p>
-					I'm a diploma student in
-					<span class="text-pink">Design and Media</span> specialising in 2D
-					<span class="text-pink">Animation</span>. I stream on Twitch and am fluent in English and
-					Mandarin~
+					I'm a freelance illustrator specialising in
+					<span class="text-pink">character design</span>. I stream all my latest hyperfixation on
+					Twitch with the consistency of melted jelly ( not consistent at all ). Aside from that I
+					am fluent in English and Mandarin~
 				</p>
 				<p class="mt-4">Nice to meet you!</p>
 			</div>
@@ -65,6 +68,24 @@
 			>
 				<p class="mb-4 text-3xl text-pink">Featured Work</p>
 				<p>( ˶ • ᴖ •) Currently no featured artwork..</p>
+			</div>
+		{:else if sectionDisplay == 'software'}
+			<div
+				class="noscrollbar m-1 flex h-96 w-[40rem] items-start overflow-y-scroll text-left text-lg"
+			>
+				<div>
+					<p class="mb-4 w-auto text-3xl text-pink">Software / Hardware</p>
+					<div class="flew-col flex">
+						<div class="flex flex-col items-center justify-center text-center">
+							<img src="https://i.imgur.com/bw5gMmH.png" class="size-24" alt="Clip Studio icon" />
+							<p class="w-60 text-center">Clip Studio Paint EX</p>
+						</div>
+						<div class="flex flex-col items-center justify-center text-center">
+							<img src="https://i.imgur.com/nF5yP5N.png" class="size-24" alt="MSI icon" />
+							<p class="w-60 text-center">12th Gen i7-12650H</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
@@ -131,6 +152,16 @@
 				}}>Featured Work</button
 			>
 
+			<button
+				class={clsx([
+					'mb-2 ml-4 mt-2 text-left text-xl',
+					sectionDisplay == 'software' ? 'text-pink' : 'text-pale hover:text-pink'
+				])}
+				onclick={() => {
+					sectionDisplay = 'software';
+				}}>Software / Hardware</button
+			>
+
 			<hr class="m-5 mx-auto w-11/12 border-dashed border-translucent" />
 
 			<button
@@ -140,9 +171,9 @@
 				])}
 				onclick={() => {
 					sectionDisplay = 'projects';
-				}}>Project</button
+				}}>Projects</button
 			>
-			<button
+			<!-- <button
 				class={clsx([
 					'mb-2 ml-4 mt-2 text-left text-xl',
 					sectionDisplay == 'merch' ? 'text-pink' : 'text-pale hover:text-pink'
@@ -150,7 +181,7 @@
 				onclick={() => {
 					sectionDisplay = 'merch';
 				}}>Merch</button
-			>
+			> -->
 			<button
 				class={clsx([
 					'mb-2 ml-4 mt-2 text-left text-xl',

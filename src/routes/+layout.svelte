@@ -65,7 +65,7 @@
 		>
 		<a
 			href="/doesnt-exist"
-			class={'ml-7 cursor-pointer py-2 text-center hover:text-pink hover:underline'}>404</a
+			class={'ml-5 cursor-pointer py-2 text-center hover:text-pink hover:underline'}>404</a
 		>
 	</nav>
 </header>

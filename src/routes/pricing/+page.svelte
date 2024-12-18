@@ -1,4 +1,4 @@
 <svelte:head>
-	<title>Art & Rates</title>
+	<title>Reii | Art & Rates</title>
 </svelte:head>
 <p>text</p>

@@ -27,7 +27,7 @@
 			/>
 		</div>
 	</div>
-	<nav class="flex flex-initial flex-row flex-wrap items-center justify-center gap-10">
+	<nav class="flex flex-initial flex-row flex-wrap items-center justify-center gap-8">
 		<a
 			href="/"
 			class={clsx([

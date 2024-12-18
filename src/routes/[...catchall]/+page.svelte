@@ -27,6 +27,6 @@
 		<img src="https://i.imgur.com/QqG2An6.gif" alt="loading" class="w-[5rem] h-auto" />
 		<h1 class="text-pink text-[5rem] mt-4">404</h1>
 	</div>
-	<h2 class="error-message text-pale text-[3rem]">{errorMessage}</h2>
+	<h2 class="error-message text-pale text-[2rem]">{errorMessage}</h2>
 	<h3 class="text-translucent mt-14">refresh this page for a different message</h3>
 </div>

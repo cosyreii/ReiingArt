@@ -1,4 +1,4 @@
 <svelte:head>
 	<title>Reii | Art & Rates</title>
 </svelte:head>
-<p>text</p>
+<p class="m-4 flex justify-center items-center">Currently Unavailable</p>

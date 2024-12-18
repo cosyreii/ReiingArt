@@ -21,6 +21,10 @@
 			</p>
 		</div>
 		<h1 class="mt-[5rem] text-xl text-pink">Thank you for considering me~</h1>
+		<p class="w-80 text-sm text-translucent text-justify">
+			highly suggest you save a copy / screenshot of the email~ I haven't a clue on how to send it
+			to you automagically =3=
+		</p>
 	</div>
 
 	<form

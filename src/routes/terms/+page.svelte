@@ -2,7 +2,7 @@
 	<title>Reii | Terms & Conditions</title>
 </svelte:head>
 <div
-	class="border-red bg-red/20 m-4 mx-[25rem] flex flex-col items-center justify-center rounded-full border-2 border-dashed p-6 text-center text-xl"
+	class="m-4 mx-[25rem] flex flex-col items-center justify-center rounded-full border-2 border-dashed border-red bg-red/20 p-6 text-center text-xl"
 >
 	<p>Please read this page entirely before making any inquiries.</p>
 	<p>By commissioning me, you automatically agree to all my terms.</p>
@@ -38,17 +38,17 @@
 		<hr class="mx-auto my-4 w-full border-translucent" />
 		<div>
 			<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">PAYMENT</p>
-			<p>
+			<p class="my-2">
 				⇀ Prices are in <span class="text-pink">USD</span> and payments are conducted through
 				<span class="text-pink">PayPal</span>.
 			</p>
-			<p>⇀ Payment will be made full <span class="text-pink">upfront</span>.</p>
-			<p>
+			<p class="my-2">⇀ Payment will be made full <span class="text-pink">upfront</span>.</p>
+			<p class="my-2">
 				⇀ I will initiate transactions via <span class="text-pink">Paypal.me</span> to avoid accidental
 				transactions. Do not send me any kind of payment until I have confirmed to accept your commission
 				and have asked for payment.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ Price may increase depending of the complexity of the commission, what you see on the site
 				is the base price.
 			</p>
@@ -57,24 +57,26 @@
 		<hr class="mx-auto my-4 w-full border-translucent" />
 		<div>
 			<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">REVISION</p>
-			<p>⇀ Big changes are only allowed during the sketch phase ( clothing, pose ).</p>
-			<p class="ml-4 text-base text-translucent">
+			<p class="mt-2">⇀ Big changes are only allowed during the sketch phase ( clothing, pose ).</p>
+			<p class="mb-2 ml-4 text-base text-translucent">
 				↪ Scrapping and redoing outfits / pose fully will result in an extra fee.
 			</p>
-			<p>⇀ Once I have begun lineart, only small revisions are allowed ( colour, shading ).</p>
+			<p class="my-2">
+				⇀ Once I have begun lineart, only small revisions are allowed ( colour, shading ).
+			</p>
 		</div>
 
 		<hr class="mx-auto my-4 w-full border-translucent" />
 		<div>
 			<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">COMMUNICATION</p>
-			<p>
+			<p class="my-2">
 				⇀ I accept commissions based on my preferences and what I am comfortable working with ( <span
 					class="text-pink"
 				>
 					not FCFS</span
 				> - first come first served )
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ I will <span class="text-pink"> constantly </span> update you on the process of your
 				commission through your chosen <span class="text-pink"> primary contact point </span>
 				after I have accepted your commission!.
@@ -84,23 +86,23 @@
 		<hr class="mx-auto my-4 w-full border-translucent" />
 		<div>
 			<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">COPYRIGHT / USAGE</p>
-			<p>
+			<p class="my-2">
 				⇀ The commissioned piece may be used for personal reasons, such as a profile picture,
 				banner, wallpaper, etc.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ Please always <span class="text-pink">credit me</span> as the creator.
 			</p>
-			<p>
+			<p class="my-2">
 				<span class="text-red">✖</span> <span class="text-pink">DO NOT</span> sell, profit from, or
 				distributing my work ( e.g. through merchandise, resale, or redistribution ) unless a commercial
 				license has been purchased, and a signed contract is in place.
 			</p>
-			<p>
+			<p class="my-2">
 				<span class="text-red">✖</span> <span class="text-pink">DO NOT</span> modify or claim the work
 				as your own.
 			</p>
-			<p>
+			<p class="my-2">
 				<span class="text-red">✖</span> Under no circumstances do I allow my work to be used /
 				turned into an NFT or to be used for AI in <span class="text-pink">ANY WAY</span>. You will
 				be instantly blacklisted.
@@ -110,22 +112,22 @@
 		<hr class="mx-auto my-4 w-full border-translucent" />
 		<div>
 			<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">REFUND / CANCELLATION</p>
-			<p>
+			<p class="mt-2">
 				⇀ Refunds and cancellation are guaranteed <span class="text-pink">ONLY BEFORE</span> I begin
 				work. After work has begun it is not a guarantee.
 			</p>
-			<p class="ml-4 text-base text-translucent">
+			<p class="mb-2 ml-4 text-base text-translucent">
 				↪ Refunds may not be requested after confirmation of line art.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ <span class="text-pink">Partial refund</span> are guaranteed upon the artist's inability to
 				complete the project.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ <span class="text-pink">Partial refund</span> are offered upon the artist's inability to complete
 				within 3 to 6 months.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ Any fraudulent chargebacks will result in blacklisting, account blocking, and the
 				forfeiture of all associated copyrights.
 			</p>
@@ -134,31 +136,31 @@
 		<hr class="mx-auto my-4 w-full border-translucent" />
 		<div>
 			<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">FINAL</p>
-			<p>
+			<p class="my-2">
 				⇀ I retain the right to post the finished work on my SNS accounts ( X, Bluesky and Instagram
 				).
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ Whether I can stream the process or post WIPs is your decision. This does not impose an
 				extra fee.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ If you do not wish for me to share the work <span class="text-pink">at all</span>, an
 				<span class="text-pink">NDA fee</span> will be required ( base of 10%, may increase depending
 				on the project size ).
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ Any file you paid for will be available from me for a <span class="text-pink"
 					>finite time</span
 				> only. I preserve most files for up to 3 months, but I cannot guarantee against computer failure
 				or accidental deletion or loss. It is your responsibility to save any information, images, and
 				other data I provide.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ Any comments that are rude, inappropriate, inflammatory, or non-constructive may result in
 				blacklisting.
 			</p>
-			<p>
+			<p class="my-2">
 				⇀ After you have paid for the work, I will not profit from it further. I may use your piece
 				as a sample for my commission site <span class="text-pink">( if no NDA )</span>.
 			</p>

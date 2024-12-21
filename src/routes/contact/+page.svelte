@@ -10,20 +10,20 @@
 		<div class="w-[25rem] text-left">
 			<p class="mt-2">⇀ Type of commission + Amount ( if applicable )</p>
 			<p class="mt-2">⇀ Commercial usage ( Personal, Commercial )</p>
-			<p class="text-sm text-translucent">
-				check commercial tiers <a href="/tiers" class="underline hover:text-pink"> here </a>
+			<p class="ml-4 text-sm text-translucent">
+				↪ check commercial tiers <a href="/tiers" class="underline hover:text-pink"> here </a>
 			</p>
 			<p class="mt-2">⇀ Deadlines / Expectations</p>
 			<p class="mt-2">⇀ Rights to stream and post WIP / final artwork</p>
-			<p class="text-sm text-translucent">
-				read the <a href="/terms" class="underline hover:text-pink">Terms & Conditions</a> for rules
+			<p class="ml-4 text-sm text-translucent">
+				↪ read the <a href="/terms" class="underline hover:text-pink">Terms & Conditions</a> for rules
 				and fees regarding NDA
 			</p>
 		</div>
 		<h1 class="mt-[5rem] text-xl text-pink">Thank you for considering me~</h1>
-		<p class="w-80 text-sm text-translucent text-justify">
-			highly suggest you save a copy / screenshot of the email~ I haven't a clue on how to send it
-			to you automagically =3=
+		<p class="w-80 text-justify text-sm text-translucent">
+			highly suggest you save a copy / screenshot of the email~ I haven't a clue on how to send you
+			a copy of your form ( still new to code )
 		</p>
 	</div>
 

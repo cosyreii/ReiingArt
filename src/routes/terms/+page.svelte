@@ -2,7 +2,7 @@
 	<title>Reii | Terms & Conditions</title>
 </svelte:head>
 <div
-	class="m-4 mx-[25rem] flex flex-col items-center justify-center rounded-full border-2 border-dashed border-red bg-red/20 p-6 text-center text-xl"
+	class="m-4 mx-[25rem] flex flex-col items-center justify-center rounded-full border-2 border-dashed border-red bg-red/20 p-6 text-center text-xl italic"
 >
 	<p>Please read this page entirely before making any inquiries.</p>
 	<p>By commissioning me, you automatically agree to all my terms.</p>
@@ -19,10 +19,11 @@
 			</p>
 			<p class="my-2">⇀ I retain the right to reject any request / commission for any reason.</p>
 			<p class="my-2">
-				⇀ I only accept a limited number of slots at a time; however, a waitlist is available in my <a
-					href="https://discord.gg/kkQHDmhRzN"
-					class="underline">Discord</a
-				>.
+				⇀ I only accept a limited number of slots at a time; however, a <span class="text-pink"
+					>waitlist</span
+				>
+				is <span class="text-pink">available</span> in my
+				<a href="https://discord.gg/kkQHDmhRzN" class="underline">Discord</a>.
 			</p>
 			<p class="my-2">
 				⇀ Any harassment in an attempt to bargain for or reserve a commission is not tolerated. I
@@ -144,17 +145,24 @@
 				⇀ Whether I can stream the process or post WIPs is your decision. This does not impose an
 				extra fee.
 			</p>
-			<p class="my-2">
+			<p class="mt-2">
 				⇀ If you do not wish for me to share the work <span class="text-pink">at all</span>, an
-				<span class="text-pink">NDA fee</span> will be required ( base of 10%, may increase depending
-				on the project size ).
+				<span class="text-pink">NDA fee</span> will be required.
 			</p>
-			<p class="my-2">
+			<p class=" mb-2 ml-4 text-base text-translucent">
+				↪ base price of 10%, may increase depending on the project size
+			</p>
+			<p class="mt-2">
 				⇀ Any file you paid for will be available from me for a <span class="text-pink"
 					>finite time</span
-				> only. I preserve most files for up to 3 months, but I cannot guarantee against computer failure
-				or accidental deletion or loss. It is your responsibility to save any information, images, and
-				other data I provide.
+				> only.
+			</p>
+			<p class="ml-4 text-base text-translucent">
+				↪ I preserve most files for up to 3 months, but I cannot guarantee against computer failure
+				or accidental deletion or loss.
+			</p>
+			<p class="mb-2 ml-4 text-base text-translucent">
+				↪ It is your responsibility to save any information, images, and other data I provide.
 			</p>
 			<p class="my-2">
 				⇀ Any comments that are rude, inappropriate, inflammatory, or non-constructive may result in

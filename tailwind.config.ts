@@ -8,10 +8,10 @@ export default {
 		extend: {
 			colors: {
 				white: '#f9f2f2',
-				pale: '#f0d8d8',
+				pale: '#fcf0f0',
 				pink: '#faa0bb',
 				red: "#eb676e",
-				translucent: '#f0d8d8a5',
+				translucent: '#fcf0f0a5',
 				grey: "#292525",
 			}
 		}

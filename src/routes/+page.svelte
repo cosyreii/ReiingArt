@@ -38,28 +38,32 @@
 			</div>
 		{:else if sectionDisplay == 'eduExp'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg"
 			>
 				<p class="mb-4 text-3xl text-pink">Education & Experience</p>
+
 				<div
-					class="grid border-collapse grid-cols-[1fr,2fr] grid-rows-5 items-center overflow-hidden rounded-lg border-2 border-solid border-pale pb-8"
-				>
+					class="grid border-collapse items-center scroll-m-4 overflow-hidden rounded-lg border-2 border-solid border-pale pb-4 overflow-y-scroll chart-scrollbar"
+				style="grid-template-columns:1fr 2fr">
 					<div class="bg-pink/40 p-4 text-left font-bold">Month, Year</div>
 					<div class="bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
+
+					<div class="p-4 text-left">Jul 2024 - Current</div>
+					<div class="p-4 text-left">Super Streamer Lobby (TETR.IO) gamemode illustrator.</div>
+
+					<div class="p-4 text-left">Jan 2024 - Current</div>
+					<div class="p-4 text-left">Embarked on streaming journey. (Twitch)</div>
+
+					<div class="p-4 text-left">Aug 2023 - Current</div>
+					<div class="p-4 text-left">Diploma in Design and Media (Animation).</div>
+
+					<div class="p-4 text-left">Aug 2023 - Current</div>
+					<div class="p-4 text-left">Freelance illustrator for content creators.</div>
 
 					<div class="p-4 text-left">Nov 2018</div>
 					<div class="p-4 text-left">
 						Art journey starts! Specialising in character, concept, and design.
 					</div>
-
-					<div class="p-4 text-left">Aug 2023 - Current</div>
-					<div class="p-4 text-left">Freelance illustrator for content creators.</div>
-
-					<div class="p-4 text-left">Jan 2024 - Current</div>
-					<div class="p-4 text-left">Embarked on streaming journey. (Twitch)</div>
-
-					<div class="p-4 text-left">Jul 2024 - Current</div>
-					<div class="p-4 text-left">Super Streamer Lobby (TETR.IO) gamemode illustrator.</div>
 				</div>
 			</div>
 		{:else if sectionDisplay == 'featured'}
@@ -74,16 +78,12 @@
 				class="noscrollbar m-1 flex h-96 w-[40rem] items-start overflow-y-scroll text-left text-lg"
 			>
 				<div>
-					<p class="mb-4 w-auto text-3xl text-pink">Software / Hardware</p>
+					<p class="mb-4 w-auto text-3xl text-pink">Softwares</p>
 					<div class="flew-col flex">
 						<div class="flex flex-col items-center justify-center text-center">
 							<img src="https://i.imgur.com/bw5gMmH.png" class="size-24" alt="Clip Studio icon" />
 							<p class="w-60 text-center">Clip Studio Paint EX</p>
-						</div>
-						<div class="flex flex-col items-center justify-center text-center">
-							<img src="https://i.imgur.com/nF5yP5N.png" class="size-24" alt="MSI icon" />
-							<p class="w-60 text-center">12th Gen i7-12650H</p>
-						</div>
+							</div>
 					</div>
 				</div>
 			</div>
@@ -159,7 +159,7 @@
 				])}
 				onclick={() => {
 					sectionDisplay = 'software';
-				}}>Software / Hardware</button
+				}}>Softwares</button
 			>
 
 			<hr class="m-5 mx-auto w-11/12 border-dashed border-translucent" />

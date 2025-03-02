@@ -27,12 +27,7 @@
 		</p>
 	</div>
 
-	<form
-		target="_blank"
-		action="https://formsubmit.co/reiing.art@gmail.com"
-		method="POST"
-		class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col"
-	>
+	<form class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col" name="contact" method="POST" data-netlify="true">
 		<div class="mb-2 ml-2 mr-2 w-[38rem]">
 			<label for="contact-point" class="mb-2 ml-2 block text-lg text-white"
 				>Primary Contact Point</label

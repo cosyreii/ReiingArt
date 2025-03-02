@@ -37,7 +37,7 @@
 			const myForm = event.currentTarget;
 			const formData = new FormData(myForm);
 
-			await fetch('/', {
+			await fetch('/contact', {
 				method: 'POST',
 				body: formData
 			});

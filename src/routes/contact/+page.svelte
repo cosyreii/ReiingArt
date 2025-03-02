@@ -1,7 +1,3 @@
-<script lang="ts">
-	import { enhance } from '$app/forms';
-</script>
-
 <svelte:head>
 	<title>Reii | Let's Chat!</title>
 </svelte:head>
@@ -35,12 +31,17 @@
 		class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col"
 		name="contact"
 		method="POST"
-		data-netlify="true"
-		use:enhance={() => {
-			return async ({ update }) => {
-				await update();
-				window.alert('form submitted');
-			};
+		on:submit={async (event) => {
+			event.preventDefault();
+
+			const myForm = event.currentTarget;
+			const formData = new FormData(myForm);
+
+			await fetch('/', {
+				method: 'POST',
+				body: formData
+			});
+			window.alert('form submitted');
 		}}
 	>
 		<div class="mb-2 ml-2 mr-2 w-[38rem]">

@@ -31,6 +31,7 @@
 		class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col"
 		name="contact"
 		method="POST"
+		data-netlify="true"
 		on:submit={async (event) => {
 			event.preventDefault();
 

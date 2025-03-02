@@ -1,3 +1,7 @@
+<script lang="ts">
+	import { enhance } from '$app/forms';
+</script>
+
 <svelte:head>
 	<title>Reii | Let's Chat!</title>
 </svelte:head>
@@ -27,7 +31,18 @@
 		</p>
 	</div>
 
-	<form class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col" name="contact" method="POST" data-netlify="true">
+	<form
+		class="m-1 ml-8 flex h-[35rem] max-w-sm flex-col"
+		name="contact"
+		method="POST"
+		data-netlify="true"
+		use:enhance={() => {
+			return async ({ update }) => {
+				await update();
+				window.alert('form submitted');
+			};
+		}}
+	>
 		<div class="mb-2 ml-2 mr-2 w-[38rem]">
 			<label for="contact-point" class="mb-2 ml-2 block text-lg text-white"
 				>Primary Contact Point</label

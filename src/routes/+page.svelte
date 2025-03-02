@@ -37,16 +37,13 @@
 				<p class="mt-4">Nice to meet you!</p>
 			</div>
 		{:else if sectionDisplay == 'eduExp'}
-			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg"
-			>
+			<div class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg">
 				<p class="mb-4 text-3xl text-pink">Education & Experience</p>
-
 				<div
-					class="grid border-collapse items-center scroll-m-4 overflow-hidden rounded-lg border-2 border-solid border-pale pb-4 overflow-y-scroll chart-scrollbar"
-				style="grid-template-columns:1fr 2fr">
-					<div class="bg-pink/40 p-4 text-left font-bold">Month, Year</div>
-					<div class="bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
+					class="chart-scrollbar grid border-collapse scroll-m-4 grid-cols-[1fr,2fr] items-center overflow-hidden overflow-y-scroll rounded-lg border-2 border-solid border-pale pb-4"
+				>
+					<div class="bg-pink/40 p-4 text-left font-bold whitespace-nowrap">Month, Year</div>
+					<div class="bg-pink/40 p-4 text-left font-bold whitespace-nowrap">Event / Experience</div>
 
 					<div class="p-4 text-left">Jul 2024 - Current</div>
 					<div class="p-4 text-left">Super Streamer Lobby (TETR.IO) gamemode illustrator.</div>
@@ -83,7 +80,7 @@
 						<div class="flex flex-col items-center justify-center text-center">
 							<img src="https://i.imgur.com/bw5gMmH.png" class="size-24" alt="Clip Studio icon" />
 							<p class="w-60 text-center">Clip Studio Paint EX</p>
-							</div>
+						</div>
 					</div>
 				</div>
 			</div>

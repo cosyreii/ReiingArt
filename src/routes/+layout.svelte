@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css';
-	import { siDiscord, siTwitch, siBluesky, siInstagram, siKofi} from 'simple-icons';
+	import { siDiscord, siTwitch, siBluesky, siInstagram, siKofi } from 'simple-icons';
 	import { page } from '$app/stores';
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';

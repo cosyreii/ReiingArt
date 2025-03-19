@@ -28,11 +28,26 @@
 				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
 				<p class="text-left max-md:text-center">
 					I'm a freelance illustrator specialising in
-					<span class="text-pink">character design</span>. I stream all my latest hyperfixation on
-					Twitch with the consistency of melted jelly ( not consistent at all ). Aside from that, I
-					am fluent in English and Mandarin~
+					<span class="font-black">design</span> and <span class="font-black">expression</span>. I
+					stream all my latest hyperfixation on Twitch with the consistency of melted jelly
+					<span class="text-translucent">( not consistent at all )</span>. Aside from
+					that, I am fluent in <span class="font-black">English</span> and
+					<span class="font-black">Mandarin</span>~
 				</p>
-				<p class="mt-4 text-left max-md:text-center">Nice to meet you!</p>
+				<p class="mb-4 mt-4 text-left text-3xl text-pink max-md:text-center">What do I do?</p>
+				<p class="text-left max-md:text-center">
+					I mainly work on
+					<span class="font-black">character design</span>,
+					<span class="font-black">stickers</span>,
+					<span class="font-black">emotes</span>, and
+					<span class="font-black">badges</span>. I love helping my clients find their perfect
+					persona but that's not all! I am also a
+					<span class="font-black">writer</span> that does
+					<span class="font-black">stories</span>,
+					<span class="font-black">scripts</span>, and
+					<span class="font-black">movie critiques</span>.
+				</p>
+				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>
 		{:else if sectionDisplay == 'eduExp'}
 			<div

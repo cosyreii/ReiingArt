@@ -26,8 +26,7 @@
 			<a href="https://discord.gg/kkQHDmhRzN" class="text-pink underline">Discord</a>.
 		</p>
 		<p class="my-2">
-			⇀ Any harassment in an attempt to bargain for or reserve a commission is not tolerated. I
-			reserve to place anyone on the blacklist over harassment.
+			⇀ Any harassment in an attempt to bargain for or reserve a commission is not tolerated.
 		</p>
 		<p class="my-2">
 			⇀ All of my sales are "Digital Artwork" and it is the artwork's "intellectual property" that
@@ -43,7 +42,10 @@
 			⇀ Prices are in <span class="font-black">USD</span> and payments are conducted through
 			<span class="font-black">PayPal</span>.
 		</p>
-		<p class="my-2">⇀ Payment will be made full <span class="font-black">upfront</span>.</p>
+		<p class="my-2">
+			⇀ Payment will be made full <span class="font-black">upfront</span> unless discussed beforehand,
+			in which I will only proceed after the artwork is fully funded.
+		</p>
 		<p class="my-2">
 			⇀ I will initiate transactions via <span class="font-black">Paypal.me</span> to avoid accidental
 			transactions. Do not send me any kind of payment until I have confirmed to accept your commission
@@ -51,7 +53,7 @@
 		</p>
 		<p class="my-2">
 			⇀ Price may increase depending of the complexity of the commission, what you see on the site
-			is the base price.
+			is only the base price.
 		</p>
 	</div>
 
@@ -78,9 +80,12 @@
 			> - first come first served )
 		</p>
 		<p class="my-2">
-			⇀ I will <span class="font-black"> constantly </span> update you on the process of your
-			commission through your chosen <span class="font-black"> primary contact point </span>
-			after I have accepted your commission!.
+			⇀ I will update you on the process of your commission through your chosen <span
+				class="font-black"
+			>
+				primary contact point
+			</span>
+			after I have accepted your commission.
 		</p>
 	</div>
 
@@ -106,7 +111,7 @@
 		<p class="my-2">
 			<span class="text-red">✖</span> Under no circumstances do I allow my work to be used / turned
 			into an NFT or to be used for AI in <span class="font-black">ANY WAY</span>. You will be
-			instantly blacklisted.
+			instantly blacklisted and <span class="font-black">lose IP</span> of the purchased artwork.
 		</p>
 	</div>
 
@@ -138,7 +143,7 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl tracking-widest text-pink">FINAL</p>
 		<p class="my-2">
-			⇀ I retain the right to post the finished work on my SNS accounts ( X, Bluesky and Instagram
+			⇀ I retain the right to post the finished work on my SNS accounts ( X, Bluesky, Instagram etc.
 			).
 		</p>
 		<p class="my-2">
@@ -146,13 +151,13 @@
 			extra fee.
 		</p>
 		<p class="mt-2">
-			⇀ If you do not wish for me to share the work <span class="font-black"
-				>at all (no posting on socials)</span
+			⇀ However, if you do not wish for me to share the work <span class="font-black"
+				>at all (no posting on socials even after completion)</span
 			>, an
 			<span class="font-black">NDA fee</span> will be required.
 		</p>
 		<p class=" mb-2 ml-4 text-base text-translucent">
-			↪ base price of 10%, may increase depending on the project size
+			↪ base price of 10%, may increase depending on the project size and time taken
 		</p>
 		<p class="mt-2">
 			⇀ Any file you paid for will be available from me for a <span class="font-black"

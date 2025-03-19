@@ -13,7 +13,7 @@
 
 <header>
 	<div
-		class="m-8 flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(16,76,136,0.5),rgba(128,14,27,0.5)),url('https://i.pinimg.com/736x/4d/f7/17/4df7176bf77d87ba9abd2f5f18ccb577.jpg')] bg-cover bg-top p-4 text-center"
+		class="m-8 flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(16,76,136,0.5),rgba(128,14,27,0.5)),url('https://i.imgur.com/GdG3tHZ.png')] bg-cover bg-bottom p-4 text-center"
 	>
 		<div>
 			<h1 class="text-4xl text-white">「♡」Reii Ng</h1>
@@ -21,7 +21,7 @@
 		</div>
 		<div>
 			<img
-				src="https://i.imgur.com/OwW3hl5.png"
+				src="https://i.imgur.com/7AHwYi1.png"
 				class="size-40 rounded-full object-cover shadow-2xl"
 				alt="profile"
 			/>

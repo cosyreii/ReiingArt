@@ -17,7 +17,7 @@
 	>
 		<div>
 			<h1 class="text-4xl text-white">「♡」Reii Ng</h1>
-			<p class="text-xl">Character & Concept Artist | 2D Animator & Rigger | Writer</p>
+			<p class="text-xl">Character & Concept Designer | Part-time Vtuber, Full-time Artist</p>
 		</div>
 		<img
 			src="https://i.imgur.com/7AHwYi1.png"

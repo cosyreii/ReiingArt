@@ -11,7 +11,7 @@
 
 <main class="p-5 text-center">
 	<div class="m-4 flex flex-row items-center justify-center gap-4">
-		<div>
+		<div class="max-lg:hidden">
 			<img
 				src="https://i.imgur.com/XcYfQTY.png"
 				class="size-80 rounded-xl object-cover"
@@ -24,26 +24,26 @@
 		</div>
 
 		{#if sectionDisplay == 'intro'}
-			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
-			>
-				<p class="mb-4 text-3xl text-pink">Hai! I'm Reii.</p>
-				<p>
+			<div class="noscrollbar m-1 flex h-96 w-[40rem] flex-col overflow-y-scroll text-lg">
+				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
+				<p class="text-left max-md:text-center">
 					I'm a freelance illustrator specialising in
 					<span class="text-pink">character design</span>. I stream all my latest hyperfixation on
 					Twitch with the consistency of melted jelly ( not consistent at all ). Aside from that, I
 					am fluent in English and Mandarin~
 				</p>
-				<p class="mt-4">Nice to meet you!</p>
+				<p class="mt-4 text-left max-md:text-center">Nice to meet you!</p>
 			</div>
 		{:else if sectionDisplay == 'eduExp'}
-			<div class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg">
+			<div
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg max-md:text-justify"
+			>
 				<p class="mb-4 text-3xl text-pink">Education & Experience</p>
 				<div
 					class="chart-scrollbar grid border-collapse scroll-m-4 grid-cols-[1fr,2fr] items-center overflow-hidden overflow-y-scroll rounded-lg border-2 border-solid border-pale pb-4"
 				>
-					<div class="bg-pink/40 p-4 text-left font-bold whitespace-nowrap">Month, Year</div>
-					<div class="bg-pink/40 p-4 text-left font-bold whitespace-nowrap">Event / Experience</div>
+					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Month, Year</div>
+					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
 
 					<div class="p-4 text-left">Jul 2024 - Current</div>
 					<div class="p-4 text-left">Super Streamer Lobby (TETR.IO) gamemode illustrator.</div>
@@ -65,7 +65,7 @@
 			</div>
 		{:else if sectionDisplay == 'featured'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Featured Work</p>
 				<p>( ˶ • ᴖ •) Currently no featured artwork..</p>
@@ -86,21 +86,21 @@
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Projects</p>
 				<p>Games, websites, and whatnot will be posted here (๑&gt;ᴗ&lt;๑)</p>
 			</div>
 		{:else if sectionDisplay == 'merch'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Merch</p>
 				<p>What? Did you really think Reii plush was a thing? www</p>
 			</div>
 		{:else if sectionDisplay == 'affiliate'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Affiliation</p>
 				<div>

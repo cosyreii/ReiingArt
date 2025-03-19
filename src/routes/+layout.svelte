@@ -19,54 +19,53 @@
 			<h1 class="text-4xl text-white">「♡」Reii Ng</h1>
 			<p class="text-xl">Character & Concept Artist | 2D Animator & Rigger | Writer</p>
 		</div>
-		<div>
-			<img
-				src="https://i.imgur.com/7AHwYi1.png"
-				class="size-40 rounded-full object-cover shadow-2xl"
-				alt="profile"
-			/>
-		</div>
+		<img
+			src="https://i.imgur.com/7AHwYi1.png"
+			class="size-40 rounded-full object-cover shadow-2xl max-md:hidden"
+			alt="profile"
+		/>
 	</div>
-	<nav class="flex flex-initial flex-row flex-wrap items-center justify-center gap-8">
+	<nav class="flex flex-initial flex-row flex-wrap items-center justify-center px-1 gap-8 max-md:gap-2">
 		<a
 			href="/"
 			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				$page.route.id == '/' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Home</a
 		>
 		<a
 			href="/showcase"
 			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				$page.route.id == '/showcase' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Showcase</a
 		>
 		<a
 			href="/terms"
 			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				$page.route.id == '/terms' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Terms</a
 		>
 		<a
 			href="/pricing"
 			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				$page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Pricing</a
 		>
 		<a
 			href="/contact"
 			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline',
+				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				$page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Contact</a
 		>
-		<a
+		<!-- <a
 			href="/doesnt-exist"
-			class={'ml-5 cursor-pointer py-2 text-center hover:text-pink hover:underline'}>404</a
-		>
+			class={'ml-5 cursor-pointer py-2 text-center hover:text-pink hover:underline max-md:w-24 max-md:py-1'}
+			>404</a
+		> -->
 	</nav>
 </header>
 
@@ -78,7 +77,7 @@
 
 <footer class="mt-4 flex flex-col items-center justify-center pb-10">
 	<h1 class="text-xl text-pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>
-	<p class="text-translucent">
+	<p class="text-center text-translucent">
 		any characters displayed in artwork belong to their respected IP owners
 	</p>
 

@@ -100,8 +100,8 @@
 			⇀ Please always <span class="font-black">credit me</span> as the creator.
 		</p>
 		<p class="my-2">
-			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> sell, profit from, or distributing
-			my work ( e.g. through merchandise, resale, or redistribution ) unless a commercial license has
+			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> sell, profit from, or distribute
+			my work ( e.g. through merchandise, resale) unless a commercial license has
 			been purchased, and a signed contract is in place.
 		</p>
 		<p class="my-2">

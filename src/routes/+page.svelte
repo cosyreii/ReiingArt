@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<title>Reii Ng</title>
+	<title>Reii Ng (@cosyreii)</title>
 </svelte:head>
 
 <main class="p-5 text-center">

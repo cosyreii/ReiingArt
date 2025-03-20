@@ -5,6 +5,7 @@
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 	import clsx from 'clsx';
+	import { enhance } from '$app/forms';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>

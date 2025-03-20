@@ -18,7 +18,7 @@
 		<h1 class="mt-20 text-xl text-pink max-md:hidden">Thank you for considering me~</h1>
 	</div>
 
-	<hr class="my-5 hidden w-80 border-pale max-md:block" />
+	<hr class="my-5 w-80 border-pale md:hidden" />
 
 	<form
 		class="m-1 ml-8 flex h-[35rem] flex-col max-md:ml-0"
@@ -86,7 +86,7 @@
 		</div>
 	</form>
 
-	<h1 class="mt-2 mb-4 hidden w-80 text-center text-xl text-pink max-md:block">
+	<h1 class="mb-4 mt-2 w-80 text-center text-xl text-pink md:hidden">
 		Thank you for considering me~
 	</h1>
 </div>

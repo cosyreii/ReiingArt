@@ -1,8 +1,18 @@
 <script lang="ts">
 	import clsx from 'clsx';
+	import ChevronDown from '$lib/components/chevron-down.svelte';
+	const sectionNames: Record<string, string> = {
+		intro: 'Introduction',
+		eduExp: 'Education & Experience',
+		featured: 'Featured Work',
+		projects: 'Projects',
+		merch: 'Merch',
+		affiliate: 'Affiliations'
+	};
 
 	// make a variable to store which thing to show
 	let sectionDisplay = $state('intro');
+	let mobileMenu = $state(false);
 </script>
 
 <svelte:head>
@@ -10,7 +20,7 @@
 </svelte:head>
 
 <main class="p-5 text-center">
-	<div class="m-4 flex flex-row items-center justify-center gap-4">
+	<div class="m-4 flex flex-row items-center justify-center gap-4 max-md:flex-col-reverse">
 		<div class="max-lg:hidden">
 			<img
 				src="https://i.imgur.com/XcYfQTY.png"
@@ -24,7 +34,9 @@
 		</div>
 
 		{#if sectionDisplay == 'intro'}
-			<div class="noscrollbar m-1 flex h-96 w-[40rem] flex-col overflow-y-scroll text-lg">
+			<div
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col overflow-y-scroll text-lg max-md:w-auto"
+			>
 				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
 				<p class="text-left max-md:text-center">
 					I'm a freelance illustrator specialising in
@@ -55,7 +67,7 @@
 			</div>
 		{:else if sectionDisplay == 'eduExp'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg max-md:text-justify"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Education & Experience</p>
 				<div
@@ -84,14 +96,14 @@
 			</div>
 		{:else if sectionDisplay == 'featured'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Featured Work</p>
 				<p>( ˶ • ᴖ •) Currently no featured artwork..</p>
 			</div>
 		{:else if sectionDisplay == 'software'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] items-start overflow-y-scroll text-left text-lg"
+				class="noscrollbar m-1 flex h-96 w-[40rem] items-start overflow-y-scroll text-left text-lg max-md:w-auto"
 			>
 				<div>
 					<p class="mb-4 w-auto text-3xl text-pink">Softwares</p>
@@ -105,21 +117,21 @@
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Projects</p>
 				<p>Games, websites, and whatnot will be posted here (๑&gt;ᴗ&lt;๑)</p>
 			</div>
 		{:else if sectionDisplay == 'merch'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Merch</p>
 				<p>What? Did you really think Reii plush was a thing? www</p>
 			</div>
 		{:else if sectionDisplay == 'affiliate'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:text-justify"
+				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Affiliation</p>
 				<div>
@@ -137,76 +149,82 @@
 			</div>
 		{/if}
 
-		<div
-			class="noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left"
-		>
+		<div class="relative max-md:w-full">
 			<button
-				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'intro' ? 'text-pink' : 'text-pale hover:text-pink'
-				])}
+				class="flex w-full justify-between text-xl md:hidden"
 				onclick={() => {
-					sectionDisplay = 'intro';
-				}}>Introduction</button
+					mobileMenu = !mobileMenu;
+				}}
 			>
-			<button
+				<span>
+					{sectionNames[sectionDisplay]}
+				</span>
+				<ChevronDown class="justify-end" />
+			</button>
+			<div
 				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'eduExp' ? 'text-pink' : 'text-pale hover:text-pink'
+					'noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left transition-[height] max-md:absolute max-md:ml-0  max-md:h-52 max-md:w-72 max-md:items-center max-md:justify-start max-md:divide-y max-md:overflow-hidden max-md:rounded-lg max-md:border-[3px] max-md:border-l-0 max-md:border-solid max-md:bg-grey',
+					!mobileMenu && 'max-md:h-0 max-md:p-0'
 				])}
-				onclick={() => {
-					sectionDisplay = 'eduExp';
-				}}>Education & Experience</button
 			>
-			<button
-				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'featured' ? 'text-pink' : 'text-pale hover:text-pink'
-				])}
-				onclick={() => {
-					sectionDisplay = 'featured';
-				}}>Featured Work</button
-			>
+				<button
+					class={clsx([
+						'w-full py-2 text-left text-xl max-md:text-center',
+						sectionDisplay == 'intro' ? 'text-pink' : 'text-pale hover:text-pink'
+					])}
+					onclick={() => {
+						sectionDisplay = 'intro';
+					}}>{sectionNames['intro']}</button
+				>
+				<button
+					class={clsx([
+						'w-full py-2 text-left text-xl max-md:text-center',
+						sectionDisplay == 'eduExp' ? 'text-pink' : 'text-pale hover:text-pink'
+					])}
+					onclick={() => {
+						sectionDisplay = 'eduExp';
+					}}>{sectionNames['eduExp']}</button
+				>
+				<button
+					class={clsx([
+						'w-full py-2 text-left text-xl max-md:text-center',
+						sectionDisplay == 'featured' ? 'text-pink' : 'text-pale hover:text-pink'
+					])}
+					onclick={() => {
+						sectionDisplay = 'featured';
+					}}>{sectionNames['featured']}</button
+				>
 
-			<button
-				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'software' ? 'text-pink' : 'text-pale hover:text-pink'
-				])}
-				onclick={() => {
-					sectionDisplay = 'software';
-				}}>Softwares</button
-			>
+				<!-- <hr class="m-5 mx-auto w-11/12 border-dashed border-translucent max-md:hidden" /> -->
 
-			<hr class="m-5 mx-auto w-11/12 border-dashed border-translucent" />
-
-			<button
-				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'projects' ? 'text-pink' : 'text-pale hover:text-pink'
-				])}
-				onclick={() => {
-					sectionDisplay = 'projects';
-				}}>Projects</button
-			>
-			<!-- <button
-				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'merch' ? 'text-pink' : 'text-pale hover:text-pink'
-				])}
-				onclick={() => {
-					sectionDisplay = 'merch';
-				}}>Merch</button
-			> -->
-			<button
-				class={clsx([
-					'mb-2 ml-4 mt-2 text-left text-xl',
-					sectionDisplay == 'affiliate' ? 'text-pink' : 'text-pale hover:text-pink'
-				])}
-				onclick={() => {
-					sectionDisplay = 'affiliate';
-				}}>Affiliation</button
-			>
+				<button
+					class={clsx([
+						'w-full py-2 text-left text-xl max-md:text-center',
+						sectionDisplay == 'projects' ? 'text-pink' : 'text-pale hover:text-pink'
+					])}
+					onclick={() => {
+						sectionDisplay = 'projects';
+					}}>{sectionNames['projects']}</button
+				>
+				<!-- <button
+					class={clsx([
+						'mb-2 ml-4 mt-2 text-left text-xl max-md:text-center max-md:text-base max-md:w-auto',
+						sectionDisplay == 'merch' ? 'text-pink' : 'text-pale hover:text-pink'
+					])}
+					onclick={() => {
+						sectionDisplay = 'merch';
+					}}>Merch</button
+				> -->
+				<!-- <button
+					class={clsx([
+						'ml-4 my-2 text-left text-xl max-md:text-center max-md:text-base max-md:w-auto',
+						sectionDisplay == 'affiliate' ? 'text-pink' : 'text-pale hover:text-pink'
+					])}
+					onclick={() => {
+						sectionDisplay = 'affiliate';
+					}}>Affiliation</button
+				> -->
+			</div>
 		</div>
 	</div>
 </main>

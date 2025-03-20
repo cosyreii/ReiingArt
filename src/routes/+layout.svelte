@@ -25,7 +25,9 @@
 			alt="profile"
 		/>
 	</div>
-	<nav class="flex flex-initial flex-row flex-wrap items-center justify-center px-1 gap-8 max-md:gap-2">
+	<nav
+		class="flex flex-initial flex-row flex-wrap items-center justify-center gap-8 px-1 max-md:gap-2"
+	>
 		<a
 			href="/"
 			class={clsx([
@@ -73,7 +75,7 @@
 
 {@render children()}
 
-<hr class="mx-auto mt-5 w-11/12 border-pale" />
+<hr class="mx-auto mt-5 w-11/12 border-pale max-md:mt-0" />
 
 <footer class="mt-4 flex flex-col items-center justify-center pb-10">
 	<h1 class="text-xl text-pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>

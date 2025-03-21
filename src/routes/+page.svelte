@@ -163,8 +163,8 @@
 			</button>
 			<div
 				class={clsx([
-					'noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left transition-[height] max-md:absolute max-md:ml-0  max-md:h-52 max-md:w-72 max-md:items-center max-md:justify-start max-md:divide-y max-md:overflow-hidden max-md:rounded-lg max-md:border-[3px] max-md:border-l-0 max-md:border-solid max-md:bg-grey',
-					!mobileMenu && 'max-md:h-0 max-md:p-0'
+					'noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left transition-[height] max-md:absolute max-md:ml-0 max-md:w-72 max-md:items-center max-md:justify-start max-md:divide-y max-md:overflow-hidden max-md:rounded-lg max-md:border-[3px] max-md:border-l-0 max-md:border-solid max-md:bg-grey',
+					mobileMenu ? 'max-md:h-52' : 'max-md:h-0 max-md:p-0'
 				])}
 			>
 				<button

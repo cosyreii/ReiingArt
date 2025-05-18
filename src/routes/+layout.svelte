@@ -1,30 +1,36 @@
 <script lang="ts">
 	import '../app.css';
 	import { siDiscord, siTwitch, siBluesky, siInstagram, siKofi } from 'simple-icons';
-	import { page } from '$app/stores';
+	import { page } from '$app/state';
+	import { slide } from 'svelte/transition';
 	import type { Snippet } from 'svelte';
 	import type { LayoutData } from './$types';
 	import clsx from 'clsx';
-	import { enhance } from '$app/forms';
 
 	let { data, children }: { data: LayoutData; children: Snippet } = $props();
 </script>
 
 <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" />
 
-<header>
-	<div
-		class="m-8 flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(16,76,136,0.5),rgba(128,14,27,0.5)),url('https://i.imgur.com/GdG3tHZ.png')] bg-cover bg-bottom p-4 text-center"
-	>
-		<div>
-			<h1 class="text-4xl text-white">「♡」Reii Ng</h1>
-			<p class="text-xl">Character & Concept Designer | Part-time Vtuber, Full-time Artist</p>
-		</div>
-		<img
-			src="https://i.imgur.com/7AHwYi1.png"
-			class="size-40 rounded-full object-cover shadow-2xl max-md:hidden"
-			alt="profile"
-		/>
+<header class="flex flex-col">
+	<div class="m-8">
+		{#if page.route.id == '/'}
+			<div transition:slide={{ axis: 'y' }}>
+				<div
+					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(16,76,136,0.5),rgba(128,14,27,0.5)),url('https://i.imgur.com/GdG3tHZ.png')] bg-cover bg-bottom p-4 text-center"
+				>
+					<div>
+						<h1 class="text-4xl text-white">「♡」Reii Ng</h1>
+						<p class="text-xl">Character & Concept Designer | Part-time Vtuber, Full-time Artist</p>
+					</div>
+					<img
+						src="https://i.imgur.com/7AHwYi1.png"
+						class="size-40 rounded-full object-cover shadow-2xl max-md:hidden"
+						alt="profile"
+					/>
+				</div>
+			</div>
+		{/if}
 	</div>
 	<nav
 		class="flex flex-initial flex-row flex-wrap items-center justify-center gap-8 px-1 max-md:gap-2"
@@ -33,37 +39,37 @@
 			href="/"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				$page.route.id == '/' ? 'border-pink text-pink' : 'border-pale text-pale'
+				page.route.id == '/' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Home</a
 		>
 		<a
 			href="/showcase"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				$page.route.id == '/showcase' ? 'border-pink text-pink' : 'border-pale text-pale'
+				page.route.id == '/showcase' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Showcase</a
 		>
 		<a
 			href="/terms"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				$page.route.id == '/terms' ? 'border-pink text-pink' : 'border-pale text-pale'
+				page.route.id == '/terms' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Terms</a
 		>
 		<a
 			href="/pricing"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				$page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
+				page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Pricing</a
 		>
-		<a
+		<!-- <a
 			href="/contact"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				$page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
+				page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Contact</a
-		>
+		> -->
 		<!-- <a
 			href="/doesnt-exist"
 			class={'ml-5 cursor-pointer py-2 text-center hover:text-pink hover:underline max-md:w-24 max-md:py-1'}

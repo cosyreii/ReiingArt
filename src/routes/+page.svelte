@@ -83,10 +83,10 @@
 					<div class="p-4 text-left">Embarked on streaming journey. (Twitch)</div>
 
 					<div class="p-4 text-left">Aug 2023 - Current</div>
-					<div class="p-4 text-left">Diploma in Design and Media (Animation).</div>
+					<div class="p-4 text-left">Freelance illustrator.</div>
 
-					<div class="p-4 text-left">Aug 2023 - Current</div>
-					<div class="p-4 text-left">Freelance illustrator for content creators.</div>
+					<div class="p-4 text-left">Aug 2023 - Jul 2025</div>
+					<div class="p-4 text-left">Diploma in Design and Media (Animation).</div>
 
 					<div class="p-4 text-left">Nov 2018</div>
 					<div class="p-4 text-left">
@@ -100,20 +100,6 @@
 			>
 				<p class="mb-4 text-3xl text-pink">Featured Work</p>
 				<p>( ˶ • ᴖ •) Currently no featured artwork..</p>
-			</div>
-		{:else if sectionDisplay == 'software'}
-			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] items-start overflow-y-scroll text-left text-lg max-md:w-auto"
-			>
-				<div>
-					<p class="mb-4 w-auto text-3xl text-pink">Softwares</p>
-					<div class="flew-col flex">
-						<div class="flex flex-col items-center justify-center text-center">
-							<img src="https://i.imgur.com/bw5gMmH.png" class="size-24" alt="Clip Studio icon" />
-							<p class="w-60 text-center">Clip Studio Paint EX</p>
-						</div>
-					</div>
-				</div>
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div

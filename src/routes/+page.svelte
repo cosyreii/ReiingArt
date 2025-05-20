@@ -1,6 +1,7 @@
 <script lang="ts">
 	import clsx from 'clsx';
 	import ChevronDown from '$lib/components/chevron-down.svelte';
+	import NorthEast from '$lib/components/northeast.svelte';
 	const sectionNames: Record<string, string> = {
 		intro: 'Introduction',
 		eduExp: 'Education & Experience',
@@ -75,41 +76,79 @@
 					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Month, Year</div>
 					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
 
-					<div class="p-4 text-left">May 2025 - Current</div>
-					<div class="p-4 text-left">Nukexplosions Game Designer Director</div>
+					<div class="px-4 py-3 text-left">May 2025 - Current</div>
+					<div class="px-4 py-3 text-left">Nukexplosions' Design Director</div>
 
-					<div class="p-4 text-left">Jul 2024 - Current</div>
-					<div class="p-4 text-left">Super Streamer Lobby Gamemode Illustrator</div>
+					<div class="px-4 py-3 text-left">Jul 2024 - Current</div>
+					<div class="px-4 py-3 text-left">Super Streamer Lobby Gamemode Illustrator</div>
 
-					<div class="p-4 text-left">July 2023 - Current</div>
-					<div class="p-4 text-left">Online-based Freelance Illustrator & Designer</div>
+					<div class="px-4 py-3 text-left">July 2023 - Current</div>
+					<div class="px-4 py-3 text-left">Freelance Illustrator & Designer</div>
 
-					<div class="p-4 text-left">Aug 2023 - Jul 2025</div>
-					<div class="p-4 text-left">Diploma in Design and Media (Animation)</div>
+					<div class="px-4 py-3 text-left">Aug 2023 - Jul 2025</div>
+					<div class="px-4 py-3 text-left">Diploma in Design and Media (Animation)</div>
 
-					<div class="p-4 text-left">13 August 2020</div>
-					<div class="p-4 text-left">First commission — 21 Emotes</div>
-
-					<div class="p-4 text-left">Nov 2018 ( 7 years )</div>
-					<div class="p-4 text-left">
+					<div class="px-4 py-3 text-left">Nov 2018 ( 7 years )</div>
+					<div class="px-4 py-3 text-left">
 						Art journey starts! Specialising in character, concept, and design
 					</div>
 				</div>
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
+				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Projects</p>
-				<p>(˵ ¬ᴗ¬˵) Games in progress...</p>
+				<div class="flex flex-row items-center">
+					<a
+						class="flex cursor-pointer flex-row items-center hover:underline"
+						href="https://discord.gg/aqPSEJS3SR"
+						target="_blank"
+					>
+						<img
+							src="https://i.imgur.com/cgBYoqW.png"
+							class="mr-2 size-14 rounded-full"
+							alt="Super Streamer Lobby (TETR.IO)"
+						/>
+						<p class="mr-2">SSL Gamemode Illustrator</p>
+						<NorthEast class="justify-end" />
+					</a>
+				</div>
+				<div class="grid grid-cols-2">
+					<div class="flex flex-col items-center justify-center p-1">
+						<img src="https://i.imgur.com/xThzP8b.png" class="rounded-3xl" alt="Australian Mode" />
+					</div>
+					<div class="flex flex-col items-center justify-center p-1">
+						<img
+							src="https://i.imgur.com/NG8Bfzs.png"
+							class="rounded-3xl"
+							alt="Split Squares Mode"
+						/>
+					</div>
+				</div>
+				<div class="flex flex-row items-center pt-2">
+					<a
+						class="flex cursor-pointer flex-row items-center hover:underline"
+						href="https://www.reiing.art/unavailable"
+						target="_blank"
+					>
+						<img
+							src="https://i.imgur.com/RiSNf5Z.png"
+							class="mr-2 size-14 rounded-full"
+							alt="Nukexplosion"
+						/>
+						<p class="mr-2">Nukexplosion Design Director</p>
+						<NorthEast class="justify-end" />
+					</a>
+				</div>
 			</div>
 		{:else if sectionDisplay == 'achievement'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
+				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Achievements</p>
 				<div class="grid grid-cols-2">
-					<div class="flex flex-col items-center justify-center text-center text-sm p-2">
+					<div class="flex flex-col items-center justify-center p-1 text-center text-sm">
 						<img
 							src="https://i.imgur.com/baZTPzV.png"
 							class="rounded-3xl"
@@ -120,7 +159,8 @@
 							Rising Streamer, VTuber of the Year, Visual Artist of the Year
 						</p>
 					</div>
-					<div class="flex flex-col items-center justify-center text-center text-sm p-2">
+
+					<div class="flex flex-col items-center justify-center p-1 text-center text-sm">
 						<img
 							src="https://i.imgur.com/Nhd3ZTY.png"
 							class="rounded-3xl"
@@ -128,6 +168,16 @@
 						/>
 						<p class="pb-1 pt-2">Twitch Affiliate</p>
 						<p class="text-xs text-translucent">January 30th, 2024</p>
+					</div>
+
+					<div class="flex flex-col items-center justify-center p-1 text-center text-sm">
+						<img
+							src="https://i.imgur.com/O3CvHXp.png"
+							class="rounded-3xl"
+							alt="First Ever Commission"
+						/>
+						<p class="pb-1 pt-2">First Commission — 21 Emotes</p>
+						<p class="text-xs text-translucent">August 13th, 2020</p>
 					</div>
 				</div>
 			</div>

@@ -3,7 +3,7 @@
 </svelte:head>
 
 <div
-	class="m-4 mx-[25rem] flex flex-col items-center justify-center rounded-full border-2 border-dashed border-red bg-red/20 p-6 text-center text-xl italic max-lg:mx-8 max-md:rounded-3xl"
+	class="m-4 mx-8 flex flex-col items-center justify-center rounded-full border-2 border-dashed border-red bg-red/20 p-6 text-center text-xl italic max-md:rounded-3xl"
 >
 	<p>Please read this page entirely before making any inquiries.</p>
 	<p class="font-black">By commissioning me, you automatically agree to all my terms.</p>
@@ -12,7 +12,6 @@
 <div
 	class="noscrollbar align-center m-1 flex flex-col justify-start overflow-y-scroll px-20 text-left text-lg max-md:px-3"
 >
-	<hr class="my-4 w-full border-translucent" />
 	<div class="w-11/12 text-justify">
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">DISCLAIMER</p>
 		<p class="my-2">

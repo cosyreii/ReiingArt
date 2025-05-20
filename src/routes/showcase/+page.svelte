@@ -21,13 +21,13 @@
 
 	<div class="grid grid-cols-3 px-2 max-md:grid-cols-1">
 		<Review
-			image="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
-			name="Poxial"
-			link="https://www.youtube.com/@Poxial"
+			image="https://i.imgur.com/6RPWzpB.png"
+			name="Yukihara"
+			link="https://www.reiing.art/unavailable"
 		>
 			<p>
-				She went above and beyond and created a bunch of cute little emotes that me and my community
-				adore!
+				I had only vague ideas of what i wanted but she stayed patient and worked it all out with
+				me, putting it into practice way better than I thought it could come out
 			</p>
 		</Review>
 
@@ -39,6 +39,17 @@
 			<p>
 				Reii is a fantastic option who never ceases to provide S tier quality work, and is a joy to
 				work with :&#41;
+			</p>
+		</Review>
+
+		<Review
+			image="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
+			name="Poxial"
+			link="https://www.youtube.com/@Poxial"
+		>
+			<p>
+				She went above and beyond and created a bunch of cute little emotes that me and my community
+				adore! 
 			</p>
 		</Review>
 	</div>

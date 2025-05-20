@@ -32,17 +32,6 @@
 		</Review>
 
 		<Review
-			image="https://i.imgur.com/uzyoIZC.png"
-			name="smolminy"
-			link="https://www.twitch.tv/smolminy"
-		>
-			<p>
-				Extremely patient and attentive with me which is super important as I am an individual with
-				a few disabilities. Super accommodating.
-			</p>
-		</Review>
-
-		<Review
 			image="https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg"
 			name="WylieCantTwitch"
 			link="https://www.twitch.tv/wyliecanttwitch"
@@ -60,7 +49,29 @@
 		>
 			<p>
 				I had only vague ideas but she stayed patient and put it into practice way better than I
-				thought it could
+				thought it could turn out.
+			</p>
+		</Review>
+
+		<Review
+			image="https://i.imgur.com/sw6z73g.png"
+			name="Kwondor"
+			link="https://www.twitch.tv/kwondor"
+		>
+			<p>
+				Reii is not only incredibly talented but also a joy to work with, refusing to rest until her
+				clients are 100% satisfied.
+			</p>
+		</Review>
+
+		<Review
+			image="https://i.imgur.com/uzyoIZC.png"
+			name="smolminy"
+			link="https://www.twitch.tv/smolminy"
+		>
+			<p>
+				Extremely patient and attentive with me which is super important as I am an individual with
+				a few disabilities. Super accommodating.
 			</p>
 		</Review>
 	</div>

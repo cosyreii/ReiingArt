@@ -32,6 +32,17 @@
 		</Review>
 
 		<Review
+			image="https://i.imgur.com/uzyoIZC.png"
+			name="smolminy"
+			link="https://www.twitch.tv/smolminy"
+		>
+			<p>
+				Extremely patient and attentive with me which is super important as I am an individual with
+				a few disabilities. Super accommodating.
+			</p>
+		</Review>
+
+		<Review
 			image="https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg"
 			name="WylieCantTwitch"
 			link="https://www.twitch.tv/wyliecanttwitch"

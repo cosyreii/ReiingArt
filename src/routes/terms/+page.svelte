@@ -3,12 +3,11 @@
 </svelte:head>
 
 <div
-	class="m-4 mx-8 flex flex-col items-center justify-center rounded-full border-2 border-dashed border-red bg-red/20 p-6 text-center text-xl italic max-md:rounded-3xl"
+	class="m-4 mx-8 flex flex-col items-center justify-center rounded-3xl border-2 border-dashed border-red bg-red/20 p-2 text-center text-xl italic"
 >
 	<p>Please read this page entirely before making any inquiries.</p>
 	<p class="font-black">By commissioning me, you automatically agree to all my terms.</p>
 </div>
-
 
 <div
 	class="noscrollbar align-center m-1 flex flex-col justify-start overflow-y-scroll px-20 text-left text-lg max-md:px-3"
@@ -16,7 +15,8 @@
 	<div class="w-11/12 text-justify">
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">DISCLAIMER</p>
 		<p class="my-2">
-			⇀ You must be at least <span class="bg-pink/25 text-[#ffffff] font-black">18 years old</span> to request a commission.
+			⇀ You must be at least <span class="bg-pink/25 font-black text-[#ffffff]">18 years old</span> to
+			request a commission.
 		</p>
 		<p class="my-2">⇀ I retain the right to reject any request / commission for any reason.</p>
 		<p class="my-2">
@@ -33,17 +33,18 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">PAYMENT</p>
 		<p class="my-2">
-			⇀ Prices are in <span class="bg-pink/25 text-[#ffffff] font-black">USD</span> and payments are conducted
-			through
-			<span class="bg-pink/25 text-[#ffffff] font-black">PayPal</span>.
+			⇀ Prices are in <span class="bg-pink/25 font-black text-[#ffffff]">USD</span> and payments are
+			conducted through
+			<span class="bg-pink/25 font-black text-[#ffffff]">PayPal</span>.
 		</p>
 		<p class="my-2">
-			⇀ Payment will be made full <span class="bg-pink/25 text-[#ffffff] font-black">upfront</span> unless discussed
-			beforehand, in which I will only proceed after the artwork is fully funded.
+			⇀ Payment will be made full <span class="bg-pink/25 font-black text-[#ffffff]">upfront</span> unless
+			discussed beforehand, in which I will only proceed after the artwork is fully funded.
 		</p>
 		<p class="mt-2">
-			⇀ I will initiate transactions via <span class="bg-pink/25 text-[#ffffff] font-black">Paypal invoice</span> to
-			avoid accidental transactions.
+			⇀ I will initiate transactions via <span class="bg-pink/25 font-black text-[#ffffff]"
+				>Paypal invoice</span
+			> to avoid accidental transactions.
 		</p>
 		<p class="mb-2 ml-4 text-base text-translucent">
 			↪ Do not send me any kind of payment until I have confirmed your commission and have sent an
@@ -72,14 +73,14 @@
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">COMMUNICATION</p>
 		<p class="my-2">
 			⇀ I accept commissions based on my preferences and what I am comfortable working with ( <span
-				class="bg-pink/25 text-[#ffffff] font-black"
+				class="bg-pink/25 font-black text-[#ffffff]"
 			>
 				not FCFS</span
 			> - first come first served )
 		</p>
 		<p class="my-2">
 			⇀ I will update you on the process of your commission through your chosen <span
-				class="bg-pink/25 text-[#ffffff] font-black"
+				class="bg-pink/25 font-black text-[#ffffff]"
 			>
 				primary contact point
 			</span>
@@ -97,21 +98,22 @@
 			wallpaper, etc.
 		</p>
 		<p class="my-2">
-			⇀ Please always <span class="bg-pink/25 text-[#ffffff] font-black">credit me</span> as the creator.
+			⇀ Please always <span class="bg-pink/25 font-black text-[#ffffff]">credit me</span> as the creator.
 		</p>
 		<p class="my-2">
-			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> sell, profit
-			from, or distribute my work ( e.g. through merchandise, resale) unless a commercial license has
-			been purchased, and a signed contract is in place.
+			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> sell, profit from, or distribute
+			my work ( e.g. through merchandise, resale) unless a commercial license has been purchased, and
+			a signed contract is in place.
 		</p>
 		<p class="my-2">
-			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> modify or claim
-			the work as your own.
+			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> modify or claim the work
+			as your own.
 		</p>
 		<p class="my-2">
 			<span class="text-red">✖</span> Under no circumstances do I allow my work to be used / turned
-			into an NFT or to be used for AI in <span class="bg-pink/25 text-[#ffffff] font-black">ANY WAY</span>. You
-			will be instantly blacklisted and <span class="bg-pink/25 text-[#ffffff] font-black">lose IP</span> of the purchased
+			into an NFT or to be used for AI in
+			<span class="bg-pink/25 font-black text-[#ffffff]">ANY WAY</span>. You will be instantly
+			blacklisted and <span class="bg-pink/25 font-black text-[#ffffff]">lose IP</span> of the purchased
 			artwork.
 		</p>
 	</div>
@@ -122,19 +124,20 @@
 			REFUND / CANCELLATION
 		</p>
 		<p class="mt-2">
-			⇀ Refunds and cancellation are guaranteed <span class="bg-pink/25 text-[#ffffff] font-black">ONLY BEFORE</span> I begin work.
-			After work has begun it is not a guarantee.
+			⇀ Refunds and cancellation are guaranteed <span class="bg-pink/25 font-black text-[#ffffff]"
+				>ONLY BEFORE</span
+			> I begin work. After work has begun it is not a guarantee.
 		</p>
 		<p class="mb-2 ml-4 text-base text-translucent">
 			↪ Refunds may not be requested after confirmation of line art.
 		</p>
 		<p class="my-2">
-			⇀ <span class="bg-pink/25 text-[#ffffff] font-black">Partial refund</span> are guaranteed upon the artist's inability to
-			complete the project.
+			⇀ <span class="bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are guaranteed upon
+			the artist's inability to complete the project.
 		</p>
 		<p class="my-2">
-			⇀ <span class="bg-pink/25 text-[#ffffff] font-black">Partial refund</span> are offered upon the artist's inability to complete
-			within 3 to 6 months.
+			⇀ <span class="bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are offered upon the
+			artist's inability to complete within 3 to 6 months.
 		</p>
 		<p class="my-2">
 			⇀ Any fraudulent chargebacks will result in blacklisting, account blocking, and the forfeiture
@@ -154,7 +157,8 @@
 			extra fee.
 		</p>
 		<p class="mt-2">
-			⇀ However, if you do not wish for me to share the work <span class="bg-pink/25 text-[#ffffff] font-black"
+			⇀ However, if you do not wish for me to share the work <span
+				class="bg-pink/25 font-black text-[#ffffff]"
 				>at all (no posting on socials even after completion)</span
 			>, an
 			<span class="font-black">NDA fee</span> will be required.
@@ -163,8 +167,8 @@
 			↪ base price of 10%, may increase depending on the project size and time taken
 		</p>
 		<p class="mt-2">
-			⇀ Any file you paid for will be available from me for a <span class="bg-pink/25 text-[#ffffff] font-black"
-				>finite time</span
+			⇀ Any file you paid for will be available from me for a <span
+				class="bg-pink/25 font-black text-[#ffffff]">finite time</span
 			> only.
 		</p>
 		<p class="ml-4 text-base text-translucent">
@@ -180,7 +184,9 @@
 		</p>
 		<p class="my-2">
 			⇀ After you have paid for the work, I will not profit from it further. I may use your piece as
-			a sample for my commission site <span class="bg-pink/25 text-[#ffffff] font-black">( if no NDA )</span>.
+			a sample for my commission site <span class="bg-pink/25 font-black text-[#ffffff]"
+				>( if no NDA )</span
+			>.
 		</p>
 	</div>
 </div>

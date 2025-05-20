@@ -20,8 +20,8 @@
 					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(16,76,136,0.5),rgba(128,14,27,0.5)),url('https://i.imgur.com/GdG3tHZ.png')] bg-cover bg-bottom p-4 text-center"
 				>
 					<div>
-						<h1 class="text-4xl text-white">「♡」Reii Ng</h1>
-						<p class="text-xl">Character & Concept Designer | Part-time Vtuber, Full-time Artist</p>
+						<h1 class="text-4xl text-white">「Reii Ng」</h1>
+						<p class="text-xl">Character & Concept Designer | Part-time Streamer, Full-time Artist</p>
 					</div>
 					<img
 						src="https://i.imgur.com/7AHwYi1.png"

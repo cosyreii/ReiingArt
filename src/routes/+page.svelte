@@ -38,8 +38,9 @@
 				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
 				<p class="text-left max-md:text-center">
 					I'm a freelance illustrator specialising in
-					<span class="font-black">design</span> and <span class="font-black">expression</span>. I
-					stream all my latest hyperfixation on Twitch with the consistency of melted jelly
+					<span class="bg-pink/25 font-black text-[#ffffff]">design</span> and
+					<span class="bg-pink/25 font-black text-[#ffffff]">expression</span>. I stream all my
+					latest hyperfixation on Twitch with the consistency of melted jelly
 					<span class="text-translucent">( not consistent at all )</span>. Aside from that, I am
 					fluent in <span class="font-black">English</span> and
 					<span class="font-black">Mandarin</span>~
@@ -47,19 +48,19 @@
 				<p class="mb-4 mt-4 text-left text-3xl text-pink max-md:text-center">What do I do?</p>
 				<p class="mb-4 text-left max-md:text-center">
 					I mainly work on
-					<span class="font-black">character design</span>,
-					<span class="font-black">stickers</span>,
-					<span class="font-black">emotes</span>, and
-					<span class="font-black">badges</span>. I love helping my clients find their perfect
-					persona but that's not all! I am also a
+					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
+					<span class="bg-pink/25 font-black text-[#ffffff]">merch & logos</span>,
+					<span class="bg-pink/25 font-black text-[#ffffff]">emoticons</span>, and
+					<span class="bg-pink/25 font-black text-[#ffffff]">illustrations</span>. I love helping my
+					clients find their perfect persona but that's not all! I am also a
 					<span class="font-black">writer</span> that does
-					<span class="font-black">stories</span>,
-					<span class="font-black">scripts</span>, and
-					<span class="font-black">movie critiques</span>.
+					<span class="bg-pink/25 font-black text-[#ffffff]">stories</span>,
+					<span class="bg-pink/25 font-black text-[#ffffff]">scripts</span>, and
+					<span class="bg-pink/25 font-black text-[#ffffff]">movie critiques</span>.
 				</p>
 				<p class="text-left text-translucent max-md:text-center">
 					Oh and I guess I am technically a
-					<span class="font-black">web dev</span> now too?
+					<span class="bg-pink/15 font-black">web dev</span> now too?
 				</p>
 				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>
@@ -74,21 +75,24 @@
 					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Month, Year</div>
 					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
 
+					<div class="p-4 text-left">May 2025 - Current</div>
+					<div class="p-4 text-left">Nukexplosions Game Designer Director</div>
+
 					<div class="p-4 text-left">Jul 2024 - Current</div>
-					<div class="p-4 text-left">Super Streamer Lobby (TETR.IO) gamemode illustrator.</div>
+					<div class="p-4 text-left">Super Streamer Lobby Gamemode Illustrator</div>
 
-					<div class="p-4 text-left">Jan 2024 - Current</div>
-					<div class="p-4 text-left">Embarked on streaming journey. (Twitch)</div>
-
-					<div class="p-4 text-left">Aug 2023 - Current</div>
-					<div class="p-4 text-left">Freelance illustrator.</div>
+					<div class="p-4 text-left">July 2023 - Current</div>
+					<div class="p-4 text-left">Online-based Freelance Illustrator & Designer</div>
 
 					<div class="p-4 text-left">Aug 2023 - Jul 2025</div>
-					<div class="p-4 text-left">Diploma in Design and Media (Animation).</div>
+					<div class="p-4 text-left">Diploma in Design and Media (Animation)</div>
 
-					<div class="p-4 text-left">Nov 2018</div>
+					<div class="p-4 text-left">13 August 2020</div>
+					<div class="p-4 text-left">First commission — 21 Emotes</div>
+
+					<div class="p-4 text-left">Nov 2018 ( 7 years )</div>
 					<div class="p-4 text-left">
-						Art journey starts! Specialising in character, concept, and design.
+						Art journey starts! Specialising in character, concept, and design
 					</div>
 				</div>
 			</div>
@@ -104,17 +108,26 @@
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Achievements</p>
-				<div class="grid grid-cols-2 px-2">
-					<div class="flex flex-col items-center justify-center text-center text-sm">
+				<div class="grid grid-cols-2">
+					<div class="flex flex-col items-center justify-center text-center text-sm p-2">
 						<img
-							src="https://www.outsystems.com/Forge_CW/_image.aspx/Q8LvY--6WakOw9afDCuuGY64CSFVo-NdJIFFJ2r-wc8=/placeholder-image-generator-2023-01-04%2000-00-00-2023-10-24%2002-15-14"
-							class="size-36 rounded-3xl"
+							src="https://i.imgur.com/baZTPzV.png"
+							class="rounded-3xl"
 							alt="Currently Unavailable"
 						/>
 						<p class="pb-1 pt-2">Runner-Up for Stacky Awards 2024</p>
 						<p class="text-xs text-translucent">
 							Rising Streamer, VTuber of the Year, Visual Artist of the Year
 						</p>
+					</div>
+					<div class="flex flex-col items-center justify-center text-center text-sm p-2">
+						<img
+							src="https://i.imgur.com/Nhd3ZTY.png"
+							class="rounded-3xl"
+							alt="Twitch Affiliate Email"
+						/>
+						<p class="pb-1 pt-2">Twitch Affiliate</p>
+						<p class="text-xs text-translucent">January 30th, 2024</p>
 					</div>
 				</div>
 			</div>

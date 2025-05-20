@@ -1,3 +1,7 @@
+<script>
+	import GoToTop from '$lib/components/GotoTop.svelte';
+</script>
+
 <svelte:head>
 	<title>Reii | Terms & Conditions</title>
 </svelte:head>
@@ -190,3 +194,5 @@
 		</p>
 	</div>
 </div>
+
+<GoToTop showAtPixel={800} />

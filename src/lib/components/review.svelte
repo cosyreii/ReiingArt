@@ -22,13 +22,13 @@
 
 			<div class="ml-2 mr-4 flex w-full flex-col">
 				<a
-					class="flex flex-row items-center text-red hover:underline"
+					class="flex cursor-pointer flex-row items-center text-red hover:underline"
 					href={props.link}
 					target="_blank"
 				>
-					<p class="mr-2 cursor-pointer text-xl text-red hover:scale-[1.005]">{props.name}</p>
+					<p class="mr-2 text-xl text-red hover:scale-[1.005]">{props.name}</p>
 
-					<NorthEast class="cursor-pointer justify-end" />
+					<NorthEast class="justify-end" />
 				</a>
 				<div>
 					{@render props.children()}

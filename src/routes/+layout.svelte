@@ -67,7 +67,7 @@
 			href="/reviews"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
+				page.route.id == '/reviews' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Reviews (Temp)</a
 		>
 		<!-- <a

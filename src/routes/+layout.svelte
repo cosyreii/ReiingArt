@@ -15,7 +15,7 @@
 <header class="flex flex-col">
 	<div class="m-8">
 		{#if page.route.id == '/'}
-			<div transition:slide={{ axis: 'y' }}>
+			<div transition:slide={{ axis: 'y', duration: 800 }}>
 				<div
 					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(16,76,136,0.5),rgba(128,14,27,0.5)),url('https://i.imgur.com/GdG3tHZ.png')] bg-cover bg-bottom p-4 text-center"
 				>

@@ -12,7 +12,11 @@
 
 {#if showGotoTop}
 	<button on:click={gotoTop} class="gototop">
-		<img src="https://i.imgur.com/ZxSTTGV.png" alt="Go Back Up" class="size-16 rounded-xl" />
+		<img
+			src="https://i.imgur.com/ZxSTTGV.png"
+			alt="Go Back Up"
+			class="size-16 rounded-xl max-md:hidden"
+		/>
 	</button>
 {/if}
 

@@ -97,14 +97,26 @@
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Projects</p>
-				<p>Games, websites, and whatnot will be posted here (๑&gt;ᴗ&lt;๑)</p>
+				<p>(˵ ¬ᴗ¬˵) Games in progress...</p>
 			</div>
 		{:else if sectionDisplay == 'achievement'}
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">Achievements</p>
-				<p>Placeholder text</p>
+				<div class="grid grid-cols-2 px-2">
+					<div class="flex flex-col items-center justify-center text-center text-sm">
+						<img
+							src="https://www.outsystems.com/Forge_CW/_image.aspx/Q8LvY--6WakOw9afDCuuGY64CSFVo-NdJIFFJ2r-wc8=/placeholder-image-generator-2023-01-04%2000-00-00-2023-10-24%2002-15-14"
+							class="size-36 rounded-3xl"
+							alt="Currently Unavailable"
+						/>
+						<p class="pb-1 pt-2">Runner-Up for Stacky Awards 2024</p>
+						<p class="text-xs text-translucent">
+							Rising Streamer, VTuber of the Year, Visual Artist of the Year
+						</p>
+					</div>
+				</div>
 			</div>
 		{/if}
 

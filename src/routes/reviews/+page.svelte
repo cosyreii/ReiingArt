@@ -6,11 +6,13 @@
 	<title>Reviews (Temp Layout)</title>
 </svelte:head>
 
-<div class="flex h-[14rem] w-[41rem] items-center justify-center rounded-3xl bg-pale m-2">
+<div
+	class="m-2 flex h-[14rem] w-[41rem] items-center justify-center rounded-3xl bg-pale max-md:h-[24rem] max-md:w-[21rem]"
+>
 	<div
-		class="h-[13rem] w-[40rem] rounded-3xl border-2 border-dashed border-grey bg-pale text-[#171515]"
+		class="h-[13rem] w-[40rem] rounded-3xl border-2 border-dashed border-grey text-[#171515] max-md:h-[23rem] max-md:w-[20rem]"
 	>
-		<div class="m-3 flex flex-row">
+		<div class="m-3 flex flex-row max-md:flex-col">
 			<div class="flex w-[19rem] items-start justify-start">
 				<img
 					src="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
@@ -22,10 +24,10 @@
 			<div class="ml-2 mr-4 flex flex-col">
 				<div class="flex flex-row items-center text-pink hover:underline">
 					<a href="https://www.youtube.com/@Poxial" target="_blank">
-						<p class="PFP mr-2 text-xl text-pink hover:scale-[1.005]">Poxial</p>
+						<p class="mr-2 cursor-pointer text-xl text-pink hover:scale-[1.005]">Poxial</p>
 					</a>
 					<a href="https://www.youtube.com/@Poxial" target="_blank">
-						<NorthEast class="PFP justify-end" />
+						<NorthEast class="cursor-pointer justify-end" />
 					</a>
 				</div>
 				<p class="text-justify">
@@ -39,26 +41,28 @@
 	</div>
 </div>
 
-<div class="flex h-[25rem] w-[41rem] items-center justify-center rounded-3xl bg-pale m-2">
+<div
+	class="m-2 flex h-[25rem] w-[41rem] items-center justify-center rounded-3xl bg-pale max-md:h-[46rem] max-md:w-[21rem]"
+>
 	<div
-		class="h-[24rem] w-[40rem] rounded-3xl border-2 border-dashed border-grey bg-pale text-[#171515]"
+		class="h-[24rem] w-[40rem] rounded-3xl border-2 border-dashed border-grey bg-pale text-[#171515] max-md:h-[45rem] max-md:w-[20rem]"
 	>
-		<div class="m-3 flex flex-row">
-			<div class="flex w-[30rem] items-start justify-start">
+		<div class="m-3 flex flex-row max-md:flex-col">
+			<div class="flex w-[31rem] items-start justify-start">
 				<img
 					src="https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg"
 					class="size-14 rounded-full border-2 border-solid border-pink p-[0.1rem]"
-					alt="Content Creator, Poxial"
+					alt="Content Creator, Wylie"
 				/>
 			</div>
 
 			<div class="ml-2 mr-4 flex flex-col">
 				<div class="flex flex-row items-center text-pink hover:underline">
 					<a href="https://www.twitch.tv/wyliecanttwitch" target="_blank">
-						<p class="PFP mr-2 text-xl text-pink hover:scale-[1.005]">WylieCantTwitch</p>
+						<p class="mr-2 cursor-pointer text-xl text-pink hover:scale-[1.005]">WylieCantTwitch</p>
 					</a>
 					<a href="https://www.twitch.tv/wyliecanttwitch" target="_blank">
-						<NorthEast class="PFP justify-end" />
+						<NorthEast class="cursor-pointer justify-end" />
 					</a>
 				</div>
 				<p class="text-justify">
@@ -80,9 +84,3 @@
 		</div>
 	</div>
 </div>
-
-<style>
-	.PFP:hover {
-		cursor: pointer;
-	}
-</style>

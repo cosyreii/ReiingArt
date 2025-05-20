@@ -4,10 +4,8 @@
 	const sectionNames: Record<string, string> = {
 		intro: 'Introduction',
 		eduExp: 'Education & Experience',
-		featured: 'Featured Work',
 		projects: 'Projects',
-		merch: 'Merch',
-		affiliate: 'Affiliations'
+		achievement: 'Achievements'
 	};
 
 	// make a variable to store which thing to show
@@ -94,13 +92,6 @@
 					</div>
 				</div>
 			</div>
-		{:else if sectionDisplay == 'featured'}
-			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
-			>
-				<p class="mb-4 text-3xl text-pink">Featured Work</p>
-				<p>( ˶ • ᴖ •) Currently no featured artwork..</p>
-			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
@@ -108,30 +99,12 @@
 				<p class="mb-4 text-3xl text-pink">Projects</p>
 				<p>Games, websites, and whatnot will be posted here (๑&gt;ᴗ&lt;๑)</p>
 			</div>
-		{:else if sectionDisplay == 'merch'}
+		{:else if sectionDisplay == 'achievement'}
 			<div
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
-				<p class="mb-4 text-3xl text-pink">Merch</p>
-				<p>What? Did you really think Reii plush was a thing? www</p>
-			</div>
-		{:else if sectionDisplay == 'affiliate'}
-			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
-			>
-				<p class="mb-4 text-3xl text-pink">Affiliation</p>
-				<div>
-					<a href="https://brekkie.stream" target="_blank">
-						<button class="cursor-pointer border-0 bg-transparent text-center">
-							<img
-								src="https://i.imgur.com/DnngPU0.png"
-								class="size-32"
-								alt="reii with brekkie logo"
-							/>
-						</button>
-						<p class="flex items-center justify-center">brekkie.stream</p>
-					</a>
-				</div>
+				<p class="mb-4 text-3xl text-pink">Achievements</p>
+				<p>Placeholder text</p>
 			</div>
 		{/if}
 
@@ -171,17 +144,6 @@
 						sectionDisplay = 'eduExp';
 					}}>{sectionNames['eduExp']}</button
 				>
-				<button
-					class={clsx([
-						'w-full py-2 text-left text-xl max-md:text-center',
-						sectionDisplay == 'featured' ? 'text-pink' : 'text-pale hover:text-pink'
-					])}
-					onclick={() => {
-						sectionDisplay = 'featured';
-					}}>{sectionNames['featured']}</button
-				>
-
-				<!-- <hr class="m-5 mx-auto w-11/12 border-dashed border-translucent max-md:hidden" /> -->
 
 				<button
 					class={clsx([
@@ -192,24 +154,15 @@
 						sectionDisplay = 'projects';
 					}}>{sectionNames['projects']}</button
 				>
-				<!-- <button
+				<button
 					class={clsx([
-						'mb-2 ml-4 mt-2 text-left text-xl max-md:text-center max-md:text-base max-md:w-auto',
-						sectionDisplay == 'merch' ? 'text-pink' : 'text-pale hover:text-pink'
+						'w-full py-2 text-left text-xl max-md:text-center',
+						sectionDisplay == 'achievement' ? 'text-pink' : 'text-pale hover:text-pink'
 					])}
 					onclick={() => {
-						sectionDisplay = 'merch';
-					}}>Merch</button
-				> -->
-				<!-- <button
-					class={clsx([
-						'ml-4 my-2 text-left text-xl max-md:text-center max-md:text-base max-md:w-auto',
-						sectionDisplay == 'affiliate' ? 'text-pink' : 'text-pale hover:text-pink'
-					])}
-					onclick={() => {
-						sectionDisplay = 'affiliate';
-					}}>Affiliation</button
-				> -->
+						sectionDisplay = 'achievement';
+					}}>{sectionNames['achievement']}</button
+				>
 			</div>
 		</div>
 	</div>

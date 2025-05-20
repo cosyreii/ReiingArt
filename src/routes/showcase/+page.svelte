@@ -19,7 +19,7 @@
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">REVIEWS</p>
 	</div>
 
-	<div class="grid grid-cols-3 px-2 max-md:grid-cols-1">
+	<div class="grid grid-cols-3 px-2 max-lg:grid-cols-2 max-md:grid-cols-1">
 		<Review
 			image="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
 			name="Poxial"
@@ -27,7 +27,7 @@
 		>
 			<p>
 				She went above and beyond and created a bunch of cute little emotes that me and my community
-				adore!
+				adore! 🙂
 			</p>
 		</Review>
 
@@ -37,8 +37,8 @@
 			link="https://www.twitch.tv/wyliecanttwitch"
 		>
 			<p>
-				Reii is a fantastic option who never ceases to provide S tier quality work, and is a joy to
-				work with :&#41;
+				Reii is a fantastic option who never ceases to provide S tier quality work! She even shares
+				the interest in the work she's commissioned with :&#41;
 			</p>
 		</Review>
 
@@ -48,8 +48,8 @@
 			link="https://www.reiing.art/unavailable"
 		>
 			<p>
-				I had only vague ideas of what i wanted but she stayed patient and worked it all out with
-				me, putting it into practice way better than I thought it could come out
+				I had only vague ideas but she stayed patient and put it into practice way better than I
+				thought it could
 			</p>
 		</Review>
 	</div>

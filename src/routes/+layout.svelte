@@ -63,24 +63,19 @@
 				page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Pricing</a
 		>
-		<a
+		<!-- <a
 			href="/reviews"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				page.route.id == '/reviews' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Reviews (Temp)</a
-		>
+		> -->
 		<!-- <a
 			href="/contact"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Contact</a
-		> -->
-		<!-- <a
-			href="/doesnt-exist"
-			class={'ml-5 cursor-pointer py-2 text-center hover:text-pink hover:underline max-md:w-24 max-md:py-1'}
-			>404</a
 		> -->
 	</nav>
 </header>

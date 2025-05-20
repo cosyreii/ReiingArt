@@ -1,86 +1,44 @@
 <script lang="ts">
-	import NorthEast from '$lib/components/northeast.svelte';
+	import Review from '$lib/components/review.svelte';
 </script>
 
 <svelte:head>
 	<title>Reviews (Temp Layout)</title>
 </svelte:head>
 
-<div
-	class="m-2 flex h-[14rem] w-[41rem] items-center justify-center rounded-3xl bg-pale max-md:h-[24rem] max-md:w-[21rem]"
->
-	<div
-		class="h-[13rem] w-[40rem] rounded-3xl border-2 border-dashed border-grey text-[#171515] max-md:h-[23rem] max-md:w-[20rem]"
+<div class="px-48 grid grid-cols-2">
+	<Review
+		image="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
+		name="Poxial"
+		link="https://www.youtube.com/@Poxial"
 	>
-		<div class="m-3 flex flex-row max-md:flex-col">
-			<div class="flex w-[19rem] items-start justify-start">
-				<img
-					src="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
-					class="size-14 rounded-full border-2 border-solid border-pink p-[0.1rem]"
-					alt="Content Creator, Poxial"
-				/>
-			</div>
+		<p class="text-justify">
+			I commissioned Reii to make some emotes for my discord server and YouTube channel. She went
+			above and beyond and created a bunch of cute little emotes that me and my community adore!
+			Reii is super talented, you'd be silly not to commission her artwork! She is also so easy to
+			communicate with and such a lovely person 🙂 GET YOUR COMMISSIONS IN ASAP!!
+		</p>
+	</Review>
 
-			<div class="ml-2 mr-4 flex flex-col">
-				<div class="flex flex-row items-center text-pink hover:underline">
-					<a href="https://www.youtube.com/@Poxial" target="_blank">
-						<p class="mr-2 cursor-pointer text-xl text-pink hover:scale-[1.005]">Poxial</p>
-					</a>
-					<a href="https://www.youtube.com/@Poxial" target="_blank">
-						<NorthEast class="cursor-pointer justify-end" />
-					</a>
-				</div>
-				<p class="text-justify">
-					I commissioned Reii to make some emotes for my discord server and YouTube channel. She
-					went above and beyond and created a bunch of cute little emotes that me and my community
-					adore! Reii is super talented, you'd be silly not to commission her artwork! She is also
-					so easy to communicate with and such a lovely person 🙂 GET YOUR COMMISSIONS IN ASAP!!
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div
-	class="m-2 flex h-[25rem] w-[41rem] items-center justify-center rounded-3xl bg-pale max-md:h-[46rem] max-md:w-[21rem]"
->
-	<div
-		class="h-[24rem] w-[40rem] rounded-3xl border-2 border-dashed border-grey bg-pale text-[#171515] max-md:h-[45rem] max-md:w-[20rem]"
+	<Review
+		image="https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg"
+		name="WylieCantTwitch"
+		link="https://www.twitch.tv/wyliecanttwitch"
 	>
-		<div class="m-3 flex flex-row max-md:flex-col">
-			<div class="flex w-[31rem] items-start justify-start">
-				<img
-					src="https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg"
-					class="size-14 rounded-full border-2 border-solid border-pink p-[0.1rem]"
-					alt="Content Creator, Wylie"
-				/>
-			</div>
-
-			<div class="ml-2 mr-4 flex flex-col">
-				<div class="flex flex-row items-center text-pink hover:underline">
-					<a href="https://www.twitch.tv/wyliecanttwitch" target="_blank">
-						<p class="mr-2 cursor-pointer text-xl text-pink hover:scale-[1.005]">WylieCantTwitch</p>
-					</a>
-					<a href="https://www.twitch.tv/wyliecanttwitch" target="_blank">
-						<NorthEast class="cursor-pointer justify-end" />
-					</a>
-				</div>
-				<p class="text-justify">
-					After years of working on projects with dozens of independent artists, my best experience
-					has been with Reii. Her commission work is fairly priced and of high quality. Reii is easy
-					to talk to and workshop ideas with, and she always dawns a friendly, warm demeanor that
-					makes the commission process genuinely enjoyable and exciting! She's never failed to meet
-					any of my deadlines, and has made revisions and changes when requested. What I found to be
-					the icing on the cake is that Reii shares the interest in her work she's get gets
-					commissioned, and strives to make sure that I'm always satisfied with the final product.
-				</p>
-				<p class="mt-2 text-justify">
-					To anyone seeking to commission anything from a ginormous collage to a small set of
-					emotes, Reii is a fantastic option who never ceases to provide S tier quality work, and is
-					a joy to work with :&#41;
-				</p>
-				<p class="mt-2 text-justify">- Mr Wylie</p>
-			</div>
-		</div>
-	</div>
+		<p class="text-justify">
+			After years of working on projects with dozens of independent artists, my best experience has
+			been with Reii. Her commission work is fairly priced and of high quality. Reii is easy to talk
+			to and workshop ideas with, and she always dawns a friendly, warm demeanor that makes the
+			commission process genuinely enjoyable and exciting! She's never failed to meet any of my
+			deadlines, and has made revisions and changes when requested. What I found to be the icing on
+			the cake is that Reii shares the interest in her work she's get gets commissioned, and strives
+			to make sure that I'm always satisfied with the final product.
+		</p>
+		<p class="mt-2 text-justify">
+			To anyone seeking to commission anything from a ginormous collage to a small set of emotes,
+			Reii is a fantastic option who never ceases to provide S tier quality work, and is a joy to
+			work with :&#41;
+		</p>
+		<p class="mt-2 text-justify">- Mr Wylie</p>
+	</Review>
 </div>

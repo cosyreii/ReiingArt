@@ -80,7 +80,7 @@
 					<div class="px-4 py-3 text-left">Nukexplosions' Design Director</div>
 
 					<div class="px-4 py-3 text-left">Jul 2024 - Current</div>
-					<div class="px-4 py-3 text-left">Super Streamer Lobby Gamemode Illustrator</div>
+					<div class="px-4 py-3 text-left">Super Streamer Lobby (TETR.IO) Gamemode Illustrator</div>
 
 					<div class="px-4 py-3 text-left">July 2023 - Current</div>
 					<div class="px-4 py-3 text-left">Freelance Illustrator & Designer</div>
@@ -110,7 +110,7 @@
 							class="mr-2 size-14 rounded-full"
 							alt="Super Streamer Lobby (TETR.IO)"
 						/>
-						<p class="mr-2">SSL Gamemode Illustrator</p>
+						<p class="mr-2">Super Streamer Lobby (TETR.IO)</p>
 						<NorthEast class="justify-end" />
 					</a>
 				</div>

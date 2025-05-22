@@ -169,16 +169,6 @@
 						<p class="pb-1 pt-2">Twitch Affiliate</p>
 						<p class="text-xs text-translucent">January 30th, 2024</p>
 					</div>
-
-					<div class="flex flex-col items-center justify-center p-1 text-center text-sm">
-						<img
-							src="https://i.imgur.com/O3CvHXp.png"
-							class="rounded-3xl"
-							alt="First Ever Commission"
-						/>
-						<p class="pb-1 pt-2">First Commission — 21 Emotes</p>
-						<p class="text-xs text-translucent">August 13th, 2020</p>
-					</div>
 				</div>
 			</div>
 		{/if}

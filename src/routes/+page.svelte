@@ -37,31 +37,33 @@
 				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col overflow-y-scroll text-lg max-md:w-auto"
 			>
 				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
-				<p class="text-left max-md:text-center">
-					I'm a freelance illustrator specialising in
-					<span class="bg-pink/25 font-black text-[#ffffff]">design</span> and
-					<span class="bg-pink/25 font-black text-[#ffffff]">expression</span>. I stream all my
-					latest hyperfixation on Twitch with the consistency of melted jelly
-					<span class="text-translucent">( not consistent at all )</span>. Aside from that, I am
-					fluent in <span class="font-black">English</span> and
-					<span class="font-black">Mandarin</span>~
-				</p>
-				<p class="mb-4 mt-4 text-left text-3xl text-pink max-md:text-center">What do I do?</p>
 				<p class="mb-4 text-left max-md:text-center">
-					I mainly work on
+					I'm a freelance illustrator specialising in
+					<span class="font-black text-[#ffffff]">design</span> and
+					<span class="font-black text-[#ffffff]">expression</span>. I mainly work on
 					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
-					<span class="bg-pink/25 font-black text-[#ffffff]">merch & logos</span>,
-					<span class="bg-pink/25 font-black text-[#ffffff]">emoticons</span>, and
-					<span class="bg-pink/25 font-black text-[#ffffff]">illustrations</span>. I love helping my
-					clients find their perfect persona but that's not all! I am also a
-					<span class="font-black">writer</span> that does
-					<span class="bg-pink/25 font-black text-[#ffffff]">stories</span>,
-					<span class="bg-pink/25 font-black text-[#ffffff]">scripts</span>, and
-					<span class="bg-pink/25 font-black text-[#ffffff]">movie critiques</span>.
+					<span class="bg-pink/25 font-black text-[#ffffff]">streaming models</span>, and
+					<span class="bg-pink/25 font-black text-[#ffffff]">emoticons / badges</span>.
 				</p>
-				<p class="text-left text-translucent max-md:text-center">
-					Oh and I guess I am technically a
-					<span class="bg-pink/15 font-black">web dev</span> now too?
+				<p class="mb-4 text-left max-md:text-center">
+					I also have experience working on
+					<span class="bg-pink/25 font-black text-[#ffffff]">game assets</span>,
+					<span class="bg-pink/25 font-black text-[#ffffff]">merch design</span>, and even
+					<span class="bg-pink/25 font-black text-[#ffffff]">logos & cards</span>!
+				</p>
+				<p class="mb-4 text-left max-md:text-center">
+					Other Skills —
+					<span class="text-left text-translucent max-md:text-center">
+						Hobby writer that does
+						<span class="bg-pink/15 font-black">stories</span>,
+						<span class="bg-pink/15 font-black">scripts</span>, and
+						<span class="bg-pink/15 font-black">movie critiques</span>. Maybe I’m a bit of a
+						<span class="bg-pink/15 font-black">web dev</span> now too?
+					</span>
+				</p>
+				<p class="mb-4 text-left max-md:text-center">
+					Aside from that, I am fluent in <span class="font-black">English</span> and
+					<span class="font-black">Mandarin</span>~
 				</p>
 				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>

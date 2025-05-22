@@ -26,10 +26,6 @@
 				class="size-80 rounded-xl object-cover"
 				alt="cosyreii's chibi model"
 			/>
-			<div class="mt-4 text-translucent">
-				<p>full-time student:</p>
-				<p>Diploma in Media and Design ( Animation )</p>
-			</div>
 		</div>
 
 		{#if sectionDisplay == 'intro'}

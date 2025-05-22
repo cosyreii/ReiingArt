@@ -15,7 +15,7 @@
 		<img
 			src="https://i.imgur.com/ZxSTTGV.png"
 			alt="Go Back Up"
-			class="size-16 rounded-xl max-md:hidden"
+			class="size-16 rounded-xl"
 		/>
 	</button>
 {/if}
@@ -30,6 +30,8 @@
 		z-index: 999;
 		cursor: pointer;
 		color: #fcf0f0a5;
+
+		overflow-y: smooth;
 
 		background: none;
 		border: none;

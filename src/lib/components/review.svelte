@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Snippet } from 'svelte';
-	import NorthEast from '$lib/components/northeast.svelte';
+	import NorthEast from '$lib/components/northeast-plane.svelte';
 	let props = $props<{
 		image: string;
 		name: string;

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import clsx from 'clsx';
 	import ChevronDown from '$lib/components/chevron-down.svelte';
-	import NorthEast from '$lib/components/northeast.svelte';
+	import NorthEast from '$lib/components/northeast-plane.svelte';
 	const sectionNames: Record<string, string> = {
 		intro: 'Introduction',
 		eduExp: 'Education & Experience',

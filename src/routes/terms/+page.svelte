@@ -1,5 +1,5 @@
 <script>
-	import GoToTop from '$lib/components/GotoTop.svelte';
+	import GoToTop from '$lib/components/gtt.svelte';
 </script>
 
 <svelte:head>

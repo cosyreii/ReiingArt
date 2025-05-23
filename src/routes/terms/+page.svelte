@@ -15,7 +15,7 @@
 </div>
 
 <div
-	class="noscrollbar align-center m-1 flex flex-col justify-start overflow-y-scroll px-20 text-left text-lg max-md:px-3"
+	class="align-center m-1 flex flex-col justify-start px-20 text-left text-lg max-md:px-3"
 >
 	<div class="w-11/12 text-justify">
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">DISCLAIMER</p>

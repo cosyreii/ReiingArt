@@ -122,7 +122,7 @@
 				<div class="flex flex-row items-center pt-2">
 					<a
 						class="flex cursor-pointer flex-row items-center hover:underline"
-						href="https://www.reiing.art/unavailable"
+						href="/unavailable"
 						target="_blank"
 					>
 						<img

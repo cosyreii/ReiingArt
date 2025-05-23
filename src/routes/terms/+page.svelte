@@ -1,5 +1,6 @@
 <script>
 	import GoToTop from '$lib/components/go-to-top.svelte';
+	import NorthEast from '$lib/components/northeast-plane.svelte';
 </script>
 
 <svelte:head>
@@ -96,9 +97,13 @@
 
 	<hr class="my-4 w-full border-translucent" />
 	<div>
-		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">
-			COPYRIGHT / USAGE
-		</p>
+		<a
+			class="flex cursor-pointer flex-row items-center text-pink hover:underline"
+			href="/unavailable"
+		>
+			<p class="mr-2 mb-3 mt-1 flex text-3xl font-black tracking-widest">COPYRIGHT / USAGE</p>
+			<NorthEast class="justify-end" />
+		</a>
 		<p class="my-2">
 			⇀ The commissioned piece may be used for personal purposes, such as a profile picture, banner,
 			wallpaper, etc.

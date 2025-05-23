@@ -99,7 +99,7 @@
 	<div>
 		<a
 			class="flex cursor-pointer flex-row items-center text-pink hover:underline"
-			href="/unavailable"
+			href="/pricing#commercial"
 		>
 			<p class="mr-2 mb-3 mt-1 flex text-3xl font-black tracking-widest">COPYRIGHT / USAGE</p>
 			<NorthEast class="justify-end" />
@@ -199,4 +199,4 @@
 	</div>
 </div>
 
-<GoToTop showAtPixel={800} />
+<GoToTop showAtPixel={1000} />

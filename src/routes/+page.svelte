@@ -2,13 +2,13 @@
 	import clsx from 'clsx';
 	import ChevronDown from '$lib/components/chevron-down.svelte';
 	import NorthEast from '$lib/components/northeast-plane.svelte';
+	import EduExp from '$lib/components/eduexp-chart.svelte';
 	const sectionNames: Record<string, string> = {
 		intro: 'Introduction',
 		eduExp: 'Education & Experience',
 		projects: 'Projects',
 		achievement: 'Achievements'
 	};
-
 	// make a variable to store which thing to show
 	let sectionDisplay = $state('intro');
 	let mobileMenu = $state(false);
@@ -74,22 +74,17 @@
 					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Month, Year</div>
 					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
 
-					<div class="px-4 py-3 text-left">May 2025 - Current</div>
-					<div class="px-4 py-3 text-left">Nukexplosions' Design Director</div>
-
-					<div class="px-4 py-3 text-left">Jul 2024 - Current</div>
-					<div class="px-4 py-3 text-left">Super Streamer Lobby (TETR.IO) Gamemode Illustrator</div>
-
-					<div class="px-4 py-3 text-left">July 2023 - Current</div>
-					<div class="px-4 py-3 text-left">Freelance Illustrator & Designer</div>
-
-					<div class="px-4 py-3 text-left">Aug 2023 - Jul 2025</div>
-					<div class="px-4 py-3 text-left">Diploma in Design and Media (Animation)</div>
-
-					<div class="px-4 py-3 text-left">Nov 2018 ( 7 years )</div>
-					<div class="px-4 py-3 text-left">
-						Art journey starts! Specialising in character, concept, and design
-					</div>
+					<EduExp time="May 2025 - Current" position="Toybox Tumble Design Director" />
+					<EduExp
+						time="Jul 2024 - Current"
+						position="Super Streamer Lobby (TETR.IO) Gamemode Illustrator"
+					/>
+					<EduExp time="Jul 2023 - Current" position="Freelance Illustrator and Designer" />
+					<EduExp time="Aug 2023 - Jul 2025" position="Diploma in Design and Media (Animation)" />
+					<EduExp
+						time="Nov 2018 (7 years)"
+						position="Art journey starts! Specialising in character, concept, and design."
+					/>
 				</div>
 			</div>
 		{:else if sectionDisplay == 'projects'}

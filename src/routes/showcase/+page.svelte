@@ -45,7 +45,7 @@
 		<Review
 			image="https://i.imgur.com/6RPWzpB.png"
 			name="Yukihara"
-			link="https://www.reiing.art/unavailable"
+			link="/unavailable"
 		>
 			<p>
 				I had only vague ideas but she stayed patient and put it into practice way better than I

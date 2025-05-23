@@ -22,14 +22,14 @@
 			⇀ You must be at least <span class="bg-pink/25 font-black text-[#ffffff]">18 years old</span> to
 			request a commission.
 		</p>
-		<p class="my-2">⇀ I retain the right to reject any request / commission for any reason.</p>
+		<p class="my-2">⇀ I retain the right to reject any request or commission for any reason.</p>
 		<p class="my-2">
-			⇀ Any harassment in an attempt to bargain for or reserve a commission is not tolerated.
+			⇀ Harrassment or attempts to bargain for or reserve a commission is not tolerated.
 		</p>
 		<p class="my-2">
-			⇀ All of my sales are "Digital Artwork" and it is the artwork's "intellectual property" that
-			you, the client, are purchasing. Nothing is ever intended to be physically shipped to the
-			client, nor am I required to ever ship any item unless it was explicitly discussed.
+			⇀ All sales are "Digital Artwork" and it is the artwork's <span
+				class="bg-pink/25 font-black text-[#ffffff]">intellectual property</span
+			> that you, the client, are purchasing. No physical items will be shipoped unless explicitly discussed.
 		</p>
 	</div>
 
@@ -42,8 +42,8 @@
 			<span class="bg-pink/25 font-black text-[#ffffff]">PayPal</span>.
 		</p>
 		<p class="my-2">
-			⇀ Payment will be made full <span class="bg-pink/25 font-black text-[#ffffff]">upfront</span> unless
-			discussed beforehand, in which I will only proceed after the artwork is fully funded.
+			⇀ <span class="bg-pink/25 font-black text-[#ffffff]">Full upfront payment</span> is required unless
+			otherwise discussed. I will only proceed after the artwork is fully funded.
 		</p>
 		<p class="mt-2">
 			⇀ I will initiate transactions via <span class="bg-pink/25 font-black text-[#ffffff]"
@@ -51,24 +51,26 @@
 			> to avoid accidental transactions.
 		</p>
 		<p class="mb-2 ml-4 text-base text-translucent">
-			↪ Do not send me any kind of payment until I have confirmed your commission and have sent an
-			invoice.
+			↪ Do not send me any payment until I have confirmed your commission and sent an invoice.
 		</p>
 		<p class="my-2">
-			⇀ Price may increase depending of the complexity of the commission, what you see on the site
-			is only the base price.
+			⇀ Price may increase depending of the complexity of the commission. The prices listed on the
+			site base prices.
 		</p>
 	</div>
 
 	<hr class="my-4 w-full border-translucent" />
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">REVISION</p>
-		<p class="mt-2">⇀ Big changes are only allowed during the sketch phase ( clothing, pose ).</p>
+		<p class="mt-2">
+			⇀ Major changes ( e.g. clothing, pose ) are only allowed during the sketch phase .
+		</p>
 		<p class="mb-2 ml-4 text-base text-translucent">
-			↪ Scrapping and redoing outfits / pose fully will result in an extra fee.
+			↪ Completely scrapping and redoing outfits, poses, or background will incur in additional
+			fee.
 		</p>
 		<p class="my-2">
-			⇀ Once I have begun lineart, only small revisions are allowed ( colour, shading ).
+			⇀ Once line art has begun, only minor revisions ( e.g. colour, shading ) are allowed.
 		</p>
 	</div>
 
@@ -76,19 +78,19 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">COMMUNICATION</p>
 		<p class="my-2">
-			⇀ I accept commissions based on my preferences and what I am comfortable working with ( <span
+			⇀ Commissions are accepted based on my preferences and comfort level, they are not on a <span
 				class="bg-pink/25 font-black text-[#ffffff]"
 			>
 				not FCFS</span
-			> - first come first served )
+			> (first-come, first-served) basis.
 		</p>
 		<p class="my-2">
-			⇀ I will update you on the process of your commission through your chosen <span
+			⇀ I will provide updates on your commission's progress through your chosen <span
 				class="bg-pink/25 font-black text-[#ffffff]"
 			>
 				primary contact point
 			</span>
-			after I have accepted your commission.
+			after acceptance.
 		</p>
 	</div>
 
@@ -98,7 +100,7 @@
 			COPYRIGHT / USAGE
 		</p>
 		<p class="my-2">
-			⇀ The commissioned piece may be used for personal reasons, such as a profile picture, banner,
+			⇀ The commissioned piece may be used for personal purposes, such as a profile picture, banner,
 			wallpaper, etc.
 		</p>
 		<p class="my-2">
@@ -106,7 +108,7 @@
 		</p>
 		<p class="my-2">
 			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> sell, profit from, or distribute
-			my work ( e.g. through merchandise, resale) unless a commercial license has been purchased, and
+			my work ( e.g. through merchandise or resale) unless a commercial license has been purchased, and
 			a signed contract is in place.
 		</p>
 		<p class="my-2">
@@ -116,8 +118,9 @@
 		<p class="my-2">
 			<span class="text-red">✖</span> Under no circumstances do I allow my work to be used / turned
 			into an NFT or to be used for AI in
-			<span class="bg-pink/25 font-black text-[#ffffff]">ANY WAY</span>. You will be instantly
-			blacklisted and <span class="bg-pink/25 font-black text-[#ffffff]">lose IP</span> of the purchased
+			<span class="bg-pink/25 font-black text-[#ffffff]">ANY WAY</span>. Violations will result in
+			immediate blacklisting and
+			<span class="bg-pink/25 font-black text-[#ffffff]">forfeiture of IP</span> towards the purchased
 			artwork.
 		</p>
 	</div>
@@ -130,7 +133,7 @@
 		<p class="mt-2">
 			⇀ Refunds and cancellation are guaranteed <span class="bg-pink/25 font-black text-[#ffffff]"
 				>ONLY BEFORE</span
-			> I begin work. After work has begun it is not a guarantee.
+			> I begin work. Once work has started, refunds are not guarantee.
 		</p>
 		<p class="mb-2 ml-4 text-base text-translucent">
 			↪ Refunds may not be requested after confirmation of line art.
@@ -141,7 +144,7 @@
 		</p>
 		<p class="my-2">
 			⇀ <span class="bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are offered upon the
-			artist's inability to complete within 3 to 6 months.
+			artist's inability to complete within 3 months.
 		</p>
 		<p class="my-2">
 			⇀ Any fraudulent chargebacks will result in blacklisting, account blocking, and the forfeiture
@@ -157,40 +160,36 @@
 			).
 		</p>
 		<p class="my-2">
-			⇀ Whether I can stream the process or post WIPs is your decision. This does not impose an
-			extra fee.
+			⇀ Whether I can stream the process or post work-in-progress is your decision and does not
+			incur an extra fee.
 		</p>
 		<p class="mt-2">
-			⇀ However, if you do not wish for me to share the work <span
-				class="bg-pink/25 font-black text-[#ffffff]"
-				>at all (no posting on socials even after completion)</span
+			⇀ If you prefer that I do not share the work <span
+				class="bg-pink/25 font-black text-[#ffffff]">at all (including after completion)</span
 			>, an
 			<span class="font-black">NDA fee</span> will be required.
 		</p>
 		<p class=" mb-2 ml-4 text-base text-translucent">
-			↪ base price of 10%, may increase depending on the project size and time taken
+			↪ The base NDA free is 10% and may increase depending on the project's size and duration.
 		</p>
 		<p class="mt-2">
-			⇀ Any file you paid for will be available from me for a <span
-				class="bg-pink/25 font-black text-[#ffffff]">finite time</span
-			> only.
+			⇀ Files will only be available for a <span class="bg-pink/25 font-black text-[#ffffff]"
+				>finite time</span
+			>.
 		</p>
 		<p class="ml-4 text-base text-translucent">
-			↪ I preserve most files for up to 3 months, but I cannot guarantee against computer failure
-			or accidental deletion or loss.
+			↪ I preserve most files for up to 3 months but cannot guarantee against computer failure or
+			accidental loss.
 		</p>
 		<p class="mb-2 ml-4 text-base text-translucent">
 			↪ It is your responsibility to save any information, images, and other data I provide.
 		</p>
 		<p class="my-2">
-			⇀ Any comments that are rude, inappropriate, inflammatory, or non-constructive may result in
-			blacklisting.
+			⇀ Rude, inappropriate, inflammatory, or non-constructive comments may result in blacklisting.
 		</p>
 		<p class="my-2">
-			⇀ After you have paid for the work, I will not profit from it further. I may use your piece as
-			a sample for my commission site <span class="bg-pink/25 font-black text-[#ffffff]"
-				>( if no NDA )</span
-			>.
+			⇀ After payment, I will not profit further from the artwork. I may use your piece as a sample
+			for my portfolio unless an NDA is in place.
 		</p>
 	</div>
 </div>

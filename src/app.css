@@ -9,12 +9,16 @@ html {
 body {
 	color: #fcf0f0;
 	font-family: 'Imprima';
-	user-select: none;
 
 	background-color: #171515; /* #292525 */
 
 	margin: 0;
 	padding: 0;
+}
+
+p::selection {
+  color: #fcf0f0;
+  background-color: #faa0bb60;
 }
 
 ::-webkit-scrollbar {

@@ -34,7 +34,7 @@
 			>
 				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
 				<p class="mb-4 text-left max-md:text-center">
-					I'm a freelance illustrator specialising in
+					A freelance illustrator specialising in
 					<span class="font-black text-[#ffffff]">design</span> and
 					<span class="font-black text-[#ffffff]">expression</span>. I mainly work on
 					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
@@ -53,7 +53,7 @@
 						Hobby writer that does
 						<span class="bg-pink/15 font-black">stories</span>,
 						<span class="bg-pink/15 font-black">scripts</span>, and
-						<span class="bg-pink/15 font-black">movie critiques</span>. Maybe I’m a bit of a
+						<span class="bg-pink/15 font-black">movie critiques</span>. Am I considered a
 						<span class="bg-pink/15 font-black">web dev</span> now too?
 					</span>
 				</p>

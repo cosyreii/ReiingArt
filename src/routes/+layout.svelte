@@ -89,7 +89,7 @@
 <footer class="mt-4 flex flex-col items-center justify-center pb-10">
 	<h1 class="text-xl text-pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>
 	<p class="text-center text-translucent">
-		any characters displayed in artwork belong to their respected IP owners
+		any characters displayed belong to their respective IP owners
 	</p>
 
 	<nav class="mt-2 flex flex-initial flex-row flex-wrap items-center justify-center gap-5">

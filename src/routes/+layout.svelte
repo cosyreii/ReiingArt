@@ -24,7 +24,7 @@
 						<p class="text-xl text-grey">Character & Concept Designer | Part-time Streamer, Full-time Artist</p>
 					</div>
 					<img
-						src="https://i.imgur.com/cTK885n.png"
+						src="https://i.imgur.com/fAA6Ka1.png"
 						class="size-40 object-cover max-md:hidden"
 						alt="logo"
 					/>

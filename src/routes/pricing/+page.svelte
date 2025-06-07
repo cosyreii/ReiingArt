@@ -18,7 +18,7 @@
 	>
 		<!-- align-left + info? -->
 		<div
-			class="m-2 ml-16 flex w-1/2 flex-col justify-start rounded-3xl bg-translucent/40 p-3 text-center text-[#171515] max-lg:w-full max-lg:bg-translucent/20"
+			class="m-2 ml-16 flex w-1/2 flex-col justify-start rounded-3xl bg-translucent/40 p-3 text-center text-grey max-lg:w-full max-lg:bg-translucent/20"
 		>
 			<div
 				class="mb-2 flex items-center justify-center rounded-lg bg-pale/85 max-lg:bg-translucent/20"

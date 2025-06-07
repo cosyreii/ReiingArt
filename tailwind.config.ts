@@ -12,7 +12,7 @@ export default {
 				pink: '#faa0bb',
 				red: "#eb676e",
 				translucent: '#fcf0f0a5',
-				grey: "#292525",
+				grey: "#171515",
 			}
 		}
 	},

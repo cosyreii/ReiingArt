@@ -10,7 +10,7 @@
 </script>
 
 <div class="m-2 flex h-fit items-center justify-center rounded-3xl bg-pale p-1 hover:scale-[1.01]">
-	<div class="rounded-3xl border-4 border-dashed border-red text-[#171515]">
+	<div class="rounded-3xl border-4 border-dashed border-red text-grey">
 		<div class="m-3 flex flex-row max-md:flex-col">
 			<div class="flex flex-shrink-0 items-start justify-start">
 				<img

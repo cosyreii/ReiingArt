@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Reii | Terms & Conditions</title>
+	<title>Reii | Terms </title>
 </svelte:head>
 
 <div

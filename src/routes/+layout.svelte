@@ -12,7 +12,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" />
 
-<header class="sticky top-0 flex flex-col bg-grey">
+<header class="flex flex-col bg-grey">
 	<div class="mx-8 mb-4 mt-2">
 		{#if page.route.id == '/'}
 			<div transition:slide={{ axis: 'y', duration: 800 }}>

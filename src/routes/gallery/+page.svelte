@@ -1,9 +1,13 @@
+<script>
+	import GoToTop from '$lib/components/go-to-top.svelte';
+</script>
+
 <svelte:head>
 	<title>Reii | Gallery</title>
 </svelte:head>
 
 <div
-	class="noscrollbar align-center m-1 my-4 flex flex-col justify-center overflow-y-scroll px-20 text-left text-lg max-md:px-3 max-md:items-center"
+	class="noscrollbar align-center m-1 my-4 flex flex-col justify-center overflow-y-scroll px-20 text-left text-lg max-md:items-center max-md:px-3"
 >
 	<div class="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-1">
 		<img src="https://i.imgur.com/5HpQOMu.png" class="mb-2 w-72" alt="cosyreii logo" />
@@ -16,3 +20,5 @@
 		<img src="https://i.imgur.com/7Uh4P9I.png" class="mb-2 w-72" alt="dupcup 1" />
 	</div>
 </div>
+
+<GoToTop showAtPixel={1000} />

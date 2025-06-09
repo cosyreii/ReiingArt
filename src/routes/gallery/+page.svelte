@@ -16,7 +16,7 @@
 		<img src="https://i.imgur.com/BhgWbzb.png" class="mb-2 w-72" alt="plague scythe" />
 		<img src="https://i.imgur.com/hG3YPAh.png" class="mb-2 w-72" alt="soupspoon logo" />
 		<img src="https://i.imgur.com/tQWb9zt.png" class="mb-2 w-72" alt="butterfly" />
-		<img src="https://i.imgur.com/rkyf01m.png" class="mb-2 w-72" alt="poxial emotes" />
+		<img src="https://i.imgur.com/US3BGdd.png" class="mb-2 w-72" alt="poxial emotes" />
 		<img src="https://i.imgur.com/7Uh4P9I.png" class="mb-2 w-72" alt="dupcup 1" />
 	</div>
 </div>

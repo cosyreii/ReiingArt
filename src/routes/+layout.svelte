@@ -12,28 +12,29 @@
 
 <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" />
 
-<header class="flex flex-col">
-	<div class="mx-8 my-4">
+<header class="sticky top-0 flex flex-col bg-grey">
+	<div class="mx-8 mb-4 mt-2">
 		{#if page.route.id == '/'}
 			<div transition:slide={{ axis: 'y', duration: 800 }}>
 				<div
-					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.5)),url('https://i.imgur.com/duyxKiX.png')] bg-cover bg-bottom p-4 text-center"
+					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.5)),url('https://i.imgur.com/duyxKiX.png')] bg-cover bg-bottom p-2 text-center"
 				>
 					<div>
-						<h1 class="text-4xl text-grey">「Reii Ng」</h1>
-						<p class="text-xl text-grey">
+						<h1 class="text-xl text-grey font-black">「Reii Ng」</h1>
+						<p class="text-grey">
 							Character & Concept Designer | Part-time Streamer, Full-time Artist
 						</p>
 					</div>
 					<img
 						src="https://i.imgur.com/sBhf0N8.png"
-						class="size-40 object-cover max-md:hidden"
+						class="size-28 object-cover max-md:hidden"
 						alt="logo"
 					/>
 				</div>
 			</div>
 		{/if}
 	</div>
+
 	<nav
 		class="flex flex-initial flex-row flex-wrap items-center justify-center gap-8 px-1 max-md:gap-2"
 	>
@@ -66,23 +67,22 @@
 			])}>Services</a
 		>
 		<!-- <a
-			href="/reviews"
-			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				page.route.id == '/reviews' ? 'border-pink text-pink' : 'border-pale text-pale'
-			])}>Reviews (Temp)</a
-		> -->
+				href="/reviews"
+				class={clsx([
+					'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
+					page.route.id == '/reviews' ? 'border-pink text-pink' : 'border-pale text-pale'
+				])}>Reviews (Temp)</a
+			> -->
 		<!-- <a
-			href="/contact"
-			class={clsx([
-				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
-			])}>Contact</a
-		> -->
+				href="/contact"
+				class={clsx([
+					'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
+					page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
+				])}>Contact</a
+			> -->
 	</nav>
+	<hr class="mx-auto mt-4 w-11/12 border-pale" />
 </header>
-
-<hr class="mx-auto mt-5 w-11/12 border-pale" />
 
 {@render children()}
 

@@ -166,7 +166,7 @@
 			</div>
 		{/if}
 
-		<div class="relative max-md:w-full">
+		<div class="static max-md:w-full">
 			<button
 				class="flex w-full justify-between text-xl md:hidden"
 				onclick={() => {

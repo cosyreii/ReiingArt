@@ -46,11 +46,11 @@
 			])}>Home</a
 		>
 		<a
-			href="/showcase"
+			href="/gallery"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				page.route.id == '/showcase' ? 'border-pink text-pink' : 'border-pale text-pale'
-			])}>Showcase</a
+				page.route.id == '/gallery' ? 'border-pink text-pink' : 'border-pale text-pale'
+			])}>Gallery</a
 		>
 		<a
 			href="/terms"

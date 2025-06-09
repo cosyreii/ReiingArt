@@ -59,11 +59,11 @@
 			])}>Terms</a
 		>
 		<a
-			href="/pricing"
+			href="/services"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-				page.route.id == '/pricing' ? 'border-pink text-pink' : 'border-pale text-pale'
-			])}>Pricing</a
+				page.route.id == '/services' ? 'border-pink text-pink' : 'border-pale text-pale'
+			])}>Services</a
 		>
 		<!-- <a
 			href="/reviews"

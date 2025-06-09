@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" />
 
 <header class="flex flex-col">
-	<div class="m-8">
+	<div class="mx-8 my-4">
 		{#if page.route.id == '/'}
 			<div transition:slide={{ axis: 'y', duration: 800 }}>
 				<div
@@ -21,7 +21,9 @@
 				>
 					<div>
 						<h1 class="text-4xl text-grey">「Reii Ng」</h1>
-						<p class="text-xl text-grey">Character & Concept Designer | Part-time Streamer, Full-time Artist</p>
+						<p class="text-xl text-grey">
+							Character & Concept Designer | Part-time Streamer, Full-time Artist
+						</p>
 					</div>
 					<img
 						src="https://i.imgur.com/sBhf0N8.png"

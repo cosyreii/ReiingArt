@@ -31,6 +31,7 @@
 		"clsx": "^2.1.1",
 		"nodemailer": "^6.9.16",
 		"simple-icons": "^13.21.0",
+		"svelte-bricks": "^0.3.2",
 		"svelte-email": "^0.0.4"
 	}
 }

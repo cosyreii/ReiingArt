@@ -1,12 +1,56 @@
 <script lang="ts">
 	import GoToTop from '$lib/components/go-to-top.svelte';
-
+	import Masonry from 'svelte-bricks';
 	import Review from '$lib/components/review.svelte';
+
+	let items = $state([
+		{
+			id: 'poxial',
+			image: 'https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg',
+			name: 'Poxial',
+			link: 'ttps://www.youtube.com/@Poxial',
+			review:
+				'She went above and beyond and created a bunch of cute little emotes that me and my community adore! 🙂'
+		},
+		{
+			id: 'wylie',
+			image: 'https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg',
+			name: 'WylieCantTwitch',
+			link: 'https://www.twitch.tv/wyliecanttwitch',
+			review:
+				"Reii is a fantastic option who never ceases to provide S tier quality work! She even shares the interest in the work she's commissioned with :)"
+		},
+		{
+			id: 'yukihara',
+			image: 'https://i.imgur.com/6RPWzpB.png',
+			name: 'Yukihara',
+			link: '/unavailable',
+			review:
+				'I had only vague ideas but she stayed patient and put it into practice way better than I thought it could turn out.'
+		},
+		{
+			id: 'smolminy',
+			image: 'https://i.imgur.com/uzyoIZC.png',
+			name: 'Smolminy',
+			link: 'https://www.twitch.tv/smolminy',
+			review:
+				'Extremely patient and attentive with me which is super important as I am an individual with a few disabilities. Super accommodating.'
+		},
+		{
+			id: 'kwondor',
+			image: 'https://i.imgur.com/sw6z73g.png',
+			name: 'Kwondor',
+			link: 'https://www.twitch.tv/kwondor',
+			review:
+				'Reii is not only incredibly talented but also a joy to work with, refusing to rest until her clients are 100% satisfied.'
+		}
+	]);
 </script>
 
 <svelte:head>
 	<title>Reii | Services</title>
 </svelte:head>
+
 <p class="m-4 flex items-center justify-center"></p>
 
 <!-- size -->
@@ -16,16 +60,14 @@
 >
 	<!-- background -->
 	<div
-		class="m-2 flex h-fit items-start justify-start rounded-3xl bg-[url('https://i.imgur.com/KjVfxR2.png')] bg-cover bg-bottom p-1 max-lg:bg-none"
+		class="m-2 flex h-fit items-center justify-center rounded-3xl bg-[url('https://i.imgur.com/KjVfxR2.png')] bg-cover bg-bottom p-1"
 	>
-		<!-- align-left + info? -->
+		<!-- info -->
 		<div
-			class="m-2 ml-16 flex flex-col items-center justify-start rounded-3xl bg-translucent/40 p-3 text-center text-grey max-lg:w-full max-lg:bg-translucent/20 max-lg:m-2"
+			class="m-2 flex flex-col items-center justify-center rounded-3xl bg-translucent/40 p-3 text-center text-grey max-lg:m-2 max-lg:w-full"
 		>
 			<div class="mb-2 flex items-center justify-center rounded-lg">
-				<p class="p-4 text-xl font-black tracking-widest text-grey max-lg:text-pink">
-					COPYRIGHT / USAGE
-				</p>
+				<p class="p-4 text-xl font-black tracking-widest text-grey">COPYRIGHT / USAGE</p>
 			</div>
 
 			<div class="flex flex-row max-lg:flex-col">
@@ -50,7 +92,7 @@
 					class="mx-1 my-1 w-full overflow-clip rounded-3xl border-[3px] border-solid border-red"
 				>
 					<div class="border-b-[3px] border-solid border-red bg-pink p-1 font-bold">
-						<p>Commercial (+50$)</p>
+						<p>Commercial (+50%)</p>
 					</div>
 					<div class="h-full bg-pale p-1 text-left text-sm">
 						<div class="ml-2">
@@ -67,7 +109,7 @@
 					class="mx-1 mt-1 w-full overflow-clip rounded-3xl border-[3px] border-solid border-red"
 				>
 					<div class="border-b-[3px] border-solid border-red bg-pink p-1 font-bold">
-						<p>Commercial (+100$)</p>
+						<p>Commercial (+100%)</p>
 					</div>
 					<div class="h-full bg-pale p-1 text-left text-sm">
 						<div class="ml-2">
@@ -83,7 +125,6 @@
 			</div>
 		</div>
 	</div>
-	<p class="text-right text-lg font-black text-pale max-lg:hidden">Artwork by @amyhmlam</p>
 
 	<hr class="my-4 w-full border-translucent" />
 
@@ -91,58 +132,24 @@
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">REVIEWS</p>
 	</div>
 
-	<div class="grid grid-cols-3 px-2 max-lg:grid-cols-2 max-md:grid-cols-1">
-		<Review
-			image="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
-			name="Poxial"
-			link="https://www.youtube.com/@Poxial"
+	<div class="w-full">
+		<Masonry
+			{items}
+			minColWidth={400}
+			maxColWidth={600}
+			gap={20}
+			class="w-full"
 		>
-			<p>
-				She went above and beyond and created a bunch of cute little emotes that me and my community
-				adore! 🙂
-			</p>
-		</Review>
-
-		<Review
-			image="https://pbs.twimg.com/profile_images/1832050112169648128/6mtK3lcS_400x400.jpg"
-			name="WylieCantTwitch"
-			link="https://www.twitch.tv/wyliecanttwitch"
-		>
-			<p>
-				Reii is a fantastic option who never ceases to provide S tier quality work! She even shares
-				the interest in the work she's commissioned with :&#41;
-			</p>
-		</Review>
-
-		<Review image="https://i.imgur.com/6RPWzpB.png" name="Yukihara" link="/unavailable">
-			<p>
-				I had only vague ideas but she stayed patient and put it into practice way better than I
-				thought it could turn out.
-			</p>
-		</Review>
-
-		<Review
-			image="https://i.imgur.com/sw6z73g.png"
-			name="Kwondor"
-			link="https://www.twitch.tv/kwondor"
-		>
-			<p>
-				Reii is not only incredibly talented but also a joy to work with, refusing to rest until her
-				clients are 100% satisfied.
-			</p>
-		</Review>
-
-		<Review
-			image="https://i.imgur.com/uzyoIZC.png"
-			name="smolminy"
-			link="https://www.twitch.tv/smolminy"
-		>
-			<p>
-				Extremely patient and attentive with me which is super important as I am an individual with
-				a few disabilities. Super accommodating.
-			</p>
-		</Review>
+			{#snippet children({ item })}
+				<Review image={item.image} name={item.name} link={item.link}>
+					<p>
+						{item.review}
+					</p>
+				</Review>
+			{/snippet}
+		</Masonry>
 	</div>
 </div>
+
 
 <GoToTop showAtPixel={1000} />

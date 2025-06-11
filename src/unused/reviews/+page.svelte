@@ -6,7 +6,7 @@
 	<title>Reviews (Temp Layout)</title>
 </svelte:head>
 
-<div class="px-48 grid grid-cols-2">
+<div class="grid grid-cols-2 px-48">
 	<Review
 		image="https://pbs.twimg.com/profile_images/1650273413179789312/_Xjjz9QH_400x400.jpg"
 		name="Poxial"
@@ -42,3 +42,21 @@
 		<p class="mt-2 text-justify">- Mr Wylie</p>
 	</Review>
 </div>
+
+<!-- Yukihara: Working with reii was great. I had only vague ideas of what i wanted but she stayed
+patient and worked it all out with me and putting it into practice way better than I thought it
+could come out. We sat in vc for like an hour and she made sure to walk me through every step. Even
+making adjustments (being coloring, adding stuff, removing stuff) were no problem and fast. Overall
+it was a blast working with her. -->
+
+<!-- Smolminy: My experience with Reii was impeccable. They inspired me
+and worked closely with me to create beautiful concepts (a character and matching emotes). They were
+extremely patient and attentive with me which is super important as I am an individual with a few
+disabilities. Super accommodating. The artwork itself came out so lovely, they have a keen eye for
+detail that's for sure. They are my go to artist and I would recommend using their services - you
+won't regret it. -->
+
+<!-- Kwondor: I first came across Reii’s work through a previous client and mutual friend, and I
+immediately fell in love with her style of art. Reii is not only incredibly talented but also a joy
+to work with: patient, kind, and understanding throughout every step of the process, refusing to
+rest until her clients are 100% satisfied. -->

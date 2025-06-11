@@ -99,7 +99,7 @@
 	<div>
 		<a
 			class="flex cursor-pointer flex-row items-center text-pink hover:underline"
-			href="/pricing#commercial-usage"
+			href="/services#copyright"
 		>
 			<p class="mr-2 mb-3 mt-1 flex text-3xl font-black tracking-widest">COPYRIGHT / USAGE</p>
 			<NorthEast class="justify-end" />

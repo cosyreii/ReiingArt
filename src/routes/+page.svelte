@@ -20,11 +20,16 @@
 
 <main class="p-5 text-center">
 	<div class="m-4 flex flex-row items-center justify-center gap-4 max-md:flex-col-reverse">
-		<div class="max-lg:hidden">
+		<div class="relative w-60 h-96 max-lg:hidden group hover:cursor-pointer">
 			<img
-				src="https://i.imgur.com/XcYfQTY.png"
-				class="size-80 rounded-xl object-cover"
-				alt="cosyreii's chibi model"
+				src="https://i.imgur.com/jdPFDAk.png"
+				class="absolute w-60 object-cover group-active:opacity-0"
+				alt="reii welcome"
+			/>
+			<img
+				src="https://i.imgur.com/ZoHaE0k.png"
+				class="absolute w-60 object-cover opacity-0 group-active:opacity-100"
+				alt="reii angi"
 			/>
 		</div>
 

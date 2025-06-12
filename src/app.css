@@ -16,6 +16,10 @@ body {
 	padding: 0;
 }
 
+img {
+	user-select: none;
+}
+
 ::selection {
   background-color: #faa0bb60;
 }

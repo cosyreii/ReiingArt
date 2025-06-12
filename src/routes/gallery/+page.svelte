@@ -21,4 +21,4 @@
 	</div>
 </div>
 
-<GoToTop showAtPixel={1000} />
+<GoToTop showAtPixel={800} />

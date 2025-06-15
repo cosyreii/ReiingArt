@@ -21,6 +21,7 @@
 		<img src="https://i.imgur.com/7Uh4P9I.png" class="mb-2 w-72" alt="dupcup 1" />
 		<img src="https://i.imgur.com/92SQ8Aa.png" class="mb-2 w-72" alt="noctovilia suchi" />
 		<img src="https://i.imgur.com/PnB042t.png" class="mb-2 w-72" alt="noctovilia details" />
+		<img src="https://i.imgur.com/Yk58REc.png" class="mb-2 w-72" alt="duffy" />
 		<img src="https://i.imgur.com/5L9Kr5g.png" class="mb-2 w-72" alt="levhanni" />
 	</div>
 </div>

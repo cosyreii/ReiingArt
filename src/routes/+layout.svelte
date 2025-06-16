@@ -26,8 +26,8 @@
 						</p>
 					</div>
 					<img
-						src="https://i.imgur.com/sBhf0N8.png"
-						class="size-28 object-cover max-md:hidden"
+						src="https://i.imgur.com/XrN6mIs.png"
+						class="size-28 object-cover rounded-full border-2 border-grey p-1  max-md:hidden"
 						alt="logo"
 					/>
 				</div>

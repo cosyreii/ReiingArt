@@ -109,8 +109,7 @@
 				<div class="flex flex-row items-center">
 					<a
 						class="flex cursor-pointer flex-row items-center hover:underline"
-						href="https://discord.gg/aqPSEJS3SR"
-						target="_blank"
+						href="/super-streamer-lobby"
 					>
 						<img
 							src="https://i.imgur.com/cgBYoqW.png"
@@ -130,11 +129,14 @@
 								el: event.currentTarget
 							});
 						}}
-						class="flex flex-col items-center justify-center p-1"
+						class="group relative flex flex-col items-center justify-center p-1"
 						data-width="1920"
 						data-height="1080"
 						data-img="https://i.imgur.com/xThzP8b.png"
 					>
+						<div class="absolute inset-0 opacity-0 group-hover:opacity-100 bg-grey/60 transition-opacity duration-100 flex items-center justify-center">
+							<p>issa fancy text</p>
+						</div>
 						<img src="https://i.imgur.com/xThzP8b.png" class="rounded-3xl" alt="Australian Mode" />
 					</button>
 					<button

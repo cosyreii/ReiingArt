@@ -73,7 +73,7 @@
 			class="group relative flex flex-col items-center justify-center p-1"
 			data-width="1920"
 			data-height="1080"
-			data-img="https://i.imgur.com/zSETMwA.png"
+			data-img="https://i.imgur.com/YFFOhQm.png"
 		>
 			<div
 				class="absolute inset-0 flex flex-col items-center justify-center bg-grey/80 opacity-0 transition-opacity duration-100 group-hover:opacity-100"
@@ -81,7 +81,7 @@
 				<p class="text-3xl font-black text-pink">SSL 5</p>
 				<p class="text-xl">Ghosts and Ghouls</p>
 			</div>
-			<img src="https://i.imgur.com/zSETMwA.png" class="rounded-3xl" alt="Ghosts and Ghouls" />
+			<img src="https://i.imgur.com/YFFOhQm.png" class="rounded-3xl" alt="Ghosts and Ghouls" />
 		</button>
 		<button
 			onclick={(event) => {

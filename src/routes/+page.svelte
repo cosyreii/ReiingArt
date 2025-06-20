@@ -3,6 +3,10 @@
 	import ChevronDown from '$lib/components/chevron-down.svelte';
 	import NorthEast from '$lib/components/northeast-plane.svelte';
 	import EduExp from '$lib/components/eduexp-chart.svelte';
+	import BiggerPicture from 'bigger-picture';
+	import 'bigger-picture/css';
+	import { onMount } from 'svelte';
+
 	const sectionNames: Record<string, string> = {
 		intro: 'Introduction',
 		eduExp: 'Education & Experience',
@@ -12,6 +16,11 @@
 	// make a variable to store which thing to show
 	let sectionDisplay = $state('intro');
 	let mobileMenu = $state(false);
+
+	let bp = $state<ReturnType<typeof BiggerPicture>>();
+	onMount(() => {
+		bp = BiggerPicture({ target: document.body });
+	});
 </script>
 
 <svelte:head>
@@ -20,7 +29,7 @@
 
 <main class="p-5 text-center">
 	<div class="m-4 flex flex-row items-center justify-center gap-4 max-md:flex-col-reverse">
-		<div class="relative w-60 h-96 max-lg:hidden group hover:cursor-pointer">
+		<div class="group relative h-96 w-60 hover:cursor-pointer max-lg:hidden">
 			<img
 				src="https://i.imgur.com/jdPFDAk.png"
 				class="absolute w-60 object-cover group-active:opacity-0"
@@ -112,18 +121,42 @@
 						<NorthEast class="justify-end" />
 					</a>
 				</div>
-				<div class="grid grid-cols-2">
-					<div class="flex flex-col items-center justify-center p-1">
+
+				<div id="SSL" class="grid grid-cols-2">
+					<button
+						onclick={(event) => {
+							bp?.open({
+								items: document.querySelectorAll('#SSL > button'),
+								el: event.currentTarget
+							});
+						}}
+						class="flex flex-col items-center justify-center p-1"
+						data-width="1920"
+						data-height="1080"
+						data-img="https://i.imgur.com/xThzP8b.png"
+					>
 						<img src="https://i.imgur.com/xThzP8b.png" class="rounded-3xl" alt="Australian Mode" />
-					</div>
-					<div class="flex flex-col items-center justify-center p-1">
+					</button>
+					<button
+						onclick={(event) => {
+							bp?.open({
+								items: document.querySelectorAll('#SSL > button'),
+								el: event.currentTarget
+							});
+						}}
+						class="flex flex-col items-center justify-center p-1"
+						data-width="1920"
+						data-height="1080"
+						data-img="https://i.imgur.com/NG8Bfzs.png"
+					>
 						<img
 							src="https://i.imgur.com/NG8Bfzs.png"
 							class="rounded-3xl"
 							alt="Split Squares Mode"
 						/>
-					</div>
+					</button>
 				</div>
+
 				<div class="flex flex-row items-center pt-2">
 					<a
 						class="flex cursor-pointer flex-row items-center hover:underline"

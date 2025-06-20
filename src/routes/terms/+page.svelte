@@ -17,12 +17,14 @@
 <div class="align-center m-1 flex flex-col justify-start px-20 text-left text-lg max-md:px-3">
 	<div class="w-11/12 text-justify">
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">DISCLAIMER</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> You must be at
-			least
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">18 years old</span>
-			to request a commission.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				You must be at least
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">18 years old</span>
+				to request a commission.
+			</p>
+		</div>
 		<p class="my-2 flex flex-row items-center">
 			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> I retain the right
 			to reject any request or commission for any reason.
@@ -31,41 +33,48 @@
 			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Harrassment or
 			attempts to bargain for or reserve a commission is not tolerated.
 		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" /> All sales
-			are "Digital Artwork" and it is the artwork's
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">intellectual property</span> that you,
-			the client, are purchasing.
-		</p>
-		<p class="ml-4 flex flex-row items-center text-base text-translucent">
-			<img src="https://i.imgur.com/noUP00a.png" alt="sub info" class="mr-1 size-2" /> No physical items
-			will be shipoped unless explicitly discussed.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				All sales are "Digital Artwork" and it is the artwork's <span
+					class="mx-1 whitespace-nowrap bg-pink/25 font-black text-[#ffffff]"
+					>intellectual property</span
+				> that you, the client, are purchasing. No physical items will be shipoped unless explicitly
+				discussed.
+			</p>
+		</div>
 	</div>
 
 	<hr class="my-4 w-full border-translucent" />
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">PAYMENT</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Prices are in
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">USD</span>
-			and payments are conducted through
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">PayPal</span>.
-		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" />
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Full upfront payment</span> is required
-			unless otherwise discussed. I will only proceed after the artwork is fully funded.
-		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> I will
-			initiate transactions via
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Paypal invoice</span> to avoid accidental
-			transactions.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				Prices are in
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">USD</span>
+				and payments are conducted through
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">PayPal</span>.
+			</p>
+		</div>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Full upfront payment</span> is required
+				unless otherwise discussed. I will only proceed after the artwork is fully funded.
+			</p>
+		</div>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				I will initiate transactions via
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Paypal invoice</span> to avoid accidental
+				transactions.
+			</p>
+		</div>
 		<p class="ml-4 flex flex-row items-center text-base text-translucent">
 			<img src="https://i.imgur.com/noUP00a.png" alt="sub info" class="mr-1 size-2" /> Do not send me
-			any payment until I have confirmed your commission and sent an invoice.
+			any payment until I have confirmed your commission and sent an ivoice.
 		</p>
 		<p class="my-2 flex flex-row items-center">
 			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Price may increase
@@ -93,18 +102,22 @@
 	<hr class="my-4 w-full border-translucent" />
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">COMMUNICATION</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Commissions
-			are accepted based on my preferences and comfort level, they are not on a
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"> not FCFS</span> (first-come, first-served)
-			basis.
-		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> I will provide
-			updates on your commission's progress through your chosen
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"> primary contact point </span>
-			after acceptance.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				Commissions are accepted based on my preferences and comfort level, they are not on a
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"> not FCFS</span> (first-come, first-served)
+				basis.
+			</p>
+		</div>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				I will provide updates on your commission's progress through your chosen
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"> primary contact point </span>
+				after acceptance.
+			</p>
+		</div>
 	</div>
 
 	<hr class="my-4 w-full border-translucent" />
@@ -120,10 +133,13 @@
 			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> The commissioned
 			piece may be used for personal purposes, such as a profile picture, banner, wallpaper, etc.
 		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Please always
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">credit me</span> as the creator.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				Please always
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">credit me</span> as the creator.
+			</p>
+		</div>
 		<p class="my-2">
 			<span class="text-red">✖</span> <span class="font-black">DO NOT</span> sell, profit from, or distribute
 			my work ( e.g. through merchandise or resale) unless a commercial license has been purchased, and
@@ -148,26 +164,32 @@
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">
 			REFUND / CANCELLATION
 		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Refunds and
-			cancellation are guaranteed
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">ONLY BEFORE</span> I begin work. Once work
-			has started, refunds are not guarantee.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				Refunds and cancellation are guaranteed
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">ONLY BEFORE</span> I begin work. Once
+				work has started, refunds are not guarantee.
+			</p>
+		</div>
 		<p class="ml-4 flex flex-row items-center text-base text-translucent">
 			<img src="https://i.imgur.com/noUP00a.png" alt="sub info" class="mr-1 size-2" /> Refunds may not
 			be requested after confirmation of line art.
 		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" />
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are guaranteed upon
-			the artist's inability to complete the project.
-		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" />
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are offered upon
-			the artist's inability to complete within 3 months.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are guaranteed
+				upon the artist's inability to complete the project.
+			</p>
+		</div>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are offered upon
+				the artist's inability to complete within 3 months.
+			</p>
+		</div>
 		<p class="my-2 flex flex-row items-center">
 			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Any fraudulent
 			chargebacks will result in blacklisting, account blocking, and the forfeiture of all associated
@@ -186,23 +208,27 @@
 			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Whether I can stream
 			the process or post work-in-progress is your decision and does not incur an extra fee.
 		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> If you prefer
-			that I do not share the work
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"
-				>at all (including after completion)</span
-			>, an
-			<span class="font-black">NDA fee</span> will be required.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				If you prefer that I do not share the work
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"
+					>at all (including after completion)</span
+				>, an
+				<span class="font-black">NDA fee</span> will be required.
+			</p>
+		</div>
 		<p class="ml-4 flex flex-row items-center text-base text-translucent">
 			<img src="https://i.imgur.com/noUP00a.png" alt="sub info" class="mr-1 size-2" /> The base NDA free
 			is 10% and may increase depending on the project's size and duration.
 		</p>
-		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Files will
-			only be available for a
-			<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">finite time</span>.
-		</p>
+		<div class="my-2 flex flex-row items-center">
+			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<p>
+				Files will only be available for a
+				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">finite time</span>.
+			</p>
+		</div>
 		<p class="ml-4 flex flex-row items-center text-base text-translucent">
 			<img src="https://i.imgur.com/noUP00a.png" alt="sub info" class="mr-1 size-2" /> I preserve most
 			files for up to 3 months but cannot guarantee against computer failure or accidental loss.

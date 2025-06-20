@@ -163,9 +163,11 @@
 			</div>
 		</div>
 	</div>
+</div>
 
+<div class="align-center m-1 flex flex-col justify-start px-20 text-left text-lg max-md:px-3">
 	<hr class="my-4 w-full border-translucent" />
-
+	
 	<div class="w-11/12 text-justify">
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">REVIEWS</p>
 	</div>

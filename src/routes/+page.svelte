@@ -1,26 +1,19 @@
 <script lang="ts">
 	import clsx from 'clsx';
+
 	import ChevronDown from '$lib/components/chevron-down.svelte';
 	import NorthEast from '$lib/components/northeast-plane.svelte';
-	import EduExp from '$lib/components/eduexp-chart.svelte';
-	import BiggerPicture from 'bigger-picture';
-	import 'bigger-picture/css';
+
 	import { onMount } from 'svelte';
 
 	const sectionNames: Record<string, string> = {
-		intro: 'Introduction',
-		eduExp: 'Education & Experience',
-		projects: 'Projects',
+		intro: 'About Reii',
+		projects: 'Projects & Roles',
 		achievement: 'Achievements'
 	};
 	// make a variable to store which thing to show
 	let sectionDisplay = $state('intro');
 	let mobileMenu = $state(false);
-
-	let bp = $state<ReturnType<typeof BiggerPicture>>();
-	onMount(() => {
-		bp = BiggerPicture({ target: document.body });
-	});
 </script>
 
 <svelte:head>
@@ -50,13 +43,17 @@
 				<p class="mb-4 text-left max-md:text-center">
 					A freelance illustrator specialising in
 					<span class="font-black text-[#ffffff]">design</span> and
-					<span class="font-black text-[#ffffff]">expression</span>. I mainly work on
-					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
-					<span class="bg-pink/25 font-black text-[#ffffff]">streaming models</span>, and
-					<span class="bg-pink/25 font-black text-[#ffffff]">emoticons / badges</span>.
+					<span class="font-black text-[#ffffff]">expression</span> since 2018!
+					<!-- I hold a Diploma in Design
+					& Media (Animation) from Asia Pascific University (APU) and currently a Bachelor of
+					Film at [University]. -->
 				</p>
 				<p class="mb-4 text-left max-md:text-center">
-					I also have experience working on
+					I mainly work on
+					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
+					<span class="bg-pink/25 font-black text-[#ffffff]">streaming models</span>, and
+					<span class="bg-pink/25 font-black text-[#ffffff]">emoticons / badges</span>. Though, I
+					also have experience working on
 					<span class="bg-pink/25 font-black text-[#ffffff]">game assets</span>,
 					<span class="bg-pink/25 font-black text-[#ffffff]">merch design</span>, and even
 					<span class="bg-pink/25 font-black text-[#ffffff]">logos & cards</span>!
@@ -64,11 +61,11 @@
 				<p class="mb-4 text-left max-md:text-center">
 					Other Skills —
 					<span class="text-left text-translucent max-md:text-center">
-						Hobby writer that does
+						Hobby writer who enjoys creating
 						<span class="bg-pink/15 font-black">stories</span>,
 						<span class="bg-pink/15 font-black">scripts</span>, and
-						<span class="bg-pink/15 font-black">movie critiques</span>. Am I considered a
-						<span class="bg-pink/15 font-black">web dev</span> now too?
+						<span class="bg-pink/15 font-black">movie critiques</span>. Oh, and I coded this site
+						myself!
 					</span>
 				</p>
 				<p class="mb-4 text-left max-md:text-center">
@@ -77,35 +74,11 @@
 				</p>
 				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>
-		{:else if sectionDisplay == 'eduExp'}
-			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col items-start text-left text-lg max-md:w-auto max-md:text-justify"
-			>
-				<p class="mb-4 text-3xl text-pink">Education & Experience</p>
-				<div
-					class="chart-scrollbar grid border-collapse scroll-m-4 grid-cols-[1fr,2fr] items-center overflow-hidden overflow-y-scroll rounded-lg border-2 border-solid border-pale pb-4"
-				>
-					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Month, Year</div>
-					<div class="whitespace-nowrap bg-pink/40 p-4 text-left font-bold">Event / Experience</div>
-
-					<EduExp time="May 2025 - Current" position="Toybox Tumble Design Director" />
-					<EduExp
-						time="Jul 2024 - Current"
-						position="Super Streamer Lobby (TETR.IO) Gamemode Illustrator"
-					/>
-					<EduExp time="Jul 2023 - Current" position="Freelance Illustrator and Designer" />
-					<EduExp time="Aug 2023 - Jul 2025" position="Diploma in Design and Media (Animation)" />
-					<EduExp
-						time="Nov 2018 (7 years)"
-						position="Art journey starts! Specialising in character, concept, and design."
-					/>
-				</div>
-			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
 				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
-				<p class="mb-4 text-3xl text-pink">Projects</p>
+				<p class="mb-4 text-3xl text-pink">{sectionNames['projects']}</p>
 				<div class="flex flex-row items-center">
 					<a
 						class="flex cursor-pointer flex-row items-center hover:underline"
@@ -121,56 +94,17 @@
 					</a>
 				</div>
 
-				<div id="SSL" class="grid grid-cols-2">
-					<button
-						onclick={(event) => {
-							bp?.open({
-								items: document.querySelectorAll('#SSL > button'),
-								el: event.currentTarget
-							});
-						}}
-						class="group relative flex flex-col items-center justify-center p-1"
-						data-width="1920"
-						data-height="1080"
-						data-img="https://i.imgur.com/xThzP8b.png"
-					>
-						<div class="absolute inset-0 opacity-0 group-hover:opacity-100 bg-grey/60 transition-opacity duration-100 flex items-center justify-center">
-							<p>issa fancy text</p>
-						</div>
-						<img src="https://i.imgur.com/xThzP8b.png" class="rounded-3xl" alt="Australian Mode" />
-					</button>
-					<button
-						onclick={(event) => {
-							bp?.open({
-								items: document.querySelectorAll('#SSL > button'),
-								el: event.currentTarget
-							});
-						}}
-						class="flex flex-col items-center justify-center p-1"
-						data-width="1920"
-						data-height="1080"
-						data-img="https://i.imgur.com/NG8Bfzs.png"
-					>
-						<img
-							src="https://i.imgur.com/NG8Bfzs.png"
-							class="rounded-3xl"
-							alt="Split Squares Mode"
-						/>
-					</button>
-				</div>
-
 				<div class="flex flex-row items-center pt-2">
 					<a
 						class="flex cursor-pointer flex-row items-center hover:underline"
-						href="/unavailable"
-						target="_blank"
+						href="/toybox-tumble"
 					>
 						<img
 							src="https://i.imgur.com/RiSNf5Z.png"
 							class="mr-2 size-14 rounded-full"
 							alt="Nukexplosion"
 						/>
-						<p class="mr-2">Nukexplosion Design Director</p>
+						<p class="mr-2">Toybox Tumble (Coming Soon)</p>
 						<NorthEast class="justify-end" />
 					</a>
 				</div>
@@ -179,7 +113,7 @@
 			<div
 				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
-				<p class="mb-4 text-3xl text-pink">Achievements</p>
+				<p class="mb-4 text-3xl text-pink">{sectionNames['achievement']}</p>
 				<div class="grid grid-cols-2">
 					<div class="flex flex-col items-center justify-center p-1 text-center text-sm">
 						<img
@@ -233,16 +167,6 @@
 						sectionDisplay = 'intro';
 					}}>{sectionNames['intro']}</button
 				>
-				<button
-					class={clsx([
-						'w-full py-2 text-left text-xl max-md:text-center',
-						sectionDisplay == 'eduExp' ? 'text-pink' : 'text-pale hover:text-pink'
-					])}
-					onclick={() => {
-						sectionDisplay = 'eduExp';
-					}}>{sectionNames['eduExp']}</button
-				>
-
 				<button
 					class={clsx([
 						'w-full py-2 text-left text-xl max-md:text-center',

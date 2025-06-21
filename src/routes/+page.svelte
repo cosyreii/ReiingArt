@@ -81,30 +81,45 @@
 				<p class="mb-4 text-3xl text-pink">{sectionNames['projects']}</p>
 				<div class="flex flex-row items-center">
 					<a
-						class="flex cursor-pointer flex-row items-center hover:underline"
+						class="flex cursor-pointer flex-row items-center gap-2"
 						href="/super-streamer-lobby"
 					>
 						<img
 							src="https://i.imgur.com/cgBYoqW.png"
-							class="mr-2 size-14 rounded-full"
+							class="size-14 rounded-full"
 							alt="Super Streamer Lobby (TETR.IO)"
 						/>
-						<p class="mr-2">Super Streamer Lobby (TETR.IO)</p>
+						<p class="flex flex-row items-center">
+							Event Artist <img
+								src="https://i.imgur.com/noUP00a.png"
+								alt="point"
+								class="mx-1 size-2"
+							/>
+							Super Streamer Lobby (TETR.IO)
+						</p>
 						<NorthEast class="justify-end" />
 					</a>
 				</div>
 
 				<div class="flex flex-row items-center pt-2">
 					<a
-						class="flex cursor-pointer flex-row items-center hover:underline"
+						class="flex cursor-pointer flex-row items-center gap-2"
 						href="/toybox-tumble"
 					>
 						<img
 							src="https://i.imgur.com/RiSNf5Z.png"
-							class="mr-2 size-14 rounded-full"
+							class="size-14 rounded-full"
 							alt="Nukexplosion"
 						/>
-						<p class="mr-2">Toybox Tumble (Coming Soon)</p>
+						<p class="flex flex-row items-center">
+							Design Director <img
+								src="https://i.imgur.com/noUP00a.png"
+								alt="point"
+								class="mx-1 size-2"
+							/>
+							Toybox Tumble
+							<span class="mx-1 text-xs italic text-translucent"> (Coming Soon) </span>
+						</p>
 						<NorthEast class="justify-end" />
 					</a>
 				</div>

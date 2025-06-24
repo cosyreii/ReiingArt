@@ -16,7 +16,7 @@
 			width: '2500',
 			height: '1767',
 			title: '@cosyreii',
-			subtitle: 'pictorial mark',
+
 			sourceDT: 'https://i.imgur.com/K8LuG54.png',
 			source: 'https://i.imgur.com/2k4k1Qm.png',
 			alt: 'cosyreii logo'
@@ -26,7 +26,7 @@
 			width: '1920',
 			height: '1080',
 			title: 'DupCup 1',
-			subtitle: 'schedule/overlay',
+
 			sourceDT: 'https://i.imgur.com/0t2jo2f.png',
 			source: 'https://i.imgur.com/HVZ4fvz.png',
 			alt: 'dupcup 1'
@@ -36,7 +36,6 @@
 			width: '2500',
 			height: '1767',
 			title: 'PKGB Stride 2025',
-			subtitle: 'namecard',
 			sourceDT: 'https://i.imgur.com/2epDOkP.png',
 			source: 'https://i.imgur.com/szBuPoy.png',
 			alt: 'namecard for stride 2025'
@@ -46,21 +45,20 @@
 			width: '2000',
 			height: '2000',
 			title: '@Poxial',
-			subtitle: 'emoticons',
+
 			sourceDT: 'https://i.imgur.com/J7lbLXX.png',
 			source: 'https://i.imgur.com/J7lbLXX.png',
 			alt: 'Poxial emote'
-		},	
+		},
 		{
 			id: 'butterfly',
 			width: '2000',
 			height: '2000',
 			title: '@Sparkythethird',
-			subtitle: 'sketch',
 			sourceDT: 'https://i.imgur.com/LXPp3Do.png',
 			source: 'https://i.imgur.com/LXPp3Do.png',
 			alt: 'Sparky butterfly'
-		},				
+		}
 	]);
 </script>
 
@@ -90,7 +88,7 @@
 						class="absolute inset-0 flex flex-col items-center justify-center bg-grey/80 opacity-0 transition-opacity duration-100 group-hover:opacity-100"
 					>
 						<p class="text-3xl font-black text-pink">{item.title}</p>
-						<p class="text-xl">{item.subtitle}</p>
+						<!-- <p class="text-xl">{item.subtitle}</p> -->
 					</div>
 					<img src={item.source} class="rounded-xl" alt={item.alt} />
 				</button>

@@ -30,6 +30,7 @@
 		"@tailwindcss/typography": "^0.5.15",
 		"bigger-picture": "^1.1.19",
 		"clsx": "^2.1.1",
+		"lucide-svelte": "^0.522.0",
 		"nodemailer": "^6.9.16",
 		"simple-icons": "^13.21.0",
 		"svelte-bricks": "^0.3.2"

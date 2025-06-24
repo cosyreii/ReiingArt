@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { siDiscord, siTwitch, siKofi } from 'simple-icons';
+	import {Store} from 'lucide-svelte';
 	import BiggerPicture from 'bigger-picture';
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
@@ -20,24 +21,31 @@
 		<div class="flex gap-2">
 			<a
 				href="https://discord.gg/aqPSEJS3SR"
-				class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+				class="flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-5 [&_svg]:fill-current"
 				target="_blank"
 			>
 				{@html siDiscord.svg}
 			</a>
 			<a
 				href="https://twitch.tv/wyliecanttwitch"
-				class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+				class="flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-5 [&_svg]:fill-current"
 				target="_blank"
 			>
 				{@html siTwitch.svg}
 			</a>
 			<a
 				href="https://ko-fi.com/streamerlobby"
-				class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+				class="flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-5 [&_svg]:fill-current"
 				target="_blank"
 			>
 				{@html siKofi.svg}
+			</a>
+			<a
+				href="https://superstreamerlobby-shop.fourthwall.com/"
+				class="flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-5"
+				target="_blank"
+			>
+				<Store/>
 			</a>
 		</div>
 	</div>

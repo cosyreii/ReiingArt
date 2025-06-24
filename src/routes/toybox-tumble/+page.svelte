@@ -22,7 +22,7 @@
 		<div class="flex gap-2">
 			<a
 				href="/unavailable"
-				class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-7 [&_svg]:fill-current"
+				class="flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-5 [&_svg]:fill-current"
 				target="_blank"
 			>
 				{@html siSteam.svg}

@@ -81,7 +81,7 @@
 				<p class="text-3xl font-black text-pink">SSL 5</p>
 				<p class="text-xl">Ghosts and Ghouls</p>
 			</div>
-			<img src="https://i.imgur.com/YFFOhQm.png" class="rounded-3xl" alt="Ghosts and Ghouls" />
+			<img src="https://i.imgur.com/gEN4JWO.png" class="rounded-3xl" alt="Ghosts and Ghouls" />
 		</button>
 		<button
 			onclick={(event) => {

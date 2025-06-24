@@ -64,22 +64,22 @@
 	>
 		<!-- info -->
 		<div
-			class="m-2 flex flex-col items-center justify-center rounded-3xl bg-[#171515a5]/40 p-3 text-center max-lg:m-2 max-lg:w-full"
+			class="m-2 flex flex-col items-center justify-center rounded-3xl bg-[#fcf0f0a5]/40 p-3 text-center max-lg:m-2 max-lg:w-full"
 		>
 			<div class="mb-2 flex items-center justify-center rounded-lg">
-				<p class="rounded-3xl bg-[#171515a5]/40 p-4 text-xl font-black tracking-widest">
+				<p class="rounded-3xl text-grey bg-[#fcf0f0a5]/40 p-4 text-xl font-black tracking-widest">
 					COPYRIGHT / USAGE
 				</p>
 			</div>
 
-			<div class="flex flex-row max-lg:flex-col">
+			<div class="flex flex-row max-lg:flex-col text-grey">
 				<div
 					class="mx-1 mb-1 w-full overflow-clip rounded-3xl border-[3px] border-solid border-grey"
 				>
-					<div class="border-b-[3px] border-solid border-grey bg-red p-1 font-bold">
+					<div class="border-b-[3px] border-solid border-grey bg-pink p-1 font-bold">
 						<p>Personal</p>
 					</div>
-					<div class="h-full bg-[#171515a5] p-1 text-left text-sm">
+					<div class="h-full bg-[#fcf0f0] p-1 text-left text-sm">
 						<div class="ml-2">
 							<p class="flex flex-row">
 								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Profile
@@ -108,10 +108,10 @@
 				<div
 					class="mx-1 my-1 w-full overflow-clip rounded-3xl border-[3px] border-solid border-grey"
 				>
-					<div class="border-b-[3px] border-solid border-grey bg-red p-1 font-bold">
+					<div class="border-b-[3px] border-solid border-grey bg-pink p-1 font-bold">
 						<p>Branding (+25%)</p>
 					</div>
-					<div class="h-full bg-[#171515a5] p-1 text-left text-sm">
+					<div class="h-full bg-[#fcf0f0] p-1 text-left text-sm">
 						<div class="ml-2">
 							<p class="flex flex-row">
 								<img src="https://i.imgur.com/MoPDHeQ.png" alt="important" class="mr-1 size-4" /> Use
@@ -136,10 +136,10 @@
 				<div
 					class="mx-1 mt-1 w-full overflow-clip rounded-3xl border-[3px] border-solid border-grey"
 				>
-					<div class="border-b-[3px] border-solid border-grey bg-red p-1 font-bold">
+					<div class="border-b-[3px] border-solid border-grey bg-pink p-1 font-bold">
 						<p>Commercial (+75%)</p>
 					</div>
-					<div class="h-full bg-[#171515a5] p-1 text-left text-sm">
+					<div class="h-full bg-[#fcf0f0] p-1 text-left text-sm">
 						<div class="ml-2">
 							<p class="flex flex-row">
 								<img src="https://i.imgur.com/MoPDHeQ.png" alt="important" class="mr-1 size-4" /> Use
@@ -153,7 +153,7 @@
 								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Merchandise:
 								Stickers, keychain, pins, apparel, prints etc.
 							</p>
-							<p class="ml-4 flex flex-row items-center text-xs text-translucent">
+							<p class="ml-4 flex flex-row items-center text-xs text-[#171515a5]">
 								<img src="https://i.imgur.com/noUP00a.png" alt="sub info" class="mr-1 size-2" /> Royalty
 								contract is required for merchandise.
 							</p>

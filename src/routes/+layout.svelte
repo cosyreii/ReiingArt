@@ -20,14 +20,14 @@
 					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.5)),url('https://i.imgur.com/duyxKiX.png')] bg-cover bg-bottom p-2 text-center"
 				>
 					<div>
-						<h1 class="text-xl text-grey font-black">「Reii Ng」</h1>
+						<h1 class="text-xl font-black text-grey">「Reii Ng」</h1>
 						<p class="text-grey">
 							Character & Concept Designer | Part-time Streamer, Full-time Artist
 						</p>
 					</div>
 					<img
 						src="https://i.imgur.com/XrN6mIs.png"
-						class="size-28 object-cover rounded-full border-2 border-grey p-1  max-md:hidden"
+						class="size-28 rounded-full border-2 border-grey object-cover p-1 max-md:hidden"
 						alt="logo"
 					/>
 				</div>
@@ -52,7 +52,8 @@
 				page.route.id == '/gallery' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Gallery</a
 		>
-		<a
+		<!-- <a
+		
 			href="/terms"
 			class={clsx([
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
@@ -65,21 +66,7 @@
 				'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
 				page.route.id == '/services' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Services</a
-		>
-		<!-- <a
-				href="/reviews"
-				class={clsx([
-					'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-					page.route.id == '/reviews' ? 'border-pink text-pink' : 'border-pale text-pale'
-				])}>Reviews (Temp)</a
-			> -->
-		<!-- <a
-				href="/contact"
-				class={clsx([
-					'h-auto w-32 cursor-pointer rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
-					page.route.id == '/contact' ? 'border-pink text-pink' : 'border-pale text-pale'
-				])}>Contact</a
-			> -->
+		>  -->
 	</nav>
 	<hr class="mx-auto mt-4 w-11/12 border-pale" />
 </header>

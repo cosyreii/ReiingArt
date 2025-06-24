@@ -27,7 +27,7 @@
 			height: '1080',
 			title: 'DupCup 1',
 			subtitle: 'schedule/overlay',
-			sourceDT: 'https://i.imgur.com/qlpzER5.png',
+			sourceDT: 'https://i.imgur.com/0t2jo2f.png',
 			source: 'https://i.imgur.com/HVZ4fvz.png',
 			alt: 'dupcup 1'
 		},

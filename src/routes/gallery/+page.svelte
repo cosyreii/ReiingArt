@@ -1,5 +1,67 @@
-<script>
+<script lang="ts">
 	import GoToTop from '$lib/components/go-to-top.svelte';
+	import Masonry from 'svelte-bricks';
+	import BiggerPicture from 'bigger-picture';
+	import 'bigger-picture/css';
+	import { onMount } from 'svelte';
+
+	let bp = $state<ReturnType<typeof BiggerPicture>>();
+	onMount(() => {
+		bp = BiggerPicture({ target: document.body });
+	});
+
+	let items = $state([
+		{
+			id: 'cosyreii_logo',
+			width: '2500',
+			height: '1767',
+			title: '@cosyreii',
+			subtitle: 'pictorial mark',
+			sourceDT: 'https://i.imgur.com/K8LuG54.png',
+			source: 'https://i.imgur.com/2k4k1Qm.png',
+			alt: 'cosyreii logo'
+		},
+		{
+			id: 'dpcp_1',
+			width: '1920',
+			height: '1080',
+			title: 'DupCup 1',
+			subtitle: 'schedule/overlay',
+			sourceDT: 'https://i.imgur.com/qlpzER5.png',
+			source: 'https://i.imgur.com/HVZ4fvz.png',
+			alt: 'dupcup 1'
+		},
+		{
+			id: 'stride2025_namecard',
+			width: '2500',
+			height: '1767',
+			title: 'PKGB Stride 2025',
+			subtitle: 'namecard',
+			sourceDT: 'https://i.imgur.com/2epDOkP.png',
+			source: 'https://i.imgur.com/szBuPoy.png',
+			alt: 'namecard for stride 2025'
+		},
+		{
+			id: 'poxmote',
+			width: '2000',
+			height: '2000',
+			title: '@Poxial',
+			subtitle: 'emoticons',
+			sourceDT: 'https://i.imgur.com/J7lbLXX.png',
+			source: 'https://i.imgur.com/J7lbLXX.png',
+			alt: 'Poxial emote'
+		},	
+		{
+			id: 'butterfly',
+			width: '2000',
+			height: '2000',
+			title: '@Sparkythethird',
+			subtitle: 'sketch',
+			sourceDT: 'https://i.imgur.com/LXPp3Do.png',
+			source: 'https://i.imgur.com/LXPp3Do.png',
+			alt: 'Sparky butterfly'
+		},				
+	]);
 </script>
 
 <svelte:head>
@@ -9,21 +71,32 @@
 <div
 	class="noscrollbar align-center m-1 my-4 flex flex-col justify-center overflow-y-scroll px-20 text-left text-lg max-md:items-center max-md:px-3"
 >
-	<div class="grid grid-cols-4 max-lg:grid-cols-3 max-md:grid-cols-1">
-		<img src="https://i.imgur.com/4fIBkTn.png" class="mb-2 w-72" alt="cosyreii logo" />
-		<img src="https://i.imgur.com/fbBqyD6.png" class="mb-2 w-72" alt="stride 2025 namecard" />
-		<img src="https://i.imgur.com/uqh6nuJ.png" class="mb-2 w-72" alt="sword" />
-		<img src="https://i.imgur.com/BhgWbzb.png" class="mb-2 w-72" alt="plague scythe" />
-		<img src="https://i.imgur.com/tQWb9zt.png" class="mb-2 w-72" alt="butterfly" />
-		<img src="https://i.imgur.com/qKLKYlH.png" class="mb-2 w-72" alt="cosyreii" />
-		<img src="https://i.imgur.com/hG3YPAh.png" class="mb-2 w-72" alt="soupspoon logo" />
-		<img src="https://i.imgur.com/US3BGdd.png" class="mb-2 w-72" alt="poxial emotes" />
-		<img src="https://i.imgur.com/7Uh4P9I.png" class="mb-2 w-72" alt="dupcup 1" />
-		<img src="https://i.imgur.com/92SQ8Aa.png" class="mb-2 w-72" alt="noctovilia suchi" />
-		<img src="https://i.imgur.com/PnB042t.png" class="mb-2 w-72" alt="noctovilia details" />
-		<img src="https://i.imgur.com/Yk58REc.png" class="mb-2 w-72" alt="duffy" />
-		<img src="https://i.imgur.com/5L9Kr5g.png" class="mb-2 w-72" alt="levhanni" />
-	</div>
+	<Masonry {items} minColWidth={400} maxColWidth={800} gap={20} class="w-full">
+		{#snippet children({ item })}
+			<div id="showcase">
+				<button
+					onclick={(event) => {
+						bp?.open({
+							items: document.querySelectorAll('#showcase > button'),
+							el: event.currentTarget
+						});
+					}}
+					class="group relative flex flex-col items-center justify-center p-1"
+					data-width={item.width}
+					data-height={item.height}
+					data-img={item.sourceDT}
+				>
+					<div
+						class="absolute inset-0 flex flex-col items-center justify-center bg-grey/80 opacity-0 transition-opacity duration-100 group-hover:opacity-100"
+					>
+						<p class="text-3xl font-black text-pink">{item.title}</p>
+						<p class="text-xl">{item.subtitle}</p>
+					</div>
+					<img src={item.source} class="rounded-xl" alt={item.alt} />
+				</button>
+			</div>
+		{/snippet}
+	</Masonry>
 </div>
 
 <GoToTop showAtPixel={800} />

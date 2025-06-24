@@ -43,7 +43,7 @@
 				<p class="mb-4 text-left max-md:text-center">
 					A freelance illustrator specialising in
 					<span class="font-black text-[#ffffff]">design</span> and
-					<span class="font-black text-[#ffffff]">expression</span> since 2018!
+					<span class="font-black text-[#ffffff]">expression</span> since 2023!
 					<!-- I hold a Diploma in Design
 					& Media (Animation) from Asia Pascific University (APU) and currently a Bachelor of
 					Film at [University]. -->

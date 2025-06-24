@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { siTwitch } from 'simple-icons';
+	import { siTwitch, siKofi } from 'simple-icons';
 	import BiggerPicture from 'bigger-picture';
 	import 'bigger-picture/css';
 	import { onMount } from 'svelte';
@@ -16,9 +16,7 @@
 
 <div class="align-center my-4 flex flex-col justify-start px-20 text-left text-lg max-md:px-3">
 	<div class="flex flex-row">
-		<p class="flex w-full text-3xl font-black tracking-widest text-pink">
-			DupCup (TETR.IO)
-		</p>
+		<p class="flex w-full text-3xl font-black tracking-widest text-pink">DupCup (TETR.IO)</p>
 		<div class="flex gap-2">
 			<a
 				href="https://twitch.tv/dubstep298"
@@ -27,10 +25,17 @@
 			>
 				{@html siTwitch.svg}
 			</a>
+				<a
+				href="https://ko-fi.com/dubstep298"
+				class="flex size-8 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-5 [&_svg]:fill-current"
+				target="_blank"
+			>
+				{@html siKofi.svg}
+			</a>
 		</div>
 	</div>
 
-		<div id="DupCup" class="mt-2 grid grid-cols-3">
+	<div id="DupCup" class="mt-2 grid grid-cols-3">
 		<button
 			onclick={(event) => {
 				bp?.open({

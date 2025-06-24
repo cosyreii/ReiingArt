@@ -76,51 +76,79 @@
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
-				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
+				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start gap-2 overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
 				<p class="mb-4 text-3xl text-pink">{sectionNames['projects']}</p>
+
 				<div class="flex flex-row items-center">
-					<a
-						class="flex cursor-pointer flex-row items-center gap-2"
-						href="/super-streamer-lobby"
-					>
+					<a class="flex cursor-pointer flex-row items-center gap-2" href="/toybox-tumble">
+						<img
+							src="https://i.imgur.com/RiSNf5Z.png"
+							class="size-14 rounded-full"
+							alt="Toybox Tumble"
+						/>
+						<div class="flex flex-col">
+							<div class="flex flex-row items-center gap-2">
+								<p class="flex flex-row items-center">
+									Design Director <img
+										src="https://i.imgur.com/noUP00a.png"
+										alt="point"
+										class="mx-1 size-2"
+									/>
+									Toybox Tumble
+								</p>
+								<NorthEast class="justify-end" />
+							</div>
+							<p class="flex flex-row items-center text-sm text-translucent">May 2025 - Current</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="flex flex-row items-center">
+					<a class="flex cursor-pointer flex-row items-center gap-2" href="/dupcup">
+						<img
+							src="https://i.imgur.com/RiSNf5Z.png"
+							class="size-14 rounded-full"
+							alt="DupCup (TETR.IO)"
+						/>
+						<div class="flex flex-col">
+							<div class="flex flex-row items-center gap-2">
+								<p class="flex flex-row items-center">
+									Main Artist <img
+										src="https://i.imgur.com/noUP00a.png"
+										alt="point"
+										class="mx-1 size-2"
+									/>
+									DupCup (TETR.IO)
+								</p>
+								<NorthEast class="justify-end" />
+							</div>
+							<p class="flex flex-row items-center text-sm text-translucent">Feb 2025 - Current</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="flex flex-row items-center">
+					<a class="flex cursor-pointer flex-row items-center gap-2" href="/super-streamer-lobby">
 						<img
 							src="https://i.imgur.com/cgBYoqW.png"
 							class="size-14 rounded-full"
 							alt="Super Streamer Lobby (TETR.IO)"
 						/>
-						<p class="flex flex-row items-center">
-							Event Artist <img
-								src="https://i.imgur.com/noUP00a.png"
-								alt="point"
-								class="mx-1 size-2"
-							/>
-							Super Streamer Lobby (TETR.IO)
-						</p>
-						<NorthEast class="justify-end" />
-					</a>
-				</div>
-
-				<div class="flex flex-row items-center pt-2">
-					<a
-						class="flex cursor-pointer flex-row items-center gap-2"
-						href="/toybox-tumble"
-					>
-						<img
-							src="https://i.imgur.com/RiSNf5Z.png"
-							class="size-14 rounded-full"
-							alt="Nukexplosion"
-						/>
-						<p class="flex flex-row items-center">
-							Design Director <img
-								src="https://i.imgur.com/noUP00a.png"
-								alt="point"
-								class="mx-1 size-2"
-							/>
-							Toybox Tumble
-							<span class="mx-1 text-xs italic text-translucent"> (Coming Soon) </span>
-						</p>
-						<NorthEast class="justify-end" />
+						<div class="flex flex-col">
+							<div class="flex flex-row items-center gap-2">
+								<p class="flex flex-row items-center">
+									Event Artist <img
+										src="https://i.imgur.com/noUP00a.png"
+										alt="point"
+										class="mx-1 size-2"
+									/>
+									Super Streamer Lobby (TETR.IO)
+								</p>
+								<NorthEast class="justify-end" />
+							</div>
+							<p class="flex flex-row items-center text-sm text-translucent">Apr 2024 - Current</p>
+						</div>
 					</a>
 				</div>
 			</div>

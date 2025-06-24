@@ -22,14 +22,13 @@
 			alt: 'cosyreii logo'
 		},
 		{
-			id: 'dpcp_1',
-			width: '1920',
-			height: '1080',
-			title: 'DupCup 1',
-
-			sourceDT: 'https://i.imgur.com/0t2jo2f.png',
-			source: 'https://i.imgur.com/HVZ4fvz.png',
-			alt: 'dupcup 1'
+			id: 'butterfly',
+			width: '2000',
+			height: '2000',
+			title: '@Sparkythethird',
+			sourceDT: 'https://i.imgur.com/LXPp3Do.png',
+			source: 'https://i.imgur.com/LXPp3Do.png',
+			alt: 'Sparky butterfly'
 		},
 		{
 			id: 'stride2025_namecard',
@@ -49,15 +48,6 @@
 			sourceDT: 'https://i.imgur.com/J7lbLXX.png',
 			source: 'https://i.imgur.com/J7lbLXX.png',
 			alt: 'Poxial emote'
-		},
-		{
-			id: 'butterfly',
-			width: '2000',
-			height: '2000',
-			title: '@Sparkythethird',
-			sourceDT: 'https://i.imgur.com/LXPp3Do.png',
-			source: 'https://i.imgur.com/LXPp3Do.png',
-			alt: 'Sparky butterfly'
 		}
 	]);
 </script>

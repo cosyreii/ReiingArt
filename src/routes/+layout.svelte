@@ -13,14 +13,16 @@
 <link href="https://fonts.googleapis.com/css?family=Imprima" rel="stylesheet" />
 
 <header class="flex flex-col bg-grey">
-	<div class="mx-8 mb-4 mt-2">
+	<div class="mx-8 mb-6 mt-2">
 		{#if page.route.id == '/'}
 			<div transition:slide={{ axis: 'y', duration: 800 }}>
 				<div
 					class="flex flex-row items-center justify-center gap-14 rounded-3xl bg-[linear-gradient(to_right,rgba(255,255,255,0.1),rgba(255,255,255,0.5)),url('https://i.imgur.com/duyxKiX.png')] bg-cover bg-bottom p-2 text-center"
 				>
 					<div>
-						<h1 class="text-xl font-black text-grey">「Reii Ng」</h1>
+						<h1 class="text-xl font-black text-grey">
+							「Reii Ng」<span class="font-bold text-[#bf7a92]">✦ Audrey </span>
+						</h1>
 						<p class="text-grey">
 							Character & Concept Designer | Part-time Streamer, Full-time Artist
 						</p>

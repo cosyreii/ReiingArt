@@ -70,12 +70,13 @@
 			])}>Services</a
 		>  -->
 	</nav>
-	<hr class="mx-auto mt-4 w-11/12 border-pale" />
 </header>
+
+<hr class="mx-auto mt-4 w-11/12 border-pale" />
 
 {@render children()}
 
-<hr class="mx-auto mt-5 w-11/12 border-pale max-md:mt-0" />
+<hr class="mx-auto mt-4 w-11/12 border-pale" />
 
 <footer class="mt-4 flex flex-col items-center justify-center pb-10">
 	<h1 class="text-xl text-pink">Contact / 询问 ⊹ reiing.art@gmail.com</h1>

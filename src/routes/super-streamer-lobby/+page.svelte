@@ -69,8 +69,9 @@
 				<p class="text-3xl font-black text-pink">SSL 4</p>
 				<p class="text-xl">Australian Mode</p>
 			</div>
-			<img src="https://i.imgur.com/xThzP8b.png" class="rounded-3xl" alt="Australian Mode" />
+			<img src="https://i.imgur.com/xThzP8b.png" class="rounded-3xl" alt="SSL4 Australian Mode" />
 		</button>
+		
 		<button
 			onclick={(event) => {
 				bp?.open({
@@ -89,8 +90,9 @@
 				<p class="text-3xl font-black text-pink">SSL 5</p>
 				<p class="text-xl">Ghosts and Ghouls</p>
 			</div>
-			<img src="https://i.imgur.com/gEN4JWO.png" class="rounded-3xl" alt="Ghosts and Ghouls" />
+			<img src="https://i.imgur.com/gEN4JWO.png" class="rounded-3xl" alt="SSL5 Ghosts and Ghouls" />
 		</button>
+
 		<button
 			onclick={(event) => {
 				bp?.open({
@@ -109,7 +111,7 @@
 				<p class="text-3xl font-black text-pink">SSL 5</p>
 				<p class="text-xl">Splitting Squares</p>
 			</div>
-			<img src="https://i.imgur.com/NG8Bfzs.png" class="rounded-3xl" alt="Split Squares Mode" />
+			<img src="https://i.imgur.com/NG8Bfzs.png" class="rounded-3xl" alt="SSL5 Split Squares Mode" />
 		</button>
 	</div>
 </div>

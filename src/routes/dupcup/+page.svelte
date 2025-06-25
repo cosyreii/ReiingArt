@@ -46,15 +46,36 @@
 			class="group relative flex flex-col items-center justify-center p-1"
 			data-width="1920"
 			data-height="1080"
-			data-img="https://i.imgur.com/baZTPzV.png"
+			data-img="https://i.imgur.com/1BffsiX.png"
 		>
 			<div
 				class="absolute inset-0 flex flex-col items-center justify-center bg-grey/80 opacity-0 transition-opacity duration-100 group-hover:opacity-100"
 			>
-				<p class="text-3xl font-black text-pink">Coming Soon</p>
-				<p class="text-xl"></p>
+				<p class="text-3xl font-black text-pink">DPCP 1</p>
+				<p class="text-xl">banner art</p>
 			</div>
-			<img src="https://i.imgur.com/baZTPzV.png" class="rounded-3xl" alt="unavailable" />
+			<img src="https://i.imgur.com/1BffsiX.png" class="rounded-3xl" alt="DPCP 1 banner" />
+		</button>
+
+			<button
+			onclick={(event) => {
+				bp?.open({
+					items: document.querySelectorAll('#DupCup > button'),
+					el: event.currentTarget
+				});
+			}}
+			class="group relative flex flex-col items-center justify-center p-1"
+			data-width="1920"
+			data-height="1080"
+			data-img="https://i.imgur.com/iCJDx7K.png"
+		>
+			<div
+				class="absolute inset-0 flex flex-col items-center justify-center bg-grey/80 opacity-0 transition-opacity duration-100 group-hover:opacity-100"
+			>
+				<p class="text-3xl font-black text-pink">DPCP 1</p>
+				<p class="text-xl">schedule</p>
+			</div>
+			<img src="https://i.imgur.com/iCJDx7K.png" class="rounded-3xl" alt="DPCP 1 schedule" />
 		</button>
 	</div>
 </div>

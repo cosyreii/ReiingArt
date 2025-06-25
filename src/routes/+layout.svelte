@@ -21,7 +21,7 @@
 				>
 					<div>
 						<h1 class="text-xl font-black text-grey">
-							「Reii Ng」<span class="font-bold text-[#bf7a92]">✦ Audrey </span>
+							「Reii Ng」<span class="font-bold text-[#b46e86]">✦ Audrey NJX</span>
 						</h1>
 						<p class="text-grey">
 							Character & Concept Designer | Part-time Streamer, Full-time Artist

@@ -22,7 +22,7 @@
 
 <main class="p-5 text-center">
 	<div class="m-4 flex flex-row items-center justify-center gap-4 max-md:flex-col-reverse">
-		<div class="group relative h-96 w-60 hover:cursor-pointer max-lg:hidden">
+		<div class="group relative h-[25rem] w-60 hover:cursor-pointer max-lg:hidden">
 			<img
 				src="https://i.imgur.com/jdPFDAk.png"
 				class="absolute w-60 object-cover group-active:opacity-0"
@@ -37,10 +37,10 @@
 
 		{#if sectionDisplay == 'intro'}
 			<div
-				class="noscrollbar m-1 flex h-96 w-[40rem] flex-col overflow-y-scroll text-lg max-md:w-auto"
+				class="noscrollbar m-1 flex h-[25rem] w-[60rem] flex-col overflow-y-scroll text-lg max-md:w-auto"
 			>
-				<p class="mb-4 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
-				<p class="mb-4 text-left max-md:text-center">
+				<p class="mb-2 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
+				<p class="mb-2 text-left max-md:text-center">
 					A freelance illustrator specialising in
 					<span class="font-black text-[#ffffff]">design</span> and
 					<span class="font-black text-[#ffffff]">expression</span> since 2023!
@@ -48,7 +48,7 @@
 					& Media (Animation) from Asia Pascific University (APU) and currently a Bachelor of
 					Film at [University]. -->
 				</p>
-				<p class="mb-4 text-left max-md:text-center">
+				<p class="mb-2 text-left max-md:text-center">
 					I mainly work on
 					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
 					<span class="bg-pink/25 font-black text-[#ffffff]">streaming models</span>, and
@@ -58,7 +58,7 @@
 					<span class="bg-pink/25 font-black text-[#ffffff]">merch design</span>, and even
 					<span class="bg-pink/25 font-black text-[#ffffff]">logos & cards</span>!
 				</p>
-				<p class="mb-4 text-left max-md:text-center">
+				<p class="mb-2 text-left max-md:text-center">
 					Other Skills —
 					<span class="text-left text-translucent max-md:text-center">
 						Hobby writer who enjoys creating
@@ -68,7 +68,7 @@
 						myself!
 					</span>
 				</p>
-				<p class="mb-4 text-left max-md:text-center">
+				<p class="mb-2 text-left max-md:text-center">
 					Aside from that, I am fluent in <span class="font-black">English</span> and
 					<span class="font-black">Mandarin</span>~
 				</p>
@@ -76,9 +76,10 @@
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
-				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start gap-2 overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
+				id="projects"
+				class="page-scrollbar m-1 flex h-[25rem] w-[60rem] flex-col items-start gap-2 overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
-				<p class="mb-4 text-3xl text-pink">{sectionNames['projects']}</p>
+				<p class="mb-2 text-3xl text-pink">{sectionNames['projects']}</p>
 
 				<div class="flex flex-row items-center">
 					<a class="flex cursor-pointer flex-row items-center gap-2" href="/toybox-tumble">
@@ -114,7 +115,7 @@
 						<div class="flex flex-col">
 							<div class="flex flex-row items-center gap-2">
 								<p class="flex flex-row items-center">
-									Main Artist <img
+									Design Director <img
 										src="https://i.imgur.com/noUP00a.png"
 										alt="point"
 										class="mx-1 size-2"
@@ -151,12 +152,61 @@
 						</div>
 					</a>
 				</div>
+
+				<hr class="my-2 w-11/12 border-translucent" />
+
+				<p class="mb-2 text-3xl text-pink">Project Archive</p>
+
+				<div class="flex flex-row items-center">
+					<a class="flex cursor-pointer flex-row items-center gap-2" href="/cookie-heist">
+						<img
+							src="https://i.imgur.com/RiSNf5Z.png"
+							class="size-14 rounded-full"
+							alt="Cookie Heist"
+						/>
+						<div class="flex flex-col">
+							<div class="flex flex-row items-center gap-2">
+								<p class="flex flex-row items-center">
+									Creative Director <img
+										src="https://i.imgur.com/noUP00a.png"
+										alt="point"
+										class="mx-1 size-2"
+									/>
+									Cookie Heist
+								</p>
+								<NorthEast class="justify-end" />
+							</div>
+							<p class="flex flex-row items-center text-sm text-translucent">Jun 2025 - Jul 2025</p>
+						</div>
+					</a>
+				</div>
+
+				<div class="flex flex-row items-center">
+					<a class="flex cursor-pointer flex-row items-center gap-2" href="/juiced">
+						<img src="https://i.imgur.com/RiSNf5Z.png" class="size-14 rounded-full" alt="Juiced" />
+						<div class="flex flex-col">
+							<div class="flex flex-row items-center gap-2">
+								<p class="flex flex-row items-center">
+									Creative Director <img
+										src="https://i.imgur.com/noUP00a.png"
+										alt="point"
+										class="mx-1 size-2"
+									/>
+									Juiced!
+								</p>
+								<NorthEast class="justify-end" />
+							</div>
+							<p class="flex flex-row items-center text-sm text-translucent">Apr 2025 - Jul 2025</p>
+						</div>
+					</a>
+				</div>
 			</div>
 		{:else if sectionDisplay == 'achievement'}
 			<div
-				class="page-scrollbar m-1 flex h-96 w-[40rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
+				id="achievements"
+				class="page-scrollbar m-1 flex h-[25rem] w-[60rem] flex-col items-start overflow-y-scroll text-left text-lg max-md:w-auto max-md:text-justify"
 			>
-				<p class="mb-4 text-3xl text-pink">{sectionNames['achievement']}</p>
+				<p class="mb-2 text-3xl text-pink">{sectionNames['achievement']}</p>
 				<div class="grid grid-cols-2">
 					<div class="flex flex-col items-center justify-center p-1 text-center text-sm">
 						<img
@@ -197,7 +247,7 @@
 			</button>
 			<div
 				class={clsx([
-					'noscrollbar ml-8 flex h-96 w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left transition-[height] max-md:absolute max-md:ml-0 max-md:w-72 max-md:items-center max-md:justify-start max-md:divide-y max-md:overflow-hidden max-md:rounded-lg max-md:border-[3px] max-md:border-l-0 max-md:border-solid max-md:bg-grey',
+					'noscrollbar ml-8 flex h-[25rem] w-40 flex-col items-start justify-center overflow-y-scroll border-l border-dashed border-translucent p-3 text-left transition-[height] max-md:absolute max-md:ml-0 max-md:w-72 max-md:items-center max-md:justify-start max-md:divide-y max-md:overflow-hidden max-md:rounded-lg max-md:border-[3px] max-md:border-l-0 max-md:border-solid max-md:bg-grey',
 					mobileMenu ? 'max-md:h-52' : 'max-md:h-0 max-md:p-0'
 				])}
 			>

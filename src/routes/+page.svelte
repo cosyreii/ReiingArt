@@ -22,19 +22,6 @@
 
 <main class="p-5 text-center">
 	<div class="m-4 flex flex-row items-center justify-center gap-4 max-md:flex-col-reverse">
-		<div class="group relative h-[25rem] w-60 hover:cursor-pointer max-lg:hidden">
-			<img
-				src="https://i.imgur.com/jdPFDAk.png"
-				class="absolute w-60 object-cover group-active:opacity-0"
-				alt="reii welcome"
-			/>
-			<img
-				src="https://i.imgur.com/ZoHaE0k.png"
-				class="absolute w-60 object-cover opacity-0 group-active:opacity-100"
-				alt="reii angi"
-			/>
-		</div>
-
 		{#if sectionDisplay == 'intro'}
 			<div
 				class="noscrollbar m-1 flex h-[25rem] w-[60rem] flex-col overflow-y-scroll text-lg max-md:w-auto"
@@ -74,6 +61,7 @@
 				</p>
 				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>
+
 		{:else if sectionDisplay == 'projects'}
 			<div
 				id="projects"
@@ -201,6 +189,7 @@
 					</a>
 				</div>
 			</div>
+			
 		{:else if sectionDisplay == 'achievement'}
 			<div
 				id="achievements"
@@ -276,7 +265,7 @@
 					])}
 					onclick={() => {
 						sectionDisplay = 'achievement';
-					}}>{sectionNames['achievement']}</button
+					}} >{sectionNames['achievement']} </button
 				>
 			</div>
 		</div>

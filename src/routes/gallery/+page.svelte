@@ -34,7 +34,8 @@
 			id: 'stride2025_namecard',
 			width: '2500',
 			height: '1767',
-			title: 'PKGB Stride 2025',
+			title: '@PuzzleKingdomGB',
+			subtitle:'Stride 2025',
 			sourceDT: 'https://i.imgur.com/2epDOkP.png',
 			source: 'https://i.imgur.com/szBuPoy.png',
 			alt: 'namecard for stride 2025'
@@ -78,7 +79,7 @@
 						class="absolute inset-0 flex flex-col items-center justify-center bg-grey/80 opacity-0 transition-opacity duration-100 group-hover:opacity-100"
 					>
 						<p class="text-3xl font-black text-pink">{item.title}</p>
-						<!-- <p class="text-xl">{item.subtitle}</p> -->
+						<p class="text-xl">{item.subtitle}</p>
 					</div>
 					<img src={item.source} class="rounded-xl" alt={item.alt} />
 				</button>

@@ -141,7 +141,7 @@
 					</a>
 				</div>
 
-				<hr class="my-2 w-11/12 border-translucent" />
+				<!-- <hr class="my-2 w-11/12 border-translucent" />
 
 				<p class="mb-2 text-3xl text-pink">Project Archive</p>
 
@@ -188,7 +188,7 @@
 						</div>
 					</a>
 				</div>
-			</div>
+			</div> -->
 			
 		{:else if sectionDisplay == 'achievement'}
 			<div

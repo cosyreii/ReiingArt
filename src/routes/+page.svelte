@@ -61,7 +61,6 @@
 				</p>
 				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>
-
 		{:else if sectionDisplay == 'projects'}
 			<div
 				id="projects"
@@ -188,8 +187,8 @@
 						</div>
 					</a>
 				</div>
-			</div> -->
-			
+			 -->
+			</div>
 		{:else if sectionDisplay == 'achievement'}
 			<div
 				id="achievements"
@@ -265,8 +264,9 @@
 					])}
 					onclick={() => {
 						sectionDisplay = 'achievement';
-					}} >{sectionNames['achievement']} </button
-				>
+					}}
+					>{sectionNames['achievement']}
+				</button>
 			</div>
 		</div>
 	</div>

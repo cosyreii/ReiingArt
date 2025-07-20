@@ -82,23 +82,23 @@
 					<div class="h-full bg-[#fcf0f0] p-1 text-left text-sm">
 						<div class="ml-2">
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Profile
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Profile
 								Picture (PFP), sharing on social media (with credit).
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Showing
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Showing
 								art on stream or unmonetised video (with credit).
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Posting
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Posting
 								artwork on forum or Discord (with credit).
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Free
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Free
 								to use emotes (e.g. Discord Server, Twitch Follower)
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Using
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Using
 								image as wallpaper for personal enjoyment.
 							</p>
 						</div>
@@ -118,15 +118,15 @@
 								for personal branding or hobby monetisation.
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Pay to
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Pay to
 								use emotes (e.g. Twitch Subscription, YouTube Membership)
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Use art
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Use art
 								to promote direct revenue, events, merch etc.
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Branding
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Branding
 								(logos, overlays, stingers).
 							</p>
 						</div>
@@ -146,11 +146,11 @@
 								for profit generating, media and merchandise.
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Digital
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Digital
 								perks, member rewards, paywall content.
 							</p>
 							<p class="flex flex-row">
-								<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Merchandise:
+								<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Merchandise:
 								Stickers, keychain, pins, apparel, prints etc.
 							</p>
 							<p class="ml-4 flex flex-row items-center text-xs text-[#171515a5]">

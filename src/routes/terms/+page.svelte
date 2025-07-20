@@ -18,7 +18,7 @@
 	<div class="w-11/12 text-justify">
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">DISCLAIMER</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				You must be at least
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">18 years old</span>
@@ -26,15 +26,15 @@
 			</p>
 		</div>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> I retain the right
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> I retain the right
 			to reject any request or commission for any reason.
 		</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Harrassment or
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Harrassment or
 			attempts to bargain for or reserve a commission is not tolerated.
 		</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				All sales are "Digital Artwork" and it is the artwork's <span
 					class="mx-1 whitespace-nowrap bg-pink/25 font-black text-[#ffffff]"
@@ -49,7 +49,7 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">PAYMENT</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				Prices are in
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">USD</span>
@@ -58,14 +58,14 @@
 			</p>
 		</div>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Full upfront payment</span> is required
 				unless otherwise discussed. I will only proceed after the artwork is fully funded.
 			</p>
 		</div>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				I will initiate transactions via
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Paypal invoice</span> to avoid accidental
@@ -77,7 +77,7 @@
 			any payment until I have confirmed your commission and sent an ivoice.
 		</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Price may increase
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Price may increase
 			depending of the complexity of the commission. The prices listed on the site base prices.
 		</p>
 	</div>
@@ -86,7 +86,7 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">REVISION</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Major changes (
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Major changes (
 			e.g. clothing, pose ) are only allowed during the sketch phase .
 		</p>
 		<p class="ml-4 flex flex-row items-center text-base text-translucent">
@@ -94,7 +94,7 @@
 			and redoing outfits, poses, or background will incur in additional fee.
 		</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Once line art has
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Once line art has
 			begun, only minor revisions ( e.g. colour, shading ) are allowed.
 		</p>
 	</div>
@@ -103,7 +103,7 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">COMMUNICATION</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				Commissions are accepted based on my preferences and comfort level, they are not on a
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"> not FCFS</span> (first-come, first-served)
@@ -111,7 +111,7 @@
 			</p>
 		</div>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				I will provide updates on your commission's progress through your chosen
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"> primary contact point </span>
@@ -130,11 +130,11 @@
 			<NorthEast class="justify-end" />
 		</a>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> The commissioned
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> The commissioned
 			piece may be used for personal purposes, such as a profile picture, banner, wallpaper, etc.
 		</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				Please always
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">credit me</span> as the creator.
@@ -165,7 +165,7 @@
 			REFUND / CANCELLATION
 		</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				Refunds and cancellation are guaranteed
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">ONLY BEFORE</span> I begin work. Once
@@ -177,21 +177,21 @@
 			be requested after confirmation of line art.
 		</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are guaranteed
 				upon the artist's inability to complete the project.
 			</p>
 		</div>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">Partial refund</span> are offered upon
 				the artist's inability to complete within 3 months.
 			</p>
 		</div>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Any fraudulent
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Any fraudulent
 			chargebacks will result in blacklisting, account blocking, and the forfeiture of all associated
 			copyrights.
 		</p>
@@ -201,15 +201,15 @@
 	<div>
 		<p class="mb-3 mt-1 flex w-full text-3xl font-black tracking-widest text-pink">FINAL</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> I retain the right
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> I retain the right
 			to post the finished work on my SNS accounts ( X, Bluesky, Instagram etc. ).
 		</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Whether I can stream
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Whether I can stream
 			the process or post work-in-progress is your decision and does not incur an extra fee.
 		</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				If you prefer that I do not share the work
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]"
@@ -223,7 +223,7 @@
 			is 10% and may increase depending on the project's size and duration.
 		</p>
 		<div class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 flex size-4" />
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 flex size-4" />
 			<p>
 				Files will only be available for a
 				<span class="mx-1 bg-pink/25 font-black text-[#ffffff]">finite time</span>.
@@ -238,11 +238,11 @@
 			to save any information, images, and other data I provide.
 		</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> Rude, inappropriate,
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> Rude, inappropriate,
 			inflammatory, or non-constructive comments may result in blacklisting.
 		</p>
 		<p class="my-2 flex flex-row items-center">
-			<img src="https://i.imgur.com/BewOHTr.png" alt="pointer" class="mr-1 size-4" /> After payment,
+			<img src="https://i.imgur.com/PqMqIwM.png" alt="pointer" class="mr-1 size-4" /> After payment,
 			I will not profit further from the artwork. I may use your piece as a sample for my portfolio unless
 			an NDA is in place.
 		</p>

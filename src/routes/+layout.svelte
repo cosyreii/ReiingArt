@@ -54,6 +54,18 @@
 				page.route.id == '/gallery' ? 'border-pink text-pink' : 'border-pale text-pale'
 			])}>Gallery</a
 		>
+		<a
+			href="/arkadia"
+			class={clsx([
+				'h-auto w-32 cursor-pointer flex flex-row justify-center items-center rounded-3xl border-2 border-solid py-2 text-center hover:border-pink hover:text-pink hover:underline max-md:w-24 max-md:py-1',
+				page.route.id == '/arkadia' ? 'border-pink text-pink' : 'border-pale text-pale'
+			])}
+			><img
+				src="https://i.imgur.com/sgzID13.gif"
+				class="mr-2 size-6"
+				alt="pixel reii"
+			/>Arkadia</a
+		>
 		<!-- <a
 		
 			href="/terms"

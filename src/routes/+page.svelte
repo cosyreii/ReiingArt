@@ -26,40 +26,44 @@
 			<div
 				class="noscrollbar m-1 flex h-[25rem] w-[60rem] flex-col overflow-y-scroll text-lg max-md:w-auto"
 			>
-				<p class="mb-2 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
-				<p class="mb-2 text-left max-md:text-center">
-					A freelance illustrator specialising in
-					<span class="font-black text-[#ffffff]">design</span> and
-					<span class="font-black text-[#ffffff]">expression</span> since 2023!
-					<!-- I hold a Diploma in Design
+				<div class="h-full">
+					<p class="mb-2 text-left text-3xl text-pink max-md:text-center">Hai! I'm Reii.</p>
+					<p class="mb-2 text-left max-md:text-center">
+						A freelance illustrator specialising in
+						<span class="font-black text-[#ffffff]">design</span> and
+						<span class="font-black text-[#ffffff]">expression</span> since 2023!
+						<!-- I hold a Diploma in Design
 					& Media (Animation) from Asia Pascific University (APU) and currently a Bachelor of
 					Film at [University]. -->
+						I mainly work on
+						<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
+						<span class="bg-pink/25 font-black text-[#ffffff]">streaming models</span>, and
+						<span class="bg-pink/25 font-black text-[#ffffff]">emoticons / badges</span>. Though, I
+						also have experience working on
+						<span class="bg-pink/25 font-black text-[#ffffff]">game assets</span>,
+						<span class="bg-pink/25 font-black text-[#ffffff]">merch design</span>, and even
+						<span class="bg-pink/25 font-black text-[#ffffff]">logos & cards</span>!
+					</p>
+					<p class="mb-2 text-left max-md:text-center">
+						Other Skills —
+						<span class="text-left text-translucent max-md:text-center">
+							Hobby writer who enjoys creating
+							<span class="bg-pink/15 font-black">stories</span>,
+							<span class="bg-pink/15 font-black">scripts</span>, and
+							<span class="bg-pink/15 font-black">movie critiques</span>. Oh, and I coded this site
+							myself!
+						</span>
+					</p>
+					<p class="mb-2 text-left max-md:text-center">
+						Aside from that, I am fluent in <span class="font-black">English</span> and
+						<span class="font-black">Mandarin</span>~
+					</p>
+					<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
+				</div>
+
+				<p class="flex items-end justify-end text-sm text-translucent">
+					pixel sprites by @burabin on Vgen
 				</p>
-				<p class="mb-2 text-left max-md:text-center">
-					I mainly work on
-					<span class="bg-pink/25 font-black text-[#ffffff]">character design</span>,
-					<span class="bg-pink/25 font-black text-[#ffffff]">streaming models</span>, and
-					<span class="bg-pink/25 font-black text-[#ffffff]">emoticons / badges</span>. Though, I
-					also have experience working on
-					<span class="bg-pink/25 font-black text-[#ffffff]">game assets</span>,
-					<span class="bg-pink/25 font-black text-[#ffffff]">merch design</span>, and even
-					<span class="bg-pink/25 font-black text-[#ffffff]">logos & cards</span>!
-				</p>
-				<p class="mb-2 text-left max-md:text-center">
-					Other Skills —
-					<span class="text-left text-translucent max-md:text-center">
-						Hobby writer who enjoys creating
-						<span class="bg-pink/15 font-black">stories</span>,
-						<span class="bg-pink/15 font-black">scripts</span>, and
-						<span class="bg-pink/15 font-black">movie critiques</span>. Oh, and I coded this site
-						myself!
-					</span>
-				</p>
-				<p class="mb-2 text-left max-md:text-center">
-					Aside from that, I am fluent in <span class="font-black">English</span> and
-					<span class="font-black">Mandarin</span>~
-				</p>
-				<p class="mt-4 text-left text-2xl font-black max-md:text-center">Nice to meet you!</p>
 			</div>
 		{:else if sectionDisplay == 'projects'}
 			<div
@@ -139,55 +143,6 @@
 						</div>
 					</a>
 				</div>
-
-				<!-- <hr class="my-2 w-11/12 border-translucent" />
-
-				<p class="mb-2 text-3xl text-pink">Project Archive</p>
-
-				<div class="flex flex-row items-center">
-					<a class="flex cursor-pointer flex-row items-center gap-2" href="/cookie-heist">
-						<img
-							src="https://i.imgur.com/RiSNf5Z.png"
-							class="size-14 rounded-full"
-							alt="Cookie Heist"
-						/>
-						<div class="flex flex-col">
-							<div class="flex flex-row items-center gap-2">
-								<p class="flex flex-row items-center">
-									Creative Director <img
-										src="https://i.imgur.com/noUP00a.png"
-										alt="point"
-										class="mx-1 size-2"
-									/>
-									Cookie Heist
-								</p>
-								<NorthEast class="justify-end" />
-							</div>
-							<p class="flex flex-row items-center text-sm text-translucent">Jun 2025 - Jul 2025</p>
-						</div>
-					</a>
-				</div>
-
-				<div class="flex flex-row items-center">
-					<a class="flex cursor-pointer flex-row items-center gap-2" href="/juiced">
-						<img src="https://i.imgur.com/RiSNf5Z.png" class="size-14 rounded-full" alt="Juiced" />
-						<div class="flex flex-col">
-							<div class="flex flex-row items-center gap-2">
-								<p class="flex flex-row items-center">
-									Creative Director <img
-										src="https://i.imgur.com/noUP00a.png"
-										alt="point"
-										class="mx-1 size-2"
-									/>
-									Juiced!
-								</p>
-								<NorthEast class="justify-end" />
-							</div>
-							<p class="flex flex-row items-center text-sm text-translucent">Apr 2025 - Jul 2025</p>
-						</div>
-					</a>
-				</div>
-			 -->
 			</div>
 		{:else if sectionDisplay == 'achievement'}
 			<div

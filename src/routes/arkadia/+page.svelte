@@ -23,7 +23,7 @@
 	<div class="mt-2 flex flex-row max-lg:flex-col">
 		<img
 			src="https://i.imgur.com/GrX2nHo.jpeg"
-			class="h-[35rem] w-[40rem] rounded-3xl object-cover object-top"
+			class="h-[33rem] w-[43rem] rounded-3xl object-cover object-top"
 			alt="Audrey"
 		/>
 		<div class="m-2 mx-8 flex w-full flex-col">
@@ -41,7 +41,7 @@
 				</div>
 			</div>
 
-			<p class="mb-1 mt-8 flex items-center justify-center text-2xl font-black text-pink">
+			<p class="mb-1 mt-6 flex items-center justify-center text-2xl font-black text-pink">
 				2D Animated Advertisement: JUICED!
 			</p>
 			<div class="flex flex-col items-center justify-center">

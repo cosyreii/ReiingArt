@@ -41,7 +41,7 @@
 				</div>
 			</div>
 
-			<p class="mb-1 mt-4 flex items-center justify-center text-2xl font-black text-pink">
+			<p class="mb-1 mt-8 flex items-center justify-center text-2xl font-black text-pink">
 				2D Animated Advertisement: JUICED!
 			</p>
 			<div class="flex flex-col items-center justify-center">

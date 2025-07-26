@@ -1,5 +1,6 @@
 <script lang="ts">
 	import GoToTop from '$lib/components/go-to-top.svelte';
+	import { siInstagram } from 'simple-icons';
 </script>
 
 <svelte:head>
@@ -8,10 +9,18 @@
 
 <div class="align-center my-4 flex flex-col justify-start px-20 text-left text-lg max-md:px-3">
 	<div class="flex flex-row">
-		<p class="flex w-full text-3xl font-black tracking-widest text-pink">
+		<p class="flex w-11/12 text-3xl font-black tracking-widest text-pink">
 			ARKADIA 2025 | Asia Pacific University
 		</p>
+		
 		<div class="flex gap-2">
+			<a
+				href="https://www.instagram.com/arkadia.2025"
+				class="flex size-12 cursor-pointer items-center justify-center rounded-full border-2 border-solid border-pale text-center text-pale hover:border-pink hover:text-pink [&_svg]:size-6 [&_svg]:fill-current"
+				target="_blank"
+			>
+				{@html siInstagram.svg}
+			</a>
 			<img
 				src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3PdXi5lRLHz7ux6Ps3dZKygHcBkfHMsYRJA&s"
 				class="size-16 rounded-xl"
